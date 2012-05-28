@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
     "lib/rails_admin-i18n.rb",
     "locales/en.yml",
 		"locales/vi.yml",
-    "spec/rails_admin_spec.rb",
+    "spec/rails_admin-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/puma07/rails_admin-i18n}
