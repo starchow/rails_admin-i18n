@@ -14,5 +14,5 @@ Happy translating!
 
 ## Copyright
 
-Copyright (c) 2011 Christopher Dell. See LICENSE.txt for
+Copyright (c) 2011 Phamm Trung Nam, base on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for
 further details.
