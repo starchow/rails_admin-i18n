@@ -6,7 +6,7 @@ Translations for **[Rails Admin v0.0.3+](https://github.com/sferik/rails_admin)*
 
 ## Contributing to rails_admin-i18n
 
-- Edit the translations directly on the [rails_admin-i18n](http://www.localeapp.com/projects/377) project on Locale.
+- Edit the translations directly on the [rails_admin-i18n](http://www.localeapp.com/projects/905) project on Locale.
 - **That's it!**
 - The maintainer will then pull translations from the Locale project and push to Github.
 
