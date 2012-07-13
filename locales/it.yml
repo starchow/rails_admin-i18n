@@ -1,12 +1,11 @@
 it:
-  home:
-    name: Home
-  views:
+  admin:
+    home:
+      name: Home
     pagination:
       previous: "&laquo; Precedente"
       next: "Successivo &raquo;"
       truncate: "…"
-  admin:
     misc:
       filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
       search: "Cerca"
