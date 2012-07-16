@@ -2,7 +2,7 @@
 
 [![Build Status](https://secure.travis-ci.org/puma07/rails_admin-i18n.png)](http://travis-ci.org/puma07/rails_admin-i18n)
 
-Translations for **[Rails Admin v0.0.3+](https://github.com/sferik/rails_admin)** pulled from various sources.
+Translations for **[Rails Admin v0.0.5+](https://github.com/sferik/rails_admin)** pulled from various sources.
 
 ## Contributing to rails_admin-i18n
 
