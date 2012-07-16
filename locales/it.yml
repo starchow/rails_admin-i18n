@@ -1,10 +1,10 @@
 it:
   admin:
     home:
-      name: Home
+      name: "Home"
     pagination:
       previous: "&laquo; Precedente"
-      next: "Successivo &raquo;"
+      next: "Successiva &raquo;"
       truncate: "…"
     misc:
       filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
