@@ -1,12 +1,11 @@
 vi:
-  home:
-    name: Trang chủ
-  views:
+  admin:
+    home:
+      name: Trang chủ  
     pagination:
       previous: "&laquo; Trước"
       next: "Tiếp &raquo;"
       truncate: "…"
-  admin:
     misc:
       filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
       search: "Tìm kiếm"

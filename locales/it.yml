@@ -1,10 +1,10 @@
 it:
   admin:
     home:
-      name: Home
+      name: "Home"
     pagination:
       previous: "&laquo; Precedente"
-      next: "Successivo &raquo;"
+      next: "Successiva &raquo;"
       truncate: "…"
     misc:
       filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
@@ -107,7 +107,6 @@ it:
       all_of_the_following_related_items_will_be_deleted: "? Tutti i seguenti elementi correlati potrebbero essere eliminati o rimanere orfani:"
       are_you_sure_you_want_to_delete_the_object: "Sei sicuro di voler eliminare questo %{model_name}"
       confirmation: "Si, sono sicuro"
-      delete_confirmation: "Conferma di eliminazione"
       bulk_delete: "I seguenti elementi saranno eliminati, questo potrebbe eliminare o rendere orfana qualcuna delle loro correlate dipendenze:"
     export:      
       confirmation: "Esporta in %{name}"
