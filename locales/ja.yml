@@ -1,0 +1,129 @@
+ja:
+  admin:
+    home:
+      name: "ホーム"
+    pagination:
+      previous: "&laquo; 前"
+      next: "次 &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "検索"
+      filter: "フィルタ"
+      refresh: "更新"
+      show_all: "全て表示"
+      add_filter: "フィルタを追加"
+      bulk_menu_title: "選択したアイテム"
+      remove: "削除"
+      add_new: "新規作成"
+      chosen: "Chosen %{name}"
+      chose_all: "全て選択"
+      clear_all: "全てクリア"
+      up: "Up"
+      down: "Down"
+      navigation: "ナビゲーション"
+      log_out: "ログアウト"
+      ago: "前"
+    flash:
+      successful: "%{name}の %{action} に成功しました"
+      error: "%{name} の %{action} に失敗しました"
+      noaction: "アクションが指定されていません"
+      model_not_found: "モデル '%{model}' が見つかりません"
+      object_not_found: "ID '%{id}' の%{model}が見つかりません"
+    table_headers:
+      model_name: "モデル名"
+      last_used: "Last used"
+      records: "レコード"
+      username: "ユーザ"
+      changes: "Changes"
+      created_at: "日時"
+      item: "アイテム"
+      message: "メッセージ"
+    actions:
+      dashboard:
+        title: "サイト管理"
+        menu: "ダッシュボード"
+        breadcrumb: "ダッシュボード"
+      index:
+        title: "%{model_label_plural}の一覧"
+        menu: "一覧"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "%{model_label} '%{object_label}' の詳細"
+        menu: "表示"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "アプリで表示"
+      new:
+        title: "新規 %{model_label}"
+        menu: "新規作成"
+        breadcrumb: "新規"
+        link: "新規 %{model_label} を作成"
+        done: "作成しました"
+      edit:
+        title: "%{model_label} '%{object_label}' の編集"
+        menu: "編集"
+        breadcrumb: "編集"
+        link: "この %{model_label} を編集"
+        done: "更新しました"
+      delete:
+        title: "%{model_label} '%{object_label}' の削除"
+        menu: "削除"
+        breadcrumb: "削除"
+        link: "'%{object_label}' を削除"
+        done: "削除しました"
+      bulk_delete:
+        title: "%{model_label_plural} の削除"
+        menu: "一括削除"
+        breadcrumb: "一括削除"
+        bulk_link: "選択した%{model_label_plural}の削除"
+      export:
+        title: "%{model_label_plural} のエクスポート"
+        menu: "エクスポート"
+        breadcrumb: "エクスポート"
+        link: "クエリ結果の%{model_label_plural}をエクスポート"
+        bulk_link: "選択した%{model_label_plural}のエクスポート"
+        done: "エクスポートしました"
+      history_index:
+        title: "%{model_label_plural} の履歴"
+        menu: "履歴"
+        breadcrumb: "履歴"
+      history_show:
+        title: "%{model_label} '%{object_label}' の履歴"
+        menu: "履歴"
+        breadcrumb: "履歴"
+    form:
+      cancel: "キャンセル"
+      basic_info: "基本情報"
+      required: "必須"
+      optional: "オプション"
+      one_char: "文字"
+      char_length_up_to: "最大文字数:"
+      char_length_of: "文字数:"
+      save: "保存"
+      save_and_add_another: "保存してもう一つ作成"
+      save_and_edit: "保存して編集画面へ"
+      all_of_the_following_related_items_will_be_deleted: ")を削除してよろしいですか？ 以下の関連するアイテムが削除されるかみなしご化されます:"
+      are_you_sure_you_want_to_delete_the_object: "本当に%{model_name} ("
+      confirmation: "はい。間違いありません！"
+      bulk_delete: "以下のオブジェクトが削除され、関連する依存オブジェクトも削除またはみなしご化されます:"
+      new_model: "%{name} (新規)"
+    export:
+      confirmation: "%{name}としてエクスポート"
+      select: "エクスポートするフィールドの選択"
+      fields_from: "%{name}のフィールド"
+      fields_from_associated: "関連%{name}のフィールド"
+      display: "Display %{name}: %{type}"
+      options_for: "%{name}のオプション"
+      empty_value_for_associated_objects: "<空>"
+      click_to_reverse_selection: 'クリックで選択を反転'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "エンコード:"
+        encoding_to_help: "出力エンコードを選択して下さい。空のままにすると現在の入力エンコードのままになります: (%{name})"
+        skip_header: "ヘッダを無し"
+        skip_header_help: "チェックするとヘッダ(フィールドのタイトル)を出力しません。"
+        default_col_sep: ","
+        col_sep: "カラム区切り文字"
+        col_sep_help: "空白にすると標準の '%{value}' になります。" # value is default_col_sep
