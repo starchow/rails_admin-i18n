@@ -5,35 +5,18 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rails_admin-i18n}
-  s.version = "0.0.5"
+  s.version = "0.0.7"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Nam Pham Trung}]
-  s.date = %q{2012-07-16}
+  s.date = %q{2012-12-03}
   s.description = %q{Translations for the rails_admin gem}
   s.email = %q{nampt@kbsvn.vn}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
   ]
-  s.files = [
-    ".document",
-    ".rspec",
-    ".rvmrc",
-    ".travis.yml",
-    "Gemfile",
-    "Gemfile.lock",
-    "LICENSE.txt",
-    "README.md",
-    "Rakefile",
-    "VERSION",
-    "rails_admin-i18n.gemspec",
-    "lib/rails_admin-i18n.rb",
-    "locales/en.yml",
-		"locales/vi.yml",
-    "spec/rails_admin-i18n_spec.rb",
-    "spec/spec_helper.rb"
-  ]
+  s.files = `git ls-files`.split("\n")
   s.homepage = %q{http://github.com/puma07/rails_admin-i18n}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
