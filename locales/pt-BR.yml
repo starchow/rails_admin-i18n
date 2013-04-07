@@ -103,7 +103,7 @@ pt-BR:
       save: "Salvar"
       save_and_add_another: "Salvar e adicionar"
       save_and_edit: "Salvar e editar"
-      all_of_the_following_related_items_will_be_deleted: "Os seguintes ítens relacionados podem ser excluídos ou órfãos?"
+      all_of_the_following_related_items_will_be_deleted: "? Os seguintes ítens relacionados podem ser excluídos ou órfãos:"
       are_you_sure_you_want_to_delete_the_object: "Tem certeza que deseja deletar este(a) %{model_name}"
       confirmation: "Sim, tenho certeza"
       bulk_delete: "Os seguintes objetos serão deletados,o que pode deletar ou tornar órfãos algumas de suas dependências relacionadas:"
