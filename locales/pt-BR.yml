@@ -76,7 +76,7 @@ pt-BR:
         title: "Remover %{model_label_plural}"
         menu: "Remover vários"
         breadcrumb: "Remover vários"
-        bulk_link: "Remover %{model_label_plural} selecionado"
+        bulk_link: "Remover %{model_label_plural} selecionados"
       export:
         title: "Exportar %{model_label_plural}"
         menu: "Exportar"
