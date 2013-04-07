@@ -46,7 +46,7 @@ pt-BR:
         breadcrumb: "Dashboard"
       index:
         title: "Lista de %{model_label_plural}"
-        menu: "Lista"
+        menu: "Listar"
         breadcrumb: "%{model_label_plural}"
       show:
         title: "Detalhes para %{model_label} '%{object_label}'"
