@@ -25,11 +25,11 @@ pt-BR:
       log_out: "Sair"
       ago: "atrás"
     flash:
-      successful: "%{name} successfully %{action}"
+      successful: "%{name} %{action} com sucesso"
       error: "%{name} failed to be %{action}"
       noaction: "No actions were taken"
       model_not_found: "Model '%{model}' could not be found"
-      object_not_found: "%{model} with id '%{id}' could not be found"
+      object_not_found: "%{model} com id '%{id}' não foi encontrado"
     table_headers:
       model_name: "Model name"
       last_used: "Usado pela última vez"
@@ -73,16 +73,16 @@ pt-BR:
         link: "Remover '%{object_label}'"
         done: "removido"
       bulk_delete:
-        title: "Remover %{model_label_plural}"
+        title: "Remover"
         menu: "Remover vários"
         breadcrumb: "Remover vários"
-        bulk_link: "Remover %{model_label_plural} selecionados"
+        bulk_link: "Remover"
       export:
-        title: "Exportar %{model_label_plural}"
+        title: "Exportar"
         menu: "Exportar"
         breadcrumb: "Exportar"
-        link: "Exportar %{model_label_plural} encontrados"
-        bulk_link: "Exportar %{model_label_plural} selecionados"
+        link: "Exportar dados encontrados"
+        bulk_link: "Exportar dados"
         done: "exportado"
       history_index:
         title: "Histórico para %{model_label_plural}"
