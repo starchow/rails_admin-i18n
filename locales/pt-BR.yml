@@ -1,0 +1,129 @@
+pt-BR:
+  admin:
+    home:
+      name: "Home"
+    pagination:
+      previous: "&laquo; Anterior"
+      next: "Próximo &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Buscar"
+      filter: "Filtrar"
+      refresh: "Atualizar"
+      show_all: "Exibir todos"
+      add_filter: "Adicionar filtro"
+      bulk_menu_title: "Ítens selecionados"
+      remove: "Remover"
+      add_new: "Adicionar"
+      chosen: "Selecionado %{name}"
+      chose_all: "Selecionar todos"
+      clear_all: "Limpar todos"
+      up: "Subir"
+      down: "Baixar"
+      navigation: "Navegação"
+      log_out: "Sair"
+      ago: "atrás"
+    flash:
+      successful: "%{name} %{action} com sucesso"
+      error: "%{name} failed to be %{action}"
+      noaction: "No actions were taken"
+      model_not_found: "Model '%{model}' could not be found"
+      object_not_found: "%{model} com id '%{id}' não foi encontrado"
+    table_headers:
+      model_name: "Model name"
+      last_used: "Usado pela última vez"
+      records: "Registros"
+      username: "Usuário"
+      changes: "Alterações"
+      created_at: "Data/Horário"
+      item: "Ítem"
+      message: "Menssagem"
+    actions:
+      dashboard:
+        title: "Administração"
+        menu: "Dashboard"
+        breadcrumb: "Dashboard"
+      index:
+        title: "Lista de %{model_label_plural}"
+        menu: "Listar"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detalhes para %{model_label} '%{object_label}'"
+        menu: "Visualizar"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Show in app"
+      new:
+        title: "Novo %{model_label}"
+        menu: "Adicionar"
+        breadcrumb: "Adicionar"
+        link: "Adicionar %{model_label}"
+        done: "criado"
+      edit:
+        title: "Editar %{model_label} '%{object_label}'"
+        menu: "Editar"
+        breadcrumb: "Editar"
+        link: "Editar este %{model_label}"
+        done: "Atualizado"
+      delete:
+        title: "Remover %{model_label} '%{object_label}'"
+        menu: "Remover"
+        breadcrumb: "Remover"
+        link: "Remover '%{object_label}'"
+        done: "removido"
+      bulk_delete:
+        title: "Remover"
+        menu: "Remover vários"
+        breadcrumb: "Remover vários"
+        bulk_link: "Remover"
+      export:
+        title: "Exportar"
+        menu: "Exportar"
+        breadcrumb: "Exportar"
+        link: "Exportar dados encontrados"
+        bulk_link: "Exportar dados"
+        done: "exportado"
+      history_index:
+        title: "Histórico para %{model_label_plural}"
+        menu: "Histórico"
+        breadcrumb: "Histórico"
+      history_show:
+        title: "Histórico para %{model_label} '%{object_label}'"
+        menu: "Histórico"
+        breadcrumb: "Histórico"
+    form:
+      cancel: "Cancelar"
+      basic_info: "Informações Básicas"
+      required: "Obrigatório"
+      optional: "Opcional"
+      one_char: "caractere"
+      char_length_up_to: "comprimento até"
+      char_length_of: "comprimento de"
+      save: "Salvar"
+      save_and_add_another: "Salvar e adicionar"
+      save_and_edit: "Salvar e editar"
+      all_of_the_following_related_items_will_be_deleted: "? Os seguintes ítens relacionados podem ser excluídos ou órfãos:"
+      are_you_sure_you_want_to_delete_the_object: "Tem certeza que deseja deletar este(a) %{model_name}"
+      confirmation: "Sim, tenho certeza"
+      bulk_delete: "Os seguintes objetos serão deletados,o que pode deletar ou tornar órfãos algumas de suas dependências relacionadas:"
+      new_model: "%{name} (novo)"
+    export:
+      confirmation: "Exportar para %{name}"
+      select: "Selecionar campos para exportação"
+      fields_from: "Campos de %{name}"
+      fields_from_associated: "Campos de %{name} associados"
+      display: "Exibir %{name}: %{type}"
+      options_for: "Opção para %{name}"
+      empty_value_for_associated_objects: "<vazio>"
+      click_to_reverse_selection: 'Clilque para inverter seleção'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Codificar para"
+        encoding_to_help: "Escolha a codificação de saída. Deixe em branco para manter a condificação de entrada: (%{name})"
+        skip_header: "Sem cabeçalho"
+        skip_header_help: "Do not output a header (no fields description)"
+        default_col_sep: ","
+        col_sep: "Separador de coluna"
+        col_sep_help: "Deixe em branco para usar o padrão ('%{value}')" # value is default_col_sep
