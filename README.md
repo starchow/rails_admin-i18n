@@ -12,6 +12,12 @@ Translations for **[Rails Admin v0.0.5+](https://github.com/sferik/rails_admin)*
 
 Happy translating!
 
+## Contributors
+
+- pierre-schambacher
+- Matheus 
+- sugi
+
 ## Copyright
 
 Copyright (c) 2011 Pham Trung Nam, base on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for

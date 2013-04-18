@@ -5,19 +5,19 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rails_admin-i18n}
-  s.version = "0.0.7"
+  s.version = "0.0.8"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Nam Pham Trung}]
-  s.date = %q{2012-12-03}
+  s.date = %q{2013-04-18}
   s.description = %q{Translations for the rails_admin gem}
-  s.email = %q{nampt@kbsvn.vn}
+  s.email = %q{puma.puma07@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
   ]
   s.files = `git ls-files`.split("\n")
-  s.homepage = %q{http://github.com/puma07/rails_admin-i18n}
+  s.homepage = %q{http://github.com/starchow/rails_admin-i18n}
   s.licenses = [%q{MIT}]
   s.require_paths = [%q{lib}]
   s.rubygems_version = %q{1.8.6}
