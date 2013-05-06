@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{rails_admin-i18n}
-  s.version = "0.0.8"
+  s.version = "0.0.9"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Nam Pham Trung}]
-  s.date = %q{2013-04-18}
+  s.date = %q{2013-05-06}
   s.description = %q{Translations for the rails_admin gem}
   s.email = %q{puma.puma07@gmail.com}
   s.extra_rdoc_files = [

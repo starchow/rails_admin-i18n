@@ -17,6 +17,7 @@ Happy translating!
 - pierre-schambacher
 - Matheus 
 - sugi
+- flyerhzm
 
 ## Copyright
 
