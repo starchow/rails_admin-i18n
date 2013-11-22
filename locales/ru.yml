@@ -5,8 +5,8 @@ ru:
     home:
       name: "Главная"
     pagination:
-      previous: "&laquo; Предыдущая"
-      next: "Следующая &raquo;"
+      previous: "&laquo; Назад"
+      next: "Вперед &raquo;"
       truncate: "…"
     misc:
       search: "Поиск"
@@ -15,21 +15,21 @@ ru:
       show_all: "Показать все"
       add_filter: "Добавить фильтр..."
       bulk_menu_title: "Выбранные элементы..."
-      remove: "Убрfnm"
-      add_new: "Добавить новый"
-      chosen: "Выборать %{name}"
-      chose_all: "Выборать все"
-      clear_all: "Убрать выделение"
+      remove: "Удалить"
+      add_new: "Добавить"
+      chosen: "Выбран %{name}"
+      chose_all: "Выбрать все"
+      clear_all: "Очистить все"
       up: "Вверх"
       down: "Вниз"
       navigation: "Навигация"
       log_out: "Выйти"
       ago: "назад"
     flash:
-      successful: "%{name} был %{action}"
-      error: "Не получилось %{action} %{name}"
+      successful: "%{name} успешно %{action}"
+      error: "%{name} не удалось %{action}"
       noaction: "Никаких изменений не выполнено"
-      model_not_found: "Модель '%{model}' не найден"
+      model_not_found: "Модель '%{model}' не найдена"
       object_not_found: "Объект %{model} с id '%{id}' не найден"
     table_headers:
       model_name: "Название модели"
@@ -43,8 +43,8 @@ ru:
     actions:
       dashboard:
         title: "Управление сайтом"
-        menu: "Контрольная панель"
-        breadcrumb: "панель"
+        menu: "Панель управления"
+        breadcrumb: "панель управления"
       index:
         title: "Список %{model_label_plural}"
         menu: "Список"
@@ -59,7 +59,7 @@ ru:
         title: "Новый %{model_label}"
         menu: "Создание"
         breadcrumb: "новый"
-        link: "Добавить новый %{model_label}"
+        link: "Добавить %{model_label}"
         done: "создано"
       edit:
         title: "Редактировение %{model_label} '%{object_label}'"
