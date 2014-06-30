@@ -107,7 +107,6 @@ ru:
       all_of_the_following_related_items_will_be_deleted: "Следующие объекты будут удалены:"
       are_you_sure_you_want_to_delete_the_object: "Вы уверены что хотите удалить %{model_name}"
       confirmation: "Да, уверен"
-      delete_confirmation: "Подтвердить удаление"
       bulk_delete: "Следующие объекты будут удалены, что может сломать связи с другими объектами:"
     export:
       confirmation: "Экспортировать как %{name}"

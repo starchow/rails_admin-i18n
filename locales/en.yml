@@ -1,5 +1,22 @@
 en:
   admin:
+    js:
+      true: True
+      false: False
+      is_present: Is present
+      is_blank: Is blank
+      date: Date ...
+      between_and_: Between ... and ...
+      today: Today
+      yesterday: Yesterday
+      this_week: This week
+      last_week: Last week
+      number: Number ...
+      contains: Contains
+      is_exactly: Is exactly
+      starts_with: Starts with
+      ends_with: Ends with
+    loading: "Loading..."
     home:
       name: "Home"
     pagination:
@@ -22,6 +39,7 @@ en:
       up: "Up"
       down: "Down"
       navigation: "Navigation"
+      navigation_static_label: "Links"
       log_out: "Log out"
       ago: "ago"
     flash:
@@ -41,7 +59,7 @@ en:
       message: "Message"
     actions:
       dashboard:
-        title: "Site administration"
+        title: "Site Administration"
         menu: "Dashboard"
         breadcrumb: "Dashboard"
       index:
@@ -111,6 +129,7 @@ en:
     export:
       confirmation: "Export to %{name}"
       select: "Select fields to export"
+      select_all_fields: "Select All Fields"
       fields_from: "Fields from %{name}"
       fields_from_associated: "Fields from associated %{name}"
       display: "Display %{name}: %{type}"
