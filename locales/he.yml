@@ -121,9 +121,8 @@ he:
       model_name: "שם המודל"
       records: "רשומות"
       username: "משתמש"
-  home:
-    name: "בית"
-  views:
+    home:
+      name: "בית"
     pagination:
       next: "הבא &laquo;"
       previous: "הקודם &raquo;"

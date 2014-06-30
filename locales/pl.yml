@@ -121,9 +121,8 @@ pl:
       model_name: Nazwa modelu
       records: Rekordów
       username: Użytkownik
-  home:
-    name: Strona główna
-  views:
+    home:
+      name: Strona główna
     pagination:
       next: Następna &raquo;
       previous: "&laquo; Poprzednia"

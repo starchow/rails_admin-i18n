@@ -26,7 +26,7 @@ fr:
         breadcrumb: Exporter
         bulk_link: Exportez les %{model_label_plural} trouvé(e)s
         done: exporté(e)
-        link: 
+        link:
         menu: Exporter
         title: Exporter %{model_label_plural}
       history_index:
@@ -74,57 +74,56 @@ fr:
       select: Choisir les champs à exporter
     flash:
       error: "%{name} n’a pas réussi à %{action}"
-      model_not_found: 
-      noaction: 
-      object_not_found: 
-      successful: 
+      model_not_found:
+      noaction:
+      object_not_found:
+      successful:
     form:
-      all_of_the_following_related_items_will_be_deleted: 
-      are_you_sure_you_want_to_delete_the_object: 
-      basic_info: 
-      bulk_delete: 
-      cancel: 
-      char_length_of: 
-      char_length_up_to: 
-      confirmation: 
-      new_model: 
-      one_char: 
-      optional: 
-      required: 
-      save: 
-      save_and_add_another: 
-      save_and_edit: 
+      all_of_the_following_related_items_will_be_deleted:
+      are_you_sure_you_want_to_delete_the_object:
+      basic_info:
+      bulk_delete:
+      cancel:
+      char_length_of:
+      char_length_up_to:
+      confirmation:
+      new_model:
+      one_char:
+      optional:
+      required:
+      save:
+      save_and_add_another:
+      save_and_edit:
     misc:
-      add_filter: 
-      add_new: 
-      ago: 
-      bulk_menu_title: 
-      chose_all: 
-      chosen: 
-      clear_all: 
-      down: 
-      filter: 
-      filter_date_format: 
-      log_out: 
-      navigation: 
-      refresh: 
-      remove: 
-      search: 
-      show_all: 
-      up: 
+      add_filter:
+      add_new:
+      ago:
+      bulk_menu_title:
+      chose_all:
+      chosen:
+      clear_all:
+      down:
+      filter:
+      filter_date_format:
+      log_out:
+      navigation:
+      refresh:
+      remove:
+      search:
+      show_all:
+      up:
     table_headers:
-      changes: 
-      created_at: 
-      item: 
-      last_used: 
-      message: 
-      model_name: 
-      records: 
-      username: 
-  home:
-    name: 
-  views:
+      changes:
+      created_at:
+      item:
+      last_used:
+      message:
+      model_name:
+      records:
+      username:
+    home:
+      name:
     pagination:
-      next: 
-      previous: 
-      truncate: 
+      next:
+      previous:
+      truncate:

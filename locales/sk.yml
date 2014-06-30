@@ -121,9 +121,8 @@ sk:
       model_name: Názov modelu
       records: Záznamy
       username: Užívateľ
-  home:
-    name: Domov
-  views:
+    home:
+      name: Domov
     pagination:
       next: "Ďalej &raquo;"
       previous: "&laquo; Späť"

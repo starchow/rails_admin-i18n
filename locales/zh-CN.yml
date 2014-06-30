@@ -121,9 +121,8 @@ zh-CN:
       model_name: "（数据库）模型名称"
       records: "记录"
       username: "用户"
-  home:
-    name: "主页"
-  views:
+    home:
+      name: "主页"
     pagination:
       next: "后一页 &raquo;"
       previous: "&laquo; 前一页"

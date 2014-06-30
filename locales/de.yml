@@ -121,9 +121,8 @@ de:
       model_name: Modellname
       records: Datensätze
       username: Anwender
-  home:
-    name: Start
-  views:
+    home:
+      name: Start
     pagination:
       next: Vor &raquo;
       previous: "&laquo; Zurück"

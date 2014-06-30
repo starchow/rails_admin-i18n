@@ -121,9 +121,8 @@ vi:
       model_name: Tên lớp
       records: Hồ sơ
       username: User
-  home:
-    name: Trang chủ
-  views:
+    home:
+      name: Trang chủ
     pagination:
       next: Tiếp &raquo;
       previous: "&laquo; Trước"

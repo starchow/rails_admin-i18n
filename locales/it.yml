@@ -121,9 +121,8 @@ it:
       model_name: Nome modello
       records: Elementi
       username: Utente
-  home:
-    name: Home
-  views:
+    home:
+      name: Home
     pagination:
       next: Prossima &raquo;
       previous: "&laquo; Precedente"

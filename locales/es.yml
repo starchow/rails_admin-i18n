@@ -121,9 +121,8 @@ es:
       model_name: Nombre del modelo
       records: Registros
       username: Usuario
-  home:
-    name: Inicio
-  views:
+    home:
+      name: Inicio
     pagination:
       next: Siguiente &raquo;
       previous: "&laquo; Anterior"

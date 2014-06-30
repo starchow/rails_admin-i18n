@@ -25,9 +25,9 @@ pt-BR:
       export:
         breadcrumb: Exportar
         bulk_link: Exportar %{model_label_plural} selecionados
-        done: 
+        done:
         link: Exportação encontrada %{model_label_plural}
-        menu: 
+        menu:
         title: Exportar %{model_label_plural}
       history_index:
         breadcrumb: Histórico
@@ -50,7 +50,7 @@ pt-BR:
       show:
         breadcrumb: "%{object_label}"
         menu: Mostrar
-        title: 
+        title:
       show_in_app:
         menu: Mostrar na app
     export:
@@ -61,31 +61,31 @@ pt-BR:
         col_sep_help: Deixe em branco para padrão ('%{value}')
         default_col_sep: ","
         encoding_to: Converter para
-        encoding_to_help: 
+        encoding_to_help:
         header_for_association_methods: "%{name} [%{association}]"
         header_for_root_methods: "%{name}"
         skip_header: Sem cabeçalho
-        skip_header_help: 
+        skip_header_help:
       display: 'Mostrar %{name}: %{type}'
       empty_value_for_associated_objects: "<vazio>"
       fields_from: Campos de %{name}
-      fields_from_associated: 
+      fields_from_associated:
       options_for: Opções para %{name}
       select: Selecione campos para exportar
     flash:
-      error: 
-      model_not_found: 
+      error:
+      model_not_found:
       noaction: Nenhuma ação foi tomada
-      object_not_found: 
-      successful: 
+      object_not_found:
+      successful:
     form:
-      all_of_the_following_related_items_will_be_deleted: 
-      are_you_sure_you_want_to_delete_the_object: 
+      all_of_the_following_related_items_will_be_deleted:
+      are_you_sure_you_want_to_delete_the_object:
       basic_info: Informações basicas
-      bulk_delete: 
+      bulk_delete:
       cancel: Cancelar
-      char_length_of: 
-      char_length_up_to: 
+      char_length_of:
+      char_length_up_to:
       confirmation: Sim, tenho certeza
       new_model: "%{name} (novo)"
       one_char: caractere
@@ -96,13 +96,13 @@ pt-BR:
       save_and_edit: Salvar e editar
     misc:
       add_filter: Adicionar filtro
-      add_new: 
-      ago: 
-      bulk_menu_title: 
-      chose_all: 
-      chosen: 
-      clear_all: 
-      down: 
+      add_new:
+      ago:
+      bulk_menu_title:
+      chose_all:
+      chosen:
+      clear_all:
+      down:
       filter: Filtro
       filter_date_format: mm/dd/yy
       log_out: Log out
@@ -111,7 +111,7 @@ pt-BR:
       remove: Remover
       search: Buscar
       show_all: Mostrar todos
-      up: 
+      up:
     table_headers:
       changes: Mudanças
       created_at: Data/Hora
@@ -121,10 +121,9 @@ pt-BR:
       model_name: Nome do modelo
       records: Entradas
       username: Usuário
-  home:
-    name: Página inicial
-  views:
+    home:
+      name: Página inicial
     pagination:
       next: Próximo &raquo;
       previous: "&laquo; Anterior"
-      truncate: 
+      truncate:

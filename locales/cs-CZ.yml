@@ -121,9 +121,8 @@ cs-CZ:
       model_name: Název modelu
       records: Záznamy
       username: Uživatel
-  home:
-    name: Domů
-  views:
+    home:
+      name: Domů
     pagination:
       next: Následující &raquo;
       previous: "&laquo; Předcházející"
