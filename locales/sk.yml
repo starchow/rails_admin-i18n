@@ -1,0 +1,130 @@
+sk:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Viacnásobné mazanie
+        bulk_link: Zmaž vybrané %{model_label_plural}
+        menu: Viacnásobné mazanie
+        title: Zmaž %{model_label_plural}
+      dashboard:
+        breadcrumb: Panel
+        menu: Panel
+        title: Administrácia stránky
+      delete:
+        breadcrumb: Zmazať
+        done: vymazané
+        link: Zmazať '%{object_label}'
+        menu: Zmazať
+        title: Zmaž %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Uprav
+        done: upravené
+        link: Uprav tento %{model_label}
+        menu: Uprav
+        title: Uprav %{model_label} '%{object_label}'
+      export:
+        breadcrumb: Export
+        bulk_link: Exportovať vybrané %{model_label_plural}
+        done: exportované
+        link: Export nájdený %{model_label_plural}
+        menu: Export
+        title: Export %{model_label_plural}
+      history_index:
+        breadcrumb: História
+        menu: História
+        title: História pre %{model_label_plural}
+      history_show:
+        breadcrumb: História
+        menu: História
+        title: História pre %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Zobraz zoznam
+        title: Zoznam %{model_label_plural}
+      new:
+        breadcrumb: Nový
+        done: vytvorené
+        link: Pridaj nový %{model_label}
+        menu: Pridaj nový
+        title: Nový %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Zobraz
+        title: Detaily pre %{model_label} '%{object_label}'
+      show_in_app:
+        menu: Zobraziť v aplikácii
+    export:
+      click_to_reverse_selection: Klikni na obrátenie výberu
+      confirmation: Exportovať do %{name}
+      csv:
+        col_sep: Oddeľovač stĺpcov
+        col_sep_help: Nechaj prázdne pre východzie ('%{value}')
+        default_col_sep: ","
+        encoding_to: Zakódovať do
+        encoding_to_help: 'Vyberte výstupné kódovanie. Nechajte prázdne na nemenenie súčasného vstupného kódovania: (%{name}).'
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: Bez záhlavia
+        skip_header_help: Nedať do výstupu hlavičku (nebude žiadny popis polí)
+      display: 'Zobraz %{name}: %{type}'
+      empty_value_for_associated_objects: "<prázdne>"
+      fields_from: Polia z %{name}
+      fields_from_associated: Polia zo zviazaného %{name}
+      options_for: Voľby pre %{name}
+      select: Vyber polia na exportovanie
+    flash:
+      error: Pri %{name} zlyhalo vykonanie akcie %{action}
+      model_not_found: Model '%{model}' nemohol byť nájdený
+      noaction: Neboli vykonané žiadne akcie
+      object_not_found: "%{model} s id '%{id}' nemohol byť nájdený"
+      successful: "%{name} úspešne vykonal %{action}"
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Nasledujúce súvisiace veci budú vymazané alebo opustené:"
+      are_you_sure_you_want_to_delete_the_object: Naozaj chcete vymazať tento %{model_name}
+      basic_info: Základné info
+      bulk_delete: 'Nasledujúce objekty budú vymazané, ktoré môžu vymazať alebo opustiť niektoré zo súvisiacich objektov:'
+      cancel: Zrušiť
+      char_length_of: dĺžka
+      char_length_up_to: dĺžka do
+      confirmation: "Áno, som si istý"
+      new_model: "%{name} (nový)"
+      one_char: znak
+      optional: Nepovinné
+      required: Vyžadované
+      save: Uložiť
+      save_and_add_another: Uložiť a pridať ďalší
+      save_and_edit: Uložiť a upraviť
+    misc:
+      add_filter: Pridaj filter
+      add_new: Pridaj nový
+      ago: pred
+      bulk_menu_title: Vybrané položky
+      chose_all: Vyber všetky
+      chosen: Vybraný %{name}
+      clear_all: Vymaž všetko
+      down: Dole
+      filter: Filter
+      filter_date_format: dd.mm.yy
+      log_out: Odhlásiť sa
+      navigation: Navigácia
+      refresh: Obnov
+      remove: Odstráň
+      search: Hľadať
+      show_all: Ukáž všetky
+      up: Hore
+    table_headers:
+      changes: Zmeny
+      created_at: Dátum/čas
+      item: Položka
+      last_used: Naposledy použité
+      message: Správa
+      model_name: Názov modelu
+      records: Záznamy
+      username: Užívateľ
+  home:
+    name: Domov
+  views:
+    pagination:
+      next: "Ďalej &raquo;"
+      previous: "&laquo; Späť"
+      truncate: "…"

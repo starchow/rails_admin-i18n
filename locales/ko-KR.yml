@@ -1,9 +1,9 @@
-ru:
+ko-KR:
   admin:
     actions:
       bulk_delete:
-        breadcrumb: 
-        bulk_link: 
+        breadcrumb: "여러 개 삭제"
+        bulk_link: "선택된 항목 삭제 %{model_label_plural}"
         menu: 
         title: 
       dashboard:
@@ -48,7 +48,7 @@ ru:
         menu: 
         title: 
       show:
-        breadcrumb: 
+        breadcrumb: "%{object_label}"
         menu: 
         title: 
       show_in_app:

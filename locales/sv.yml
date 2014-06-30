@@ -1,0 +1,130 @@
+sv:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Radera alla
+        bulk_link: Radera markerade %{model_label_plural}
+        menu: Radera alla
+        title: Radera %{model_label_plural}
+      dashboard:
+        breadcrumb: "Översikt"
+        menu: "Översikt"
+        title: Administrera sidan
+      delete:
+        breadcrumb: Radera
+        done: raderad
+        link: Radera '%{object_label}'
+        menu: Radera
+        title: Radera %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Redigera
+        done: uppdaterad
+        link: Redigera %{model_label}
+        menu: Redigera
+        title: Redigera %{model_label} '%{object_label}'
+      export:
+        breadcrumb: Exportera
+        bulk_link: Exportera markerade %{model_label_plural}
+        done: exporterad
+        link: Exportera hittade %{model_label_plural}
+        menu: Exportera
+        title: Exportera %{model_label_plural}
+      history_index:
+        breadcrumb: Historia
+        menu: Historia
+        title: Historia för %{model_label_plural}
+      history_show:
+        breadcrumb: Historia
+        menu: Historia
+        title: Historia för %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Lista
+        title: Lista över %{model_label_plural}
+      new:
+        breadcrumb: Ny
+        done: skapad
+        link: Skapa %{model_label}
+        menu: Skapa ny
+        title: Skapa %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Visa
+        title: Detaljer för %{model_label} '%{object_label}'
+      show_in_app:
+        menu: Visa i applikationen
+    export:
+      click_to_reverse_selection: Klicka föra att ta bort urvalet
+      confirmation: Exportera till %{name}
+      csv:
+        col_sep: Kolumn separator
+        col_sep_help: Lämna tom för default ('%{value}')
+        default_col_sep: ","
+        encoding_to: Encodera till
+        encoding_to_help: 
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: 
+        skip_header_help: 
+      display: 'Visa %{name}: %{type}'
+      empty_value_for_associated_objects: "<tom>"
+      fields_from: Kolumner från %{name}
+      fields_from_associated: 
+      options_for: Inställningar för %{name}
+      select: Välj kolumner att exportera
+    flash:
+      error: "%{name} lyckades inte att %{action}"
+      model_not_found: Kan inte hitta modellen '%{model}'
+      noaction: Inga ändringar har skett
+      object_not_found: Hittade inte %{model} med id '%{id}'
+      successful: 
+    form:
+      all_of_the_following_related_items_will_be_deleted: 
+      are_you_sure_you_want_to_delete_the_object: 
+      basic_info: 
+      bulk_delete: 
+      cancel: Avbryt
+      char_length_of: längden av
+      char_length_up_to: 
+      confirmation: Ja, jag är säkert
+      new_model: 
+      one_char: tecken
+      optional: 
+      required: 
+      save: Spara
+      save_and_add_another: Spara och skapa fler
+      save_and_edit: 
+    misc:
+      add_filter: 
+      add_new: 
+      ago: 
+      bulk_menu_title: 
+      chose_all: 
+      chosen: 
+      clear_all: 
+      down: 
+      filter: 
+      filter_date_format: 
+      log_out: 
+      navigation: 
+      refresh: 
+      remove: 
+      search: 
+      show_all: 
+      up: 
+    table_headers:
+      changes: 
+      created_at: 
+      item: 
+      last_used: 
+      message: 
+      model_name: 
+      records: 
+      username: 
+  home:
+    name: 
+  views:
+    pagination:
+      next: Nästa &raquo;
+      previous: "&laquo; Föregående"
+      truncate: "..."

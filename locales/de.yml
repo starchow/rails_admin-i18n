@@ -1,0 +1,130 @@
+de:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Mehrere Objekte löschen
+        bulk_link: Markierte %{model_label_plural} löschen
+        menu: Mehrere Objekte löschen
+        title: "%{model_label_plural} löschen"
+      dashboard:
+        breadcrumb: "Übersicht"
+        menu: "Übersicht"
+        title: Seite administrieren
+      delete:
+        breadcrumb: Löschen
+        done: gelöscht
+        link: '"%{object_label}" löschen'
+        menu: Löschen
+        title: '%{model_label} "%{object_label}" löschen'
+      edit:
+        breadcrumb: Bearbeiten
+        done: geändert
+        link: "%{model_label} bearbeiten"
+        menu: Bearbeiten
+        title: '%{model_label} "%{object_label}" bearbeiten'
+      export:
+        breadcrumb: Exportieren
+        bulk_link: Markierte %{model_label_plural} exportieren
+        done: exportiert
+        link: Gefundene %{model_label_plural} exportieren
+        menu: Exportieren
+        title: "%{model_label_plural} exportieren"
+      history_index:
+        breadcrumb: Verlauf
+        menu: Verlauf
+        title: Verlauf für %{model_label_plural}
+      history_show:
+        breadcrumb: Verlauf
+        menu: Verlauf
+        title: Verlauf für %{model_label} "%{object_label}"
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Liste
+        title: Liste von %{model_label_plural}
+      new:
+        breadcrumb: Neu
+        done: erstellt
+        link: "%{model_label} neu hinzufügen"
+        menu: Neu hinzufügen
+        title: "%{model_label} erstellen"
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Anzeigen
+        title: Details für %{model_label} "%{object_label}"
+      show_in_app:
+        menu: In Applikation anzeigen
+    export:
+      click_to_reverse_selection: Klicken um die Markierung aufzuheben
+      confirmation: Exportieren nach %{name}
+      csv:
+        col_sep: Spaltentrennzeichen
+        col_sep_help: Lassen für Standardwert ('%{value}')
+        default_col_sep: ","
+        encoding_to: Kodieren zu
+        encoding_to_help: 'Zielkodierung wählen. Leer lassen, um aktuelle Eingangskodierung zu übernehmen: (%{name})'
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: Keine Kopfzeile
+        skip_header_help: Keine Kopfzeile erstellen (keine Spaltenbeschreibungen)
+      display: 'Anzeigen von %{name}: %{type}'
+      empty_value_for_associated_objects: "<leer>"
+      fields_from: Spalten von %{name}
+      fields_from_associated: Zugehörige Spalten von %{name}
+      options_for: Optionen für %{name}
+      select: Spalten zum Exportieren auswählen
+    flash:
+      error: Fehler beim %{action} von %{name}
+      model_not_found: Modell "%{model}" konnte nicht gefunden werden
+      noaction: Es wurden keine Änderungen ausgeführt
+      object_not_found: '%{model} mit id "%{id}" konnte nicht gefunden werden'
+      successful: "%{name} erfolgreich %{action}"
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Folgende zugehörige Ojekte werden gelöscht:"
+      are_you_sure_you_want_to_delete_the_object: "%{model_name} sicher löschen"
+      basic_info: Grundlegende Informationen
+      bulk_delete: 'Die folgenden Objekte werden gelösche, zugehörige Objekte werden gelöscht oder können übrig bleiben:'
+      cancel: Abbrechen
+      char_length_of: Länge
+      char_length_up_to: Länge bis zu
+      confirmation: Ja, ich bin sicher
+      new_model: "%{name} (neu)"
+      one_char: Zeichen
+      optional: optional
+      required: Pflichtfeld
+      save: Speichern
+      save_and_add_another: Speichern und neu hinzufügen
+      save_and_edit: Speichern und bearbeiten
+    misc:
+      add_filter: Filter hinzufügen
+      add_new: Neu hinzufügen
+      ago: vor
+      bulk_menu_title: Markierte Elemente
+      chose_all: Alle auswählen
+      chosen: "%{name} in Auswahl"
+      clear_all: Alles zurücksetzen
+      down: Runter
+      filter: Filter
+      filter_date_format: mm/tt/jj
+      log_out: Abmelden
+      navigation: Navigation
+      refresh: Neu laden
+      remove: Löschen
+      search: Suchen
+      show_all: Alles anzeigen
+      up: Hoch
+    table_headers:
+      changes: "Änderungen"
+      created_at: Datum/Zeit
+      item: Element
+      last_used: Zuletzt verwendet
+      message: Nachricht
+      model_name: Modellname
+      records: Datensätze
+      username: Anwender
+  home:
+    name: Start
+  views:
+    pagination:
+      next: Vor &raquo;
+      previous: "&laquo; Zurück"
+      truncate: "..."

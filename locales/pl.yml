@@ -1,0 +1,130 @@
+pl:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Usuń wiele
+        bulk_link: Usuń zaznaczone %{model_label_plural}
+        menu: Usuń wiele
+        title: Usuń %{model_label_plural}
+      dashboard:
+        breadcrumb: Dashboard
+        menu: Dashboard
+        title: Strona administracji
+      delete:
+        breadcrumb: Usuń
+        done: usunięte
+        link: Usuń '%{object_label}'
+        menu: Usuń
+        title: Usuń %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Edytuj
+        done: zaktualizowany
+        link: Edytuj ten %{model_label}
+        menu: Edytuj
+        title: Edytuj %{model_label} '%{object_label}'
+      export:
+        breadcrumb: Eksportuj
+        bulk_link: Eksportuj zaznaczone %{model_label_plural}
+        done: wyeksportowane
+        link: Eksportuj znalezione %{model_label_plural}
+        menu: Eksportuj
+        title: Eksportuj %{model_label_plural}
+      history_index:
+        breadcrumb: Historia
+        menu: Historia
+        title: Historia %{model_label_plural}
+      history_show:
+        breadcrumb: Historia
+        menu: Historia
+        title: Historia %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Lista
+        title: Lista %{model_label_plural}
+      new:
+        breadcrumb: Nowy
+        done: stworzony
+        link: Dodaj nowy %{model_label}
+        menu: Dodaj nowy
+        title: Nowy %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Pokaż
+        title: Szczegóły dla %{model_label} '%{object_label}'
+      show_in_app:
+        menu: Pokaż w aplikacji
+    export:
+      click_to_reverse_selection: Kliknij aby odwrócić zaznaczenie
+      confirmation: Eksportuj do%{name}
+      csv:
+        col_sep: Separator kolumny
+        col_sep_help: Pozostaw puste dla domyślnej wartości ('%{value}')
+        default_col_sep: ","
+        encoding_to: Koduj do
+        encoding_to_help: 'Wybierze wyjściowe kodowanie. Pozostaw puste jeżeli chcesz zachować aktualne kodowanie: (%{name}) '
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: Brak nagłówka
+        skip_header_help: Nie dodawaj wiersza nagłówków
+      display: 'Wyświetl %{name}: %{type}'
+      empty_value_for_associated_objects: "<puste>"
+      fields_from: Pola z %{name}
+      fields_from_associated: Pola z powiązanego %{name}
+      options_for: Opcje dla %{name}
+      select: Wybierz pola do eksportu
+    flash:
+      error: "%{name} nie powiodło się %{action}"
+      model_not_found: Model '%{model}' nie został znaleziony
+      noaction: NIc nie zostało zrobione
+      object_not_found: "%{model} z id '%{id}' nie został odnaleziony"
+      successful: "%{name} powiodło się %{action}"
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Poniższe podobne elementy mogą zostać usunięte:"
+      are_you_sure_you_want_to_delete_the_object: Czy jesteś pewny że chcesz usunąć %{model_name}
+      basic_info: Podstawowe informacje
+      bulk_delete: 'Następujące obiekty zostaną usunięte, które mogą usunąć niektóre zależności pomiędzy obiektami:'
+      cancel: Anuluj
+      char_length_of: długość
+      char_length_up_to: długość do
+      confirmation: Tak, jestem pewny
+      new_model: "%{name} (nowy)"
+      one_char: znak
+      optional: Opcjonalne
+      required: Wymagane
+      save: Zapisz
+      save_and_add_another: Zapisz i dodaj kolejny
+      save_and_edit: Zapisz i edytuj
+    misc:
+      add_filter: Dodaj filtr
+      add_new: Dodaj nowy
+      ago: temu
+      bulk_menu_title: Zaznaczone obiekty
+      chose_all: Zaznacz wszystko
+      chosen: Wybrane %{name}
+      clear_all: Wyczyść wszystko
+      down: Dół
+      filter: Filtr
+      filter_date_format: mm/dd/yy
+      log_out: Wyloguj
+      navigation: Nawigacja
+      refresh: Odśwież
+      remove: usuń
+      search: Szukaj
+      show_all: Pokaż wszystkie
+      up: Góra
+    table_headers:
+      changes: Zmiany
+      created_at: Data/Czas
+      item: Obiekt
+      last_used: Ostatnio użyty
+      message: Wiadomość
+      model_name: Nazwa modelu
+      records: Rekordów
+      username: Użytkownik
+  home:
+    name: Strona główna
+  views:
+    pagination:
+      next: Następna &raquo;
+      previous: "&laquo; Poprzednia"
+      truncate: "..."

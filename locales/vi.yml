@@ -1,129 +1,130 @@
 vi:
   admin:
-    home:
-      name: Trang chủ
-    pagination:
-      previous: "&laquo; Trước"
-      next: "Tiếp &raquo;"
-      truncate: "…"
-    misc:
-      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
-      search: "Tìm kiếm"
-      filter: "Lọc"
-      refresh: "Làm mới"
-      show_all: "Hiện tất cả"
-      add_filter: "Thêm bộ lọc"
-      bulk_menu_title: "Các mục đã chọn"
-      remove: "Xóa"
-      add_new: "Thêm mới"
-      chosen: "Chọn %{name}"
-      chose_all: "Chọn tất cả"
-      clear_all: "Xóa tất cả"
-      up: "Lên"
-      down: "Xuống"
-      navigation: "Danh mục chính"
-      log_out: "Đăng xuất"
-      ago: "trước"
-    flash:
-      successful: "%{name} thành công %{action}"
-      error: "%{name} thất bại %{action}"
-      noaction: "Không có thao tác được chọn"
-      model_not_found: "Không thể tìm thấy lớp '%{model}' "
-      object_not_found: "Không thể tìm thấy %{model} với id bằng '%{id}'"
-    table_headers:
-      model_name: "Tên lớp"
-      last_used: "Lần cuối sử dụng"
-      records: "Hồ sơ"
-      username: "User"
-      changes: "Thay đổi"
-      created_at: "Ngày/Giờ"
-      item: "Mục"
-      message: "Tin nhắn"
     actions:
-      dashboard:
-        title: "Trang quản lý"
-        menu: "Trang quản lý"
-        breadcrumb: "Trang quản lý"
-      index:
-        title: "Danh sách của %{model_label_plural}"
-        menu: "Danh sách"
-        breadcrumb: "%{model_label_plural}"
-      show:
-        title: "Chi tiết %{model_label} '%{object_label}'"
-        menu: "Chi tiết"
-        breadcrumb: "%{object_label}"
-      show_in_app:
-        menu: "Hiển thị trong ứng dụng"
-      new:
-        title: "Thêm %{model_label}"
-        menu: "Thêm mới"
-        breadcrumb: "Thêm"
-        link: "Thêm một %{model_label} mới"
-        done: "đã tạo"
-      edit:
-        title: "Chỉnh sửa %{model_label} '%{object_label}'"
-        menu: "Chỉnh sửa"
-        breadcrumb: "Chỉnh sửa"
-        link: "Chỉnh sửa %{model_label} này"
-        done: "đã chỉnh sửa"
-      delete:
-        title: "Xóa %{model_label} '%{object_label}'"
-        menu: "Xóa"
-        breadcrumb: "Xóa"
-        link: "Xóa '%{object_label}'"
-        done: "đã xóa"
       bulk_delete:
-        title: "Xóa %{model_label_plural}"
-        menu: "Xóa nhiều mục"
-        breadcrumb: "Xóa nhiều mục"
-        bulk_link: "Xóa những %{model_label_plural} đã chọn"
+        breadcrumb: Xóa nhiều mục
+        bulk_link: Xóa những %{model_label_plural} đã chọn
+        menu: Xóa nhiều mục
+        title: Xóa %{model_label_plural}
+      dashboard:
+        breadcrumb: Trang quản lý
+        menu: Trang quản lý
+        title: Trang quản lý
+      delete:
+        breadcrumb: Xóa
+        done: "đã xóa"
+        link: Xóa '%{object_label}'
+        menu: Xóa
+        title: Xóa %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Chỉnh sửa
+        done: "đã chỉnh sửa"
+        link: Chỉnh sửa %{model_label} này
+        menu: Chỉnh sửa
+        title: Chỉnh sửa %{model_label} '%{object_label}'
       export:
-        title: "Export %{model_label_plural}"
-        menu: "Export"
-        breadcrumb: "Export"
-        link: "Export %{model_label_plural} được tìm thấy"
-        bulk_link: "Export selected %{model_label_plural}"
-        done: "exported"
+        breadcrumb: Export
+        bulk_link: Export selected %{model_label_plural}
+        done: exported
+        link: Export %{model_label_plural} được tìm thấy
+        menu: Export
+        title: Export %{model_label_plural}
       history_index:
-        title: "Lịch sử của %{model_label_plural}"
-        menu: "Lịch sử"
-        breadcrumb: "Lịch sử"
+        breadcrumb: Lịch sử
+        menu: Lịch sử
+        title: Lịch sử của %{model_label_plural}
       history_show:
-        title: "Lịch sử của %{model_label} '%{object_label}'"
-        menu: "Lịch sử"
-        breadcrumb: "Lịch sử"
-    form:
-      cancel: "Hủy"
-      basic_info: "Thông tin đơn giản"
-      required: "Bắt buộc"
-      optional: "Không bắt buộc"
-      one_char: "ký tự"
-      char_length_up_to: "dài tới"
-      char_length_of: "dài của"
-      save: "Lưu"
-      save_and_add_another: "Lưu và thêm mới"
-      save_and_edit: "Lưu và chỉnh sửa"
-      all_of_the_following_related_items_will_be_deleted: "? Các mục có liên quan sau đây có thể bị xóa hoặc mồ côi:"
-      are_you_sure_you_want_to_delete_the_object: "Bạn có chắc bạn muốn xóa %{model_name} này"
-      confirmation: "Có, chắc chắn!"
-      bulk_delete: "Các đối tượng sau đây sẽ bị xóa, một số phụ thuộc liên quan của các đối tượng này có thể bị xóa hoặc mồ côi:"
-      new_model: "%{name} (mới)"
+        breadcrumb: Lịch sử
+        menu: Lịch sử
+        title: Lịch sử của %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Danh sách
+        title: Danh sách của %{model_label_plural}
+      new:
+        breadcrumb: Thêm
+        done: "đã tạo"
+        link: Thêm một %{model_label} mới
+        menu: Thêm mới
+        title: Thêm %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Chi tiết
+        title: Chi tiết %{model_label} '%{object_label}'
+      show_in_app:
+        menu: Hiển thị trong ứng dụng
     export:
-      confirmation: "Export to %{name}"
-      select: "Chọn các cột để export"
-      fields_from: "Các cột của %{name}"
-      fields_from_associated: "Các cột liên quan %{name}"
-      display: "Hiển thị %{name}: %{type}"
-      options_for: "Tùy chọn cho %{name}"
-      empty_value_for_associated_objects: "<Rỗng>"
-      click_to_reverse_selection: 'Nhấn vào đây để đảo ngược lựa chọn'
+      click_to_reverse_selection: Nhấn vào đây để đảo ngược lựa chọn
+      confirmation: Export to %{name}
       csv:
-        header_for_root_methods: "%{name}" # 'model' is available
-        header_for_association_methods: "%{name} [%{association}]"
-        encoding_to: "Encode to"
-        encoding_to_help: "Choose output encoding. Leave empty to let current input encoding untouched: (%{name})"
-        skip_header: "No header"
-        skip_header_help: "Do not output a header (no fields description)"
+        col_sep: Column separator
+        col_sep_help: Leave blank for default ('%{value}')
         default_col_sep: ","
-        col_sep: "Column separator"
-        col_sep_help: "Leave blank for default ('%{value}')" # value is default_col_sep
+        encoding_to: Encode to
+        encoding_to_help: 'Choose output encoding. Leave empty to let current input encoding untouched: (%{name})'
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: No header
+        skip_header_help: Do not output a header (no fields description)
+      display: 'Hiển thị %{name}: %{type}'
+      empty_value_for_associated_objects: "<Rỗng>"
+      fields_from: Các cột của %{name}
+      fields_from_associated: Các cột liên quan %{name}
+      options_for: Tùy chọn cho %{name}
+      select: Chọn các cột để export
+    flash:
+      error: "%{name} thất bại %{action}"
+      model_not_found: 'Không thể tìm thấy lớp ''%{model}'' '
+      noaction: Không có thao tác được chọn
+      object_not_found: Không thể tìm thấy %{model} với id bằng '%{id}'
+      successful: "%{name} thành công %{action}"
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Các mục có liên quan sau đây có thể bị xóa hoặc mồ côi:"
+      are_you_sure_you_want_to_delete_the_object: Bạn có chắc bạn muốn xóa %{model_name} này
+      basic_info: Thông tin cơ bản
+      bulk_delete: 'Các đối tượng sau đây sẽ bị xóa, một số phụ thuộc liên quan của các đối tượng này có thể bị xóa hoặc mồ côi:'
+      cancel: Hủy
+      char_length_of: dài của
+      char_length_up_to: dài tới
+      confirmation: Có, chắc chắn!
+      new_model: "%{name} (mới)"
+      one_char: ký tự
+      optional: Không bắt buộc, tùy chọn
+      required: Bắt buộc
+      save: Lưu
+      save_and_add_another: Lưu và thêm mới
+      save_and_edit: Lưu và chỉnh sửa
+    misc:
+      add_filter: Thêm bộ lọc
+      add_new: Thêm mới
+      ago: trước
+      bulk_menu_title: Các mục đã chọn
+      chose_all: Chọn tất cả
+      chosen: Chọn %{name}
+      clear_all: Xóa tất cả
+      down: Xuống
+      filter: Lọc
+      filter_date_format: dd/mm/yy
+      log_out: "Đăng xuất"
+      navigation: Danh mục chính
+      refresh: Làm mới
+      remove: Xóa
+      search: Tìm kiếm
+      show_all: Hiện tất cả
+      up: Lên
+    table_headers:
+      changes: Thay đổi
+      created_at: Ngày/Giờ
+      item: Mục
+      last_used: Lần cuối sử dụng
+      message: Tin nhắn
+      model_name: Tên lớp
+      records: Hồ sơ
+      username: User
+  home:
+    name: Trang chủ
+  views:
+    pagination:
+      next: Tiếp &raquo;
+      previous: "&laquo; Trước"
+      truncate: "…"

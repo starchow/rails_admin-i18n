@@ -1,0 +1,130 @@
+cs-CZ:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Hromadné odstranění
+        bulk_link: Odstranit vybrané %{model_label_plural}
+        menu: Hromadné odstranění
+        title: Odstranit %{model_label_plural}
+      dashboard:
+        breadcrumb: Dashboard
+        menu: Dashboard
+        title: Administrace stránek
+      delete:
+        breadcrumb: Odstranit
+        done: odstraněno
+        link: Odstranit '%{object_label}'
+        menu: Odstranit
+        title: Odstranit %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Upravit
+        done: upraveno
+        link: Upravit tento %{model_label}
+        menu: Upravit
+        title: Upravit %{model_label} '%{object_label}'
+      export:
+        breadcrumb: Exportovat
+        bulk_link: Exportovat vybrané %{model_label_plural}
+        done: Exportováno
+        link: Export nalezen %{model_label_plural}
+        menu: Exportovat
+        title: Exportovat %{model_label_plural}
+      history_index:
+        breadcrumb: Historie
+        menu: Historie
+        title: Historie o %{model_label_plural}
+      history_show:
+        breadcrumb: Historie
+        menu: Historie
+        title: Historie o %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Seznam
+        title: Seznam %{model_label_plural}
+      new:
+        breadcrumb: Nový
+        done: vytvořeno
+        link: Přidat nový %{model_label}
+        menu: Přidat nový
+        title: Nový %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Zobrazit
+        title: Podrobnosti o %{model_label} '%{object_label}'
+      show_in_app:
+        menu: Zobrazit v app
+    export:
+      click_to_reverse_selection: Klikněte pro převrácení výběru
+      confirmation: Exportovat do %{name}
+      csv:
+        col_sep: Oddělovač sloupců
+        col_sep_help: Nech prázdné pro výchozí ('%{value}')
+        default_col_sep: ","
+        encoding_to: Překódovat do
+        encoding_to_help: 'Zvolte kódování výstupu. Nechte prázdné pro ponechání vstupního kódování: (%{name})'
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: Bez hlavičky
+        skip_header_help: Nevytvářej hlavičku (žádné popisky polí)
+      display: 'Zobraz %{name}: %{type}'
+      empty_value_for_associated_objects: "<prázdné>"
+      fields_from: Pole %{name}
+      fields_from_associated: Související pole %{name}
+      options_for: Nastavení pro %{name}
+      select: Vyber pole pro export
+    flash:
+      error: "%{name} se nezdařilo %{action}"
+      model_not_found: Model '%{model}' nenalezen
+      noaction: "Žádná akce neproběhla"
+      object_not_found: "%{model} s id '%{id}' nenalezen"
+      successful: "%{name} úspěšně %{action}"
+    form:
+      all_of_the_following_related_items_will_be_deleted: Následující související položky mohou být odstraněný.
+      are_you_sure_you_want_to_delete_the_object: Jste si jistý, že chcete odstranit tento %{model_name}
+      basic_info: Základní informace
+      bulk_delete: 'Nasledující objekty budou vymazány, to může způsobit odstranění nebo osiření některých jejich závislých objektů:'
+      cancel: Zrušit
+      char_length_of: délka
+      char_length_up_to: maximální délka
+      confirmation: Ano, jsem si jist
+      new_model: "%{name} (nový)"
+      one_char: charakter
+      optional: Volitelné
+      required: Požadováno
+      save: Uložit
+      save_and_add_another: Uložit a přidat další
+      save_and_edit: Uložit a upravit
+    misc:
+      add_filter: Přidat filtr
+      add_new: Přidat nový
+      ago: před
+      bulk_menu_title: Vybrané položky
+      chose_all: vybrat vše
+      chosen: Vybrán %{name}
+      clear_all: Odebrat vše
+      down: Dolů
+      filter: Filtr
+      filter_date_format: mm/dd/rr
+      log_out: Odhlásit
+      navigation: Navigace
+      refresh: Obnovit
+      remove: Odstranit
+      search: Vyhledat
+      show_all: Zobraz vše
+      up: Nahoru
+    table_headers:
+      changes: Změny
+      created_at: Datum/čas
+      item: Položka
+      last_used: Naposledy použito
+      message: Zpráva
+      model_name: Název modelu
+      records: Záznamy
+      username: Uživatel
+  home:
+    name: Domů
+  views:
+    pagination:
+      next: Následující &raquo;
+      previous: "&laquo; Předcházející"
+      truncate: "..."
