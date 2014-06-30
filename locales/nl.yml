@@ -1,0 +1,130 @@
+nl:
+  admin:
+    home:
+      name: "Home"
+    pagination:
+      previous: "&laquo; Vorige"
+      next: "Volgende &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd-mm-yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Zoek"
+      filter: "Filter"
+      refresh: "Vernieuwen"
+      show_all: "Toon Alle"
+      add_filter: "Voeg filter toe"
+      bulk_menu_title: "Geselecteerde items"
+      remove: "Verwijder"
+      add_new: "Nieuwe toevoegen"
+      chosen: "Gekozen %{name}"
+      chose_all: "Kies alle"
+      clear_all: "Verwijder alle"
+      up: "Omhoog"
+      down: "Naar beneden"
+      navigation: "Navigatie"
+      log_out: "Log uit"
+      ago: "geleden"
+    flash:
+      successful: "%{name} successvol %{action}"
+      error: "%{name} mislukt om %{action} te doen"
+      noaction: "Er zijn acties verricht"
+      model_not_found: "Model '%{model}' kon niet gevonden worden"
+      object_not_found: "%{model} met id '%{id}' kon niet gevonden worden"
+    table_headers:
+      model_name: "Model naam"
+      last_used: "Laatst gebruikt"
+      records: "Records"
+      username: "Gebruikersnaam"
+      changes: "Veranderingen"
+      created_at: "Datum/Tijd"
+      item: "Item"
+      message: "Bericht"
+    actions:
+      dashboard:
+        title: "Site beheer"
+        menu: "Dashboard"
+        breadcrumb: "Dashboard"
+      index:
+        title: "Lijst van %{model_label_plural}"
+        menu: "Lijst"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Details voor %{model_label} '%{object_label}'"
+        menu: "Toon"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Toon in applicatie"
+      new:
+        title: "Nieuw %{model_label}"
+        menu: "Nieuwe toevoegen"
+        breadcrumb: "Nieuw"
+        link: "Voeg een nieuwe %{model_label} toe"
+        done: "aangemaakt"
+      edit:
+        title: "Wijzig %{model_label} '%{object_label}'"
+        menu: "Wijzig"
+        breadcrumb: "Wijzig"
+        link: "Wijzig dit %{model_label}"
+        done: "gewijzigd"
+      delete:
+        title: "Verwijder %{model_label} '%{object_label}'"
+        menu: "Verwijder"
+        breadcrumb: "Verijwder"
+        link: "Verwijder '%{object_label}'"
+        done: "verwijderd"
+      bulk_delete:
+        title: "Verwijder %{model_label_plural}"
+        menu: "Bulk verwijderen"
+        breadcrumb: "Bulk verwijderen"
+        bulk_link: "Verwijder geselecteerde %{model_label_plural}"
+      export:
+        title: "Exporteer %{model_label_plural}"
+        menu: "Exporteer"
+        breadcrumb: "Exporteer"
+        link: "Export gevonden %{model_label_plural}"
+        bulk_link: "Export geselecteerd %{model_label_plural}"
+        done: "geëxporteerd"
+      history_index:
+        title: "Historie voor %{model_label_plural}"
+        menu: "Historie"
+        breadcrumb: "Historie"
+      history_show:
+        title: "Historie voor %{model_label} '%{object_label}'"
+        menu: "Historie"
+        breadcrumb: "Historie"
+    form:
+      cancel: "Annuleren"
+      basic_info: "Basis gegevens"
+      required: "Verplicht"
+      optional: "Optioneel"
+      one_char: "karakter"
+      char_length_up_to: "lengte totaan"
+      char_length_of: "lengte van"
+      save: "Opslaan"
+      save_and_add_another: "Opslaan en nog één toevoegen"
+      save_and_edit: "Opslaan en bewerken"
+      all_of_the_following_related_items_will_be_deleted: "? De volgende geasocieerde items kunnen verweesd of verwijderd worden:"
+      are_you_sure_you_want_to_delete_the_object: "Weet je zeker dat je %{model_name} wilt verwijderen"
+      confirmation: "Ja, ik weet het zeker"
+      bulk_delete: "De volgende objecten worden verwijderd, hierdoor kunnen sommige gerelateerde object worden verwijderd of verweesd:"
+      new_model: "%{name} (nieuw)"
+    export:
+      confirmation: "Exporteer naar %{name}"
+      select: "Selecteer velden om te exporteren"
+      fields_from: "Velden van %{name}"
+      fields_from_associated: "Velden van geassocieerde %{name}"
+      display: "Toon %{name}: %{type}"
+      options_for: "Opties voor %{name}"
+      empty_value_for_associated_objects: "<leeg>"
+      click_to_reverse_selection: 'Klik om de actie ongedaan te maken'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Encodeer naar"
+        encoding_to_help: "Kies een uitvoer encodering. Laat leeg om de huidige encodering te gebruiken: (%{name})"
+        skip_header: "Geen headers"
+        skip_header_help: "Voer geen headers uit (geen veld beschrijvingen)"
+        default_col_sep: ","
+        col_sep: "Kolom afscheidingsteken"
+        col_sep_help: "Laat leeg voor standaard waarde ('%{value}')" # value is default_col_sep
+
