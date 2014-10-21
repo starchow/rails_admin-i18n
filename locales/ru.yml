@@ -1,5 +1,22 @@
 ru:
   admin:
+    js:
+      true: True
+      false: False
+      is_present: Не пустое
+      is_blank: Пустое
+      date: Дата ...
+      between_and_: Между ... и ...
+      today: Сегодня
+      yesterday: Вчера
+      this_week: Эта неделя
+      last_week: Прошлая неделя
+      number: Число ...
+      contains: Содержит
+      is_exactly: Совпадает с
+      starts_with: Начинается с
+      ends_with: Заканчивается на
+    loading: "Загрузка..."
     home:
       name: "Главная"
     pagination:
@@ -7,6 +24,7 @@ ru:
       next: "Вперед &raquo;"
       truncate: "…"
     misc:
+      filter_date_format: "dd/mm/yy"
       search: "Поиск"
       filter: "Фильтрация"
       refresh: "Обновить"
@@ -21,6 +39,7 @@ ru:
       up: "Вверх"
       down: "Вниз"
       navigation: "Навигация"
+      navigation_static_label: "Ссылки"
       log_out: "Выйти"
       ago: "назад"
     flash:
@@ -106,9 +125,11 @@ ru:
       are_you_sure_you_want_to_delete_the_object: "Вы уверены что хотите удалить %{model_name}"
       confirmation: "Да, уверен"
       bulk_delete: "Следующие объекты будут удалены, что может сломать связи с другими объектами:"
+      new_model: "%{name} (новый)"
     export:
       confirmation: "Экспортировать как %{name}"
       select: "Выберите поля для экспорта"
+      select_all_fields: "Выбрать все поля"
       fields_from: "Поля из %{name}"
       fields_from_associated: "Поля из ассоциированной %{name}"
       display: "Показать %{name}: %{type}"
