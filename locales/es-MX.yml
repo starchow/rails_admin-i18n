@@ -1,0 +1,129 @@
+es-MX:
+  admin:
+    actions:
+      bulk_delete:
+        breadcrumb: Eliminación Múltiple
+        bulk_link: Eliminar los %{model_label_plural} seleccionados
+        menu: Eliminación Múltiple
+        title: Eliminar %{model_label_plural}
+      dashboard:
+        breadcrumb: Panel de control
+        menu: Panel de control
+        title: Administración del Sitio
+      delete:
+        breadcrumb: Eliminar
+        done: Eliminado
+        link: Eliminar  '%{object_label}'
+        menu: Eliminar
+        title: Eliminar %{model_label} '%{object_label}'
+      edit:
+        breadcrumb: Editar
+        done: Actualizado
+        link: Editar este  %{model_label}
+        menu: Editar
+        title: Editar %{model_label} '%{object_label}'
+      export:
+        breadcrumb: Exportar
+        bulk_link: Exportar Seleccionados %{model_label_plural}
+        done: exportado
+        link: Exportar   %{model_label_plural}  encontrados
+        menu: Exportar
+        title: Exportar %{model_label_plural}
+      history_index:
+        breadcrumb: Historial
+        menu: Historial
+        title: Historial para %{model_label_plural}
+      history_show:
+        breadcrumb: Historial
+        menu: Historial
+        title: Historial para %{model_label} '%{object_label}'
+      index:
+        breadcrumb: "%{model_label_plural}"
+        menu: Lista
+        title: Lista de %{model_label_plural}
+      new:
+        breadcrumb: Nuevo
+        done: creado
+        link: Adicionar un nuevo  %{model_label}
+        menu: Adicionar Nuevo
+        title: Nuevo  %{model_label}
+      show:
+        breadcrumb: "%{object_label}"
+        menu: Ver
+        title: Detalles para  %{model_label} "%{object_label}"
+      show_in_app:
+        menu: Ver en la aplicación
+    export:
+      click_to_reverse_selection: Haga click para invertir la selección
+      confirmation: Exportar a %{name}
+      csv:
+        col_sep: Separador de columnas
+        col_sep_help: Deje en blanco para el de defecto ('%{value}')
+        default_col_sep: ","
+        encoding_to: Codificar a
+        encoding_to_help: 'Elija la codificación de salida. Deje en blanco para no cambiar la codificación actual: (%{name})'
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}"
+        skip_header: Sin cabecera
+        skip_header_help: No incluir un encabezado (sin descripción de los campos)
+      display: 'Mostrar %{name}: %{type}'
+      empty_value_for_associated_objects: "<vacío>"
+      fields_from: Campos de %{name}
+      fields_from_associated: Campos del %{name} asociado
+      options_for: Opciones para %{name}
+      select: Seleccione los campos a exportar
+    flash:
+      error: "%{name} no se ha %{action}"
+      model_not_found: El modelo '%{model}' no se pudo encontrar
+      noaction: No se llevó a cabo ninguna acción
+      object_not_found: "%{model} con id '%{id}' no se pudo encontrar"
+      successful: "%{name} %{action} con éxito"
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Los siguientes elementos relacionados pueden ser eliminados o quedar huérfanos:"
+      are_you_sure_you_want_to_delete_the_object: "¿Está seguro de que quiere eliminar este %{model_name}"
+      basic_info: Información Básica
+      bulk_delete: 'Los siguientes objetos serán eliminados, lo cual puede eliminar o dejar huérfanas algunas de sus dependencias relacionadas:'
+      cancel: Cancelar
+      char_length_of: longitud de
+      char_length_up_to: longitud de hasta
+      confirmation: Si, estoy seguro
+      new_model: "%{name} (nuevo)"
+      one_char: carácter
+      optional: Opcional
+      required: Requerido
+      save: Guardar
+      save_and_add_another: Guardar y añadir otro
+      save_and_edit: Guardar y editar
+    misc:
+      add_filter: Añadir filtro
+      add_new: Agregar nuevo
+      ago: atrás
+      bulk_menu_title: Elementos seleccionados
+      chose_all: Elegir todos
+      chosen: Elegido %{name}
+      clear_all: Borrar todos
+      down: Abajo
+      filter: Filtrar
+      filter_date_format: dd/mm/yy
+      log_out: Desconectar
+      navigation: Navegación
+      refresh: Actualizar
+      remove: Quitar
+      search: Buscar
+      show_all: Mostrar todo
+      up: Arriba
+    table_headers:
+      changes: Cambios
+      created_at: Fecha/Hora
+      item: Elemento
+      last_used: "Último uso"
+      message: Mensaje
+      model_name: Nombre del modelo
+      records: Registros
+      username: Usuario
+    home:
+      name: Inicio
+    pagination:
+      next: Siguiente &raquo;
+      previous: "&laquo; Anterior"
+      truncate: "…"
