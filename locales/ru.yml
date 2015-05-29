@@ -2,128 +2,138 @@ ru:
   admin:
     actions:
       bulk_delete:
-        breadcrumb:
-        bulk_link:
-        menu:
-        title:
+        breadcrumb: мульти-удаление
+        bulk_link: Удалить выбранные %{model_label_plural}
+        menu: Мульти-удаление
+        title: Удалить много %{model_label_plural}
       dashboard:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: панель
+        menu: Контрольная панель
+        title: Управление сайтом
       delete:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: удаление
+        done: удалено
+        link: Удалить '%{object_label}'
+        menu: Удаление
+        title: Удаление %{model_label} '%{object_label}'
       edit:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: редактирование
+        done: сохранено
+        link: Редактировать %{model_label}
+        menu: Редактирование
+        title: Редактирование %{model_label} '%{object_label}'
       export:
-        breadcrumb:
-        bulk_link:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: экспорт
+        bulk_link: Экспорт выбраных %{model_label_plural}
+        done: экспортировано
+        link: Экспорт найденных %{model_label_plural}
+        menu: Экспорт
+        title: Экспорт %{model_label}
       history_index:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: история
+        menu: История
+        title: История для %{model_label_plural}
       history_show:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: история
+        menu: История
+        title: История для %{model_label} '%{object_label}'
       index:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: '%{model_label_plural}'
+        menu: Список
+        title: Список %{model_label_plural}
+      merge_tags:
+        bulk_link: Объединить названия
+        success: '%{model_label} успешно объеденины'
       new:
-        breadcrumb:
-        done:
-        link:
-        menu:
-        title:
+        breadcrumb: новый
+        done: создано
+        link: Добавить новый %{model_label}
+        menu: Создание
+        title: Новый %{model_label}
       show:
-        breadcrumb:
-        menu:
-        title:
+        breadcrumb: '%{object_label}'
+        menu: Просмотр
+        title: Детали %{model_label} '%{object_label}'
       show_in_app:
-        menu:
+        menu: Показать в приложении
     export:
-      click_to_reverse_selection:
-      confirmation:
+      click_to_reverse_selection: Обратить выделение
+      confirmation: Экспортировать как %{name}
       csv:
-        col_sep:
-        col_sep_help:
-        default_col_sep:
-        encoding_to:
-        encoding_to_help:
-        header_for_association_methods:
-        header_for_root_methods:
-        skip_header:
-        skip_header_help:
-      display:
-      empty_value_for_associated_objects:
-      fields_from:
-      fields_from_associated:
-      options_for:
-      select:
+        col_sep: Разделитель столбцов
+        col_sep_help: Оставьте пустым, чтобы было по умолчанию ('%{value}')
+        default_col_sep: ','
+        encoding_to: Декодировать как
+        encoding_to_help: 'Выберите результирующую кодировку. Оставьте пустой, чтобы
+          оставить исходную кодировку нетронутой: (%{name})'
+        header_for_association_methods: '%{name} [%{association}]'
+        header_for_root_methods: '%{name}'
+        skip_header: Без заголовка
+        skip_header_help: Не выводить заголовок (без описаний полей)
+      display: 'Показать %{name}: %{type}'
+      empty_value_for_associated_objects: <пусто>
+      fields_from: Поля из %{name}
+      fields_from_associated: Поля из ассоциированной %{name}
+      options_for: Настройки для %{name}
+      select: Выберите поля для экспорта
+    feedback_stat:
+      click: 'Количество пользователей, зашедших на форму обратной связи за все время:'
+      send: 'Из них отправили форму:'
+      title: Статистика обратной связи
     flash:
-      error:
-      model_not_found:
-      noaction:
-      object_not_found:
-      successful:
+      error: Не получилось %{action} %{name}
+      model_not_found: Модель '%{model}' не найден
+      noaction: Никаких изменений не выполнено
+      object_not_found: Объект %{model} с id '%{id}' не найден
+      successful: '%{name} был %{action}'
     form:
-      all_of_the_following_related_items_will_be_deleted:
-      are_you_sure_you_want_to_delete_the_object:
-      basic_info:
-      bulk_delete:
-      cancel:
-      char_length_of:
-      char_length_up_to:
-      confirmation:
-      new_model:
-      one_char:
-      optional:
-      required:
-      save:
-      save_and_add_another:
-      save_and_edit:
-    misc:
-      add_filter:
-      add_new:
-      ago:
-      bulk_menu_title:
-      chose_all:
-      chosen:
-      clear_all:
-      down:
-      filter:
-      filter_date_format:
-      log_out:
-      navigation:
-      refresh:
-      remove:
-      search:
-      show_all:
-      up:
-    table_headers:
-      changes:
-      created_at:
-      item:
-      last_used:
-      message:
-      model_name:
-      records:
-      username:
+      all_of_the_following_related_items_will_be_deleted: 'Следующие объекты будут
+        удалены (при условии, что они не привязаны к критичным объектам):'
+      are_you_sure_you_want_to_delete_the_object: Вы уверены что хотите удалить %{model_name}
+      basic_info: Основное
+      bulk_delete: 'Следующие объекты будут удалены, что может сломать связи с другими
+        объектами:'
+      cancel: Отмена
+      char_length_of: длина
+      char_length_up_to: длина не более
+      confirmation: Да, уверен
+      delete_confirmation: Подтвердить удаление
+      new_model: Новый
+      one_char: символ
+      optional: Необязательное
+      required: Требуемое
+      save: Сохранить
+      save_and_add_another: Сохранить и добавить новый
+      save_and_edit: Сохранить и продолжить редактирование
     home:
-      name:
+      name: Главная
+    misc:
+      add_filter: Добавить фильтр...
+      add_new: Добавить новый
+      ago: назад
+      bulk_menu_title: Выбранные элементы...
+      chose_all: Выбрать все
+      chosen: Выбрать %{name}
+      clear_all: Убрать выделение
+      down: Вниз
+      filter: Фильтрация
+      log_out: Выйти
+      navigation: Навигация
+      refresh: Обновить
+      remove: Убрать
+      search: Поиск
+      show_all: Показать все
+      up: Вверх
     pagination:
-      next:
-      previous:
-      truncate:
+      next: Следующая &raquo;
+      previous: '&laquo; Предыдущая'
+      truncate: …
+    table_headers:
+      changes: Изменения
+      created_at: Дата/Время
+      item: Элемент
+      last_used: Последнее раз использовалось
+      message: Сообщение
+      model_name: Название модели
+      records: Записи
+      username: Пользователь
