@@ -44,7 +44,7 @@ fr:
       ago: "il y a"
     flash:
       successful: "%{name} : %{action} avec succès"
-      error: "%{name} : %{action} impossible"
+      error: "%{name} : n'a pas pu être %{action}"
       noaction: "Aucune action n'a été effectuée"
       model_not_found: "Le modèle '%{model}' est introuvable"
       object_not_found: "%{model} avec l'ID '%{id}' est introuvable"
