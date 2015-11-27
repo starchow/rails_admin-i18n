@@ -75,7 +75,7 @@ fr:
       new:
         title: "Ajouter %{model_label}"
         menu: "Ajouter"
-        breadcrumb: "Nouveau"
+        breadcrumb: "Ajouter"
         link: "Ajouter %{model_label}"
         done: "créé(e)"
       edit:
