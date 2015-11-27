@@ -32,7 +32,7 @@ fr:
       add_filter: "Ajouter un filtre"
       bulk_menu_title: "Élements séléctionnés"
       remove: "Supprimer"
-      add_new: "Ajouter nouveau"
+      add_new: "Ajouter"
       chosen: "Choisir %{name}"
       chose_all: "Choisir tout"
       clear_all: "Effacer tout"
@@ -73,16 +73,16 @@ fr:
       show_in_app:
         menu: "Voir dans l'application"
       new:
-        title: "Nouveau %{model_label}"
-        menu: "Ajouter nouveau"
+        title: "Ajouter %{model_label}"
+        menu: "Ajouter"
         breadcrumb: "Nouveau"
-        link: "Ajouter un nouveau %{model_label}"
+        link: "Ajouter %{model_label}"
         done: "créé(e)"
       edit:
         title: "Modifier %{model_label} '%{object_label}'"
         menu: "Modifier"
         breadcrumb: "Modifier"
-        link: "Modifier ce(tte) %{model_label}"
+        link: "Modifier %{model_label}"
         done: "mis(e) à jour"
       delete:
         title: "Supprimer %{model_label} '%{object_label}'"
