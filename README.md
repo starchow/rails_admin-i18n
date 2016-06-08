@@ -21,11 +21,13 @@ Or install it yourself as:
 
     $ gem install rails_admin-i18n
 
-## Contributing to rails_admin-i18n
+## Contributing
 
-- Edit the translations directly on the [rails_admin-i18n](http://www.localeapp.com/projects/905) project on Locale.
-- **That's it!**
-- The maintainer will then pull translations from the Locale project and push to Github.
+    1. Fork it ( http://github.com/starchow/rails_admin-i18n )
+    2. Create your feature branch (`git checkout -b my-new-translate`)
+    3. Commit your changes (`git commit -am 'Add some feature'`)
+    4. Push to the branch (`git push origin my-new-translate`)
+    5. Create new Pull Request
 
 Happy translating!
 
@@ -35,5 +37,4 @@ https://github.com/starchow/rails_admin-i18n/graphs/contributors
 
 ## Copyright
 
-Copyright (c) 2011 Pham Trung Nam, base on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for
-further details.
+Copyright (c) 2011 Pham Trung Nam, base on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for further details.
