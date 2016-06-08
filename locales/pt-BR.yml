@@ -12,7 +12,7 @@ pt-BR:
         title: Administração do site
       delete:
         breadcrumb: Deletar
-        done: deletado
+        done: Deletado
         link: Deletar '%{object_label}'
         menu: Deletar
         title: Deletar %{model_label} '%{object_label}'
@@ -74,7 +74,7 @@ pt-BR:
       select: Selecione campos para exportar
     flash:
       error:
-      model_not_found: 
+      model_not_found:
       noaction: Nenhuma ação foi tomada
       object_not_found:
       successful:
