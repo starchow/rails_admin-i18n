@@ -74,7 +74,7 @@ pt-BR:
       select: Selecione campos para exportar
     flash:
       error:
-      model_not_found:
+      model_not_found: 
       noaction: Nenhuma ação foi tomada
       object_not_found:
       successful:
@@ -96,12 +96,12 @@ pt-BR:
       save_and_edit: Salvar e editar
     misc:
       add_filter: Adicionar filtro
-      add_new:
-      ago:
-      bulk_menu_title:
-      chose_all:
-      chosen:
-      clear_all:
+      add_new: Adicionar novo
+      ago: atrás
+      bulk_menu_title: Itens selecionados
+      chose_all: Escolher todos
+      chosen: "%{name} escolhido"
+      clear_all: Limpar todos
       down:
       filter: Filtro
       filter_date_format: mm/dd/yy
