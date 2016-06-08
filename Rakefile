@@ -20,8 +20,8 @@ Jeweler::Tasks.new do |gem|
   gem.license = "MIT"
   gem.summary = %Q{Translations for the rails_admin gem}
   gem.description = %Q{Translations for the rails_admin gem}
-  gem.email = ["nampt@kbsvn.vn", "luizpicolo@gmail.com"]
-  gem.authors = ["Nam Pham Trung", "Luiz Picolo"]
+  gem.email = ["puma.puma07@gmail.com"]
+  gem.authors = ["Nam Pham Trung"]
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
