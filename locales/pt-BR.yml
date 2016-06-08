@@ -18,16 +18,16 @@ pt-BR:
         title: Deletar %{model_label} '%{object_label}'
       edit:
         breadcrumb: Editar
-        done: atualizado
+        done: Atualizado
         link: Editar este %{model_label}
         menu: Editar
         title: Editar %{model_label} '%{object_label}'
       export:
         breadcrumb: Exportar
         bulk_link: Exportar %{model_label_plural} selecionados
-        done:
+        done: Exportado
         link: Exportação encontrada %{model_label_plural}
-        menu:
+        menu: Exportar
         title: Exportar %{model_label_plural}
       history_index:
         breadcrumb: Histórico
@@ -38,19 +38,19 @@ pt-BR:
         menu: Histórico
         title: Histórico para %{model_label} '%{object_label}'
       index:
-        breadcrumb: "%{model_label_plural}"
+        breadcrumb: Lista "%{model_label_plural}"
         menu: Listar
         title: Lista de %{model_label_plural}
       new:
         breadcrumb: Novo
-        done: criado
+        done: Adicionado
         link: Adicionar novo %{model_label}
         menu: Adicionar novo
         title: Novo %{model_label}
       show:
-        breadcrumb: "%{object_label}"
+        breadcrumb: Mostrar "%{object_label}"
         menu: Mostrar
-        title:
+        title: Mostra
       show_in_app:
         menu: Mostrar na app
     export:
@@ -79,9 +79,9 @@ pt-BR:
       object_not_found: "%{model} com id '%{id}' não foi encontrado"
       successful: "%{name} com sucesso foi %{action}"
     form:
-      all_of_the_following_related_items_will_be_deleted:
-      are_you_sure_you_want_to_delete_the_object:
-      basic_info: Informações basicas
+      all_of_the_following_related_items_will_be_deleted: Todos os arquivos selecionadosserão excluídos
+      are_you_sure_you_want_to_delete_the_object: Você tem certeza que deseja apagar
+      basic_info: Informações básicas
       bulk_delete:
       cancel: Cancelar
       char_length_of:
@@ -97,7 +97,7 @@ pt-BR:
     misc:
       add_filter: Adicionar filtro
       add_new: Adicionar novo
-      ago: atrás
+      ago: Atrás
       bulk_menu_title: Itens selecionados
       chose_all: Escolher todos
       chosen: "%{name} escolhido"
@@ -105,8 +105,8 @@ pt-BR:
       down:
       filter: Filtro
       filter_date_format: mm/dd/yy
-      log_out: Log out
-      navigation: navegação
+      log_out: Sair
+      navigation: Navegação
       refresh: Atualizar
       remove: Remover
       search: Buscar
@@ -116,7 +116,7 @@ pt-BR:
       changes: Mudanças
       created_at: Data/Hora
       item: Item
-      last_used: Ultimo acesso
+      last_used: Último acesso
       message: Mensagem
       model_name: Nome do modelo
       records: Entradas
