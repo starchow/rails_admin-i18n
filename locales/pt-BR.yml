@@ -73,11 +73,11 @@ pt-BR:
       options_for: Opções para %{name}
       select: Selecione campos para exportar
     flash:
-      error:
-      model_not_found:
+      error: "%{name} falhou ao ser %{action}"
+      model_not_found: Modelo '%{model}' não foi encontrado"
       noaction: Nenhuma ação foi tomada
-      object_not_found:
-      successful:
+      object_not_found: "%{model} com id '%{id}' não foi encontrado"
+      successful: "%{name} com sucesso foi %{action}"
     form:
       all_of_the_following_related_items_will_be_deleted:
       are_you_sure_you_want_to_delete_the_object:
