@@ -16,7 +16,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "rails_admin-i18n"
-  gem.homepage = "http://github.com/puma07/rails_admin-i18n"
+  gem.homepage = "http://github.com/starchow/rails_admin-i18n"
   gem.license = "MIT"
   gem.summary = %Q{Translations for the rails_admin gem}
   gem.description = %Q{Translations for the rails_admin gem}
