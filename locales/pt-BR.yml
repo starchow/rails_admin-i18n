@@ -51,7 +51,7 @@ pt-BR:
         breadcrumb: Mostrar "%{object_label}"
         menu: Mostrar
         title: Mostra
-      show_in_app: Mostrar no app
+      show_in_app:
         menu: Mostrar na app
     export:
       click_to_reverse_selection: Clique para reverter a seleção
