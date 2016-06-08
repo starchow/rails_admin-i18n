@@ -21,6 +21,8 @@ Gem::Specification.new do |s|
   s.files = [
     ".document",
     ".rspec",
+    ".ruby-gemset",
+    ".ruby-version",
     ".travis.yml",
     "Gemfile",
     "Gemfile.lock",
@@ -54,7 +56,7 @@ Gem::Specification.new do |s|
     "spec/rails_admin-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
-  s.homepage = "http://github.com/puma07/rails_admin-i18n"
+  s.homepage = "http://github.com/starchow/rails_admin-i18n"
   s.licenses = ["MIT"]
   s.rubygems_version = "2.4.8"
   s.summary = "Translations for the rails_admin gem"
