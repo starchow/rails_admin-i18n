@@ -19,3 +19,4 @@ pkg
 .DS_Store
 
 .localeapp/
+.rake_tasks~
