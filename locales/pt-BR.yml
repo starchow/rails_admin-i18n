@@ -38,12 +38,12 @@ pt-BR:
         menu: Histórico
         title: Histórico para %{model_label} '%{object_label}'
       index:
-        breadcrumb: Lista "%{model_label_plural}"
+        breadcrumb: Lista de %{model_label_plural}
         menu: Listar
         title: Lista de %{model_label_plural}
       new:
         breadcrumb: Novo
-        done: Adicionado
+        done: adicionado
         link: Adicionar novo %{model_label}
         menu: Adicionar novo
         title: Novo %{model_label}
@@ -77,7 +77,7 @@ pt-BR:
       model_not_found: Modelo '%{model}' não foi encontrado"
       noaction: Nenhuma ação foi tomada
       object_not_found: "%{model} com id '%{id}' não foi encontrado"
-      successful: "%{name} com sucesso foi %{action}"
+      successful: "%{name} foi %{action} com sucesso"
     form:
       all_of_the_following_related_items_will_be_deleted: Todos os arquivos selecionadosserão excluídos
       are_you_sure_you_want_to_delete_the_object: Você tem certeza que deseja apagar
