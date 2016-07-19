@@ -85,7 +85,7 @@ pt-BR:
       bulk_delete:
       cancel: Cancelar
       char_length_of: Comprimento
-      char_length_up_to:
+      char_length_up_to: Comprimento até
       confirmation: Sim, tenho certeza
       new_model: "%{name} (novo)"
       one_char: caractere
