@@ -84,7 +84,7 @@ pt-BR:
       basic_info: Informações básicas
       bulk_delete:
       cancel: Cancelar
-      char_length_of:
+      char_length_of: Comprimento
       char_length_up_to:
       confirmation: Sim, tenho certeza
       new_model: "%{name} (novo)"
