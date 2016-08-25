@@ -50,7 +50,7 @@ ru:
       object_not_found: "Объект %{model} с id '%{id}' не найден"
     table_headers:
       model_name: "Название модели"
-      last_used: "Последнее раз использовалось"
+      last_used: "Последний раз использовалось"
       records: "Записи"
       username: "Пользователь"
       changes: "Изменения"
@@ -79,7 +79,7 @@ ru:
         link: "Добавить %{model_label}"
         done: "создано"
       edit:
-        title: "Редактировение %{model_label} '%{object_label}'"
+        title: "Редактирование %{model_label} '%{object_label}'"
         menu: "Редактирование"
         breadcrumb: "редактирование"
         link: "Редактировать %{model_label}"
@@ -122,9 +122,9 @@ ru:
       save_and_add_another: "Сохранить и добавить новый"
       save_and_edit: "Сохранить и продолжить редактирование"
       all_of_the_following_related_items_will_be_deleted: "Следующие объекты будут удалены:"
-      are_you_sure_you_want_to_delete_the_object: "Вы уверены что хотите удалить %{model_name}"
+      are_you_sure_you_want_to_delete_the_object: "Вы уверены, что хотите удалить %{model_name}"
       confirmation: "Да, уверен"
-      bulk_delete: "Следующие объекты будут удалены, что может сломать связи с другими объектами:"
+      bulk_delete: "Следующие объекты будут удалены. Это может сломать связи с другими объектами:"
       new_model: "%{name} (новый)"
     export:
       confirmation: "Экспортировать как %{name}"
