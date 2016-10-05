@@ -55,7 +55,7 @@ fr:
       username: "Nom d'utilisateur"
       changes: "Changements"
       created_at: "Date/Heure"
-      item: "Item"
+      item: "Élement"
       message: "Message"
     actions:
       dashboard:
