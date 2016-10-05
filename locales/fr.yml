@@ -33,7 +33,7 @@ fr:
       bulk_menu_title: "Élements sélectionnés"
       remove: "Supprimer"
       add_new: "Ajouter"
-      chosen: "Choisir %{name}"
+      chosen: "Choisi %{name}"
       chose_all: "Choisir tout"
       clear_all: "Effacer tout"
       up: "Monter"
