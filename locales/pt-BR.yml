@@ -2,9 +2,9 @@ pt-BR:
   admin:
     actions:
       bulk_delete:
-        breadcrumb: Deletar varios
+        breadcrumb: Deletar vários
         bulk_link: Deletar %{model_label_plural} selecionado
-        menu: Deletar varios
+        menu: Deletar vários
         title: Deletar %{model_label_plural}
       dashboard:
         breadcrumb: Dashboard
@@ -43,7 +43,7 @@ pt-BR:
         title: Lista de %{model_label_plural}
       new:
         breadcrumb: Novo
-        done: adicionado
+        done: Adicionado
         link: Adicionar novo %{model_label}
         menu: Adicionar novo
         title: Novo %{model_label}
@@ -52,26 +52,26 @@ pt-BR:
         menu: Mostrar
         title: Mostra
       show_in_app:
-        menu: Mostrar na app
+        menu: Mostrar no app
     export:
       click_to_reverse_selection: Clique para reverter a seleção
       confirmation: Exportar para %{name}
       csv:
         col_sep: Separador de coluna
-        col_sep_help: Deixe em branco para padrão ('%{value}')
+        col_sep_help: Deixe em branco para utilizar o padrão ('%{value}')
         default_col_sep: ","
         encoding_to: Converter para
         encoding_to_help:
         header_for_association_methods: "%{name} [%{association}]"
         header_for_root_methods: "%{name}"
         skip_header: Sem cabeçalho
-        skip_header_help:
+        skip_header_help: Não incluir o cabeçalho
       display: 'Mostrar %{name}: %{type}'
       empty_value_for_associated_objects: "<vazio>"
       fields_from: Campos de %{name}
       fields_from_associated:
       options_for: Opções para %{name}
-      select: Selecione campos para exportar
+      select: Selecione os campos para exportar
     flash:
       error: "%{name} falhou ao ser %{action}"
       model_not_found: Modelo '%{model}' não foi encontrado"
@@ -79,8 +79,8 @@ pt-BR:
       object_not_found: "%{model} com id '%{id}' não foi encontrado"
       successful: "%{name} foi %{action} com sucesso"
     form:
-      all_of_the_following_related_items_will_be_deleted: Todos os arquivos selecionadosserão excluídos
-      are_you_sure_you_want_to_delete_the_object: Você tem certeza que deseja apagar
+      all_of_the_following_related_items_will_be_deleted: Todos os arquivos selecionados serão excluídos
+      are_you_sure_you_want_to_delete_the_object: Você tem certeza que deseja excluir
       basic_info: Informações básicas
       bulk_delete:
       cancel: Cancelar
@@ -102,7 +102,7 @@ pt-BR:
       chose_all: Escolher todos
       chosen: "%{name} escolhido"
       clear_all: Limpar todos
-      down:
+      down: Para baixo
       filter: Filtro
       filter_date_format: mm/dd/yy
       log_out: Sair
@@ -111,7 +111,7 @@ pt-BR:
       remove: Remover
       search: Buscar
       show_all: Mostrar todos
-      up:
+      up: Para cima
     table_headers:
       changes: Mudanças
       created_at: Data/Hora
@@ -126,4 +126,21 @@ pt-BR:
     pagination:
       next: Próximo &raquo;
       previous: "&laquo; Anterior"
-      truncate:
+      truncate: …
+    js:
+      true: Sim
+      false: Não
+      is_present: Está presente
+      is_blank: Está em branco
+      date: Data ...
+      between_and_: Entre ... e ...
+      today: Hoje
+      yesterday: Ontem
+      this_week: Esta semana
+      last_week: Semana passada
+      number: Número ...
+      contains: Contém
+      is_exactly: É exatamente
+      starts_with: Começa com
+      ends_with: Termina com
+    loading: "Carregando..."
