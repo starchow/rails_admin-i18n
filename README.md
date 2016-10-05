@@ -37,4 +37,4 @@ https://github.com/starchow/rails_admin-i18n/graphs/contributors
 
 ## Copyright
 
-Copyright (c) 2011 Pham Trung Nam, base on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for further details.
+Copyright (c) 2011 Pham Trung Nam, based on [devise-i18n](https://github.com/tigrish/devise-i18n). See LICENSE.txt for further details.
