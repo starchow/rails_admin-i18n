@@ -1,0 +1,129 @@
+fi-FI:
+  admin:
+    home:
+      name: "Koti"
+    pagination:
+      previous: "&laquo; Ed."
+      next: "Seur. &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd.mm.yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Hae"
+      filter: "Suodata"
+      refresh: "Päivitä"
+      show_all: "Näytä kaikki"
+      add_filter: "Lisää suodatin"
+      bulk_menu_title: "Valitut kohteet"
+      remove: "Poista"
+      add_new: "Lisää uusi"
+      chosen: "Valittu %{name}"
+      chose_all: "Valitse kaikki"
+      clear_all: "Tyhjennä kaikki"
+      up: "Ylös"
+      down: "Alas"
+      navigation: "Navigointi"
+      log_out: "Kirjaudu ulos"
+      ago: "sitten"
+    flash:
+      successful: "%{name} onnistuneesti %{action}"
+      error: "%{name} epäonnistui olemaan %{action}"
+      noaction: "Mitään toimintoja ei tehty"
+      model_not_found: "Mallia '%{model}' ei löytynyt"
+      object_not_found: "%{model} id:llä '%{id}' ei löytynyt"
+    table_headers:
+      model_name: "Mallin nimi"
+      last_used: "Viimeksi käytetty"
+      records: "Tietueet"
+      username: "Käyttäjä"
+      changes: "Muutokset"
+      created_at: "Pvm/Aika"
+      item: "Kohde"
+      message: "Viesti"
+    actions:
+      dashboard:
+        title: "Sivuston ylläpito"
+        menu: "Dashboard"
+        breadcrumb: "Dashboard"
+      index:
+        title: "Lista %{model_label_plural}"
+        menu: "Lista"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Tiedot %{model_label} '%{object_label}'"
+        menu: "Näytä"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Näytä sovelluksessa"
+      new:
+        title: "Uusi %{model_label}"
+        menu: "Lisää uusi"
+        breadcrumb: "Uusi"
+        link: "Lisää uusi %{model_label}"
+        done: "luotu"
+      edit:
+        title: "Muokkaa %{model_label} '%{object_label}'"
+        menu: "Muokkaa"
+        breadcrumb: "Muokkaa"
+        link: "Muokkaa tätä %{model_label}"
+        done: "päivitty"
+      delete:
+        title: "Poista %{model_label} '%{object_label}'"
+        menu: "Poista"
+        breadcrumb: "Poista"
+        link: "Poista '%{object_label}'"
+        done: "deleted"
+      bulk_delete:
+        title: "Poista %{model_label_plural}"
+        menu: "Poista useita"
+        breadcrumb: "Poista useita"
+        bulk_link: "Poista valittu %{model_label_plural}"
+      export:
+        title: "Vie %{model_label_plural}"
+        menu: "Vie"
+        breadcrumb: "Vie"
+        link: "Vie löydetty %{model_label_plural}"
+        bulk_link: "Vie valittu %{model_label_plural}"
+        done: "viety"
+      history_index:
+        title: "%{model_label_plural} historia"
+        menu: "Historia"
+        breadcrumb: "Historia"
+      history_show:
+        title: "Historia %{model_label} '%{object_label}'"
+        menu: "Historia"
+        breadcrumb: "Historia"
+    form:
+      cancel: "Peruuta"
+      basic_info: "Perustiedot"
+      required: "Vaadittu"
+      optional: "Vapaaehtoinen"
+      one_char: "merkki"
+      char_length_up_to: "pituus enintään"
+      char_length_of: "pituus"
+      save: "Tallenna"
+      save_and_add_another: "Tallenna ja lisää toinen"
+      save_and_edit: "Tallenna ja muokkaa"
+      all_of_the_following_related_items_will_be_deleted: "? Seuraavat kohteent saatetaan poistaa tai tehdä orvoiksi:"
+      are_you_sure_you_want_to_delete_the_object: "Oletko varma, että haluat poistaa tämän %{model_name}"
+      confirmation: "Kyllä, olen varma"
+      bulk_delete: "Seuraavat kohteet poistetaan. Tämä saattaa poistaa tai tehdä orvoksi joitakin niiden riippuvaisuuksia:"
+      new_model: "%{name} (uusi)"
+    export:
+      confirmation: "Vie kohteeseen %{name}"
+      select: "Valitse vietävät kentät"
+      fields_from: "Kentät kohteesta %{name}"
+      fields_from_associated: "Kentät liittyvästä kohteesta %{name}"
+      display: "Näytä %{name}: %{type}"
+      options_for: "%{name} vaihtoehdot"
+      empty_value_for_associated_objects: "<tyhjä>"
+      click_to_reverse_selection: 'Klikkaa varataksesi valinnan'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Encode to"
+        encoding_to_help: "Valitse ulostulon koodaus. Jätä tyhjäksi jättääksesi nykyisen syötteen koodauksen koskemattomaksi: (%{name})"
+        skip_header: "Ei ylätunnistetta"
+        skip_header_help: "Älä tuota ylätunnisteita (ei kenttien kuvauksia)"
+        default_col_sep: ","
+        col_sep: "Sarakkeen erotin"
+        col_sep_help: "Jätä tyhjäksi käyttääksei oletusta ('%{value}')" # value is default_col_sep
