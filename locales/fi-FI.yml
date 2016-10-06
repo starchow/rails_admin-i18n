@@ -3,7 +3,7 @@ fi-FI:
     home:
       name: "Koti"
     pagination:
-      previous: "&laquo; Edel."
+      previous: "&laquo; Ed."
       next: "Seur. &raquo;"
       truncate: "…"
     misc:
