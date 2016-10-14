@@ -8,7 +8,7 @@ nl:
       truncate: "…"
     misc:
       filter_date_format: "dd-mm-yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
-      search: "Zoek"
+      search: "Zoeken"
       filter: "Filter"
       refresh: "Vernieuwen"
       show_all: "Toon alles"
@@ -20,14 +20,14 @@ nl:
       chose_all: "Kies alles"
       clear_all: "Verwijder alles"
       up: "Omhoog"
-      down: "Naar beneden"
+      down: "Omlaag"
       navigation: "Navigatie"
       log_out: "Log uit"
       ago: "geleden"
     flash:
       successful: "%{name} successvol %{action}"
       error: "%{name} mislukt om %{action} te doen"
-      noaction: "Er zijn acties verricht"
+      noaction: "Er zijn geen acties uitgevoerd"
       model_not_found: "Model '%{model}' kon niet gevonden worden"
       object_not_found: "%{model} met id '%{id}' kon niet gevonden worden"
     table_headers:
@@ -120,7 +120,7 @@ nl:
       csv:
         header_for_root_methods: "%{name}" # 'model' is available
         header_for_association_methods: "%{name} [%{association}]"
-        encoding_to: "Encodeer naar"
+        encoding_to: "Encoderen naar"
         encoding_to_help: "Kies een uitvoer encodering. Laat leeg om de huidige encodering te gebruiken: (%{name})"
         skip_header: "Geen headers"
         skip_header_help: "Voer geen headers uit (geen veld beschrijvingen)"
