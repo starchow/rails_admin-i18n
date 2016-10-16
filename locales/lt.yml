@@ -16,7 +16,7 @@ lt:
       is_exactly: Yra lygiai
       starts_with: Prasideda
       ends_with: Baigiasi
-    loading: "Krauna..."
+    loading: "Įkeliame..."
     home:
       name: "Namai"
     pagination:
@@ -121,28 +121,28 @@ lt:
       save: "Išsaugoti"
       save_and_add_another: "Išsaugoti ir pridėti kitą"
       save_and_edit: "Išsaugoti ir redaguoti"
-      all_of_the_following_related_items_will_be_deleted: "? Sekantys įrašai gali būti ištrinti arba palikti našlaičiais:"
+      all_of_the_following_related_items_will_be_deleted: "Sekantys objektai bus ištrinti:"
       are_you_sure_you_want_to_delete_the_object: "Ar jūs esate tikras, kad norite ištrinti %{model_name}"
       confirmation: "Taip, aš tikras"
-      bulk_delete: "Sekantys objektai bus ištrinti, kurie gali ištrinti arba palikti našlaičiai keletą priklausinių:"
+      bulk_delete: "Sekantys objektai bus ištrinti. Tai gali sugriauti ryšius su kitais objektais:"
       new_model: "%{name} (new)"
     export:
-      confirmation: "Export to %{name}"
-      select: "Select fields to export"
-      select_all_fields: "Select All Fields"
-      fields_from: "Fields from %{name}"
-      fields_from_associated: "Fields from associated %{name}"
-      display: "Display %{name}: %{type}"
-      options_for: "Options for %{name}"
-      empty_value_for_associated_objects: "<empty>"
-      click_to_reverse_selection: 'Click to reverse selection'
+      confirmation: "Eksportuoti kaip %{name}"
+      select: "Pažymėkite eksportuojamus laukelius"
+      select_all_fields: "Pažymėti visus"
+      fields_from: "Laukeliai iš %{name}"
+      fields_from_associated: "Laukeliai iš asociacijų %{name}"
+      display: "Rodyti %{name}: %{type}"
+      options_for: "Nustatymai %{name}"
+      empty_value_for_associated_objects: "<tusčia>"
+      click_to_reverse_selection: 'Spragtelėkite, kad apversti pažymėjimą'
       csv:
         header_for_root_methods: "%{name}" # 'model' is available
         header_for_association_methods: "%{name} [%{association}]"
-        encoding_to: "Encode to"
-        encoding_to_help: "Choose output encoding. Leave empty to let current input encoding untouched: (%{name})"
-        skip_header: "No header"
-        skip_header_help: "Do not output a header (no fields description)"
+        encoding_to: "Užkoduoti kaip"
+        encoding_to_help: "Pasirinkite koduotuotę. Jei nenorite keisti, palike tusčią (%{name})."
+        skip_header: "Be antrasčių"
+        skip_header_help: "Neišvesti antrasčių (be laukelių aprašymų)"
         default_col_sep: ","
-        col_sep: "Column separator"
-        col_sep_help: "Leave blank for default ('%{value}')" # value is default_col_sep
+        col_sep: "Skilčių skirtukas"
+        col_sep_help: "Palikti tusčia numatytam parinkčiai ('%{value}')" # value is default_col_sep
