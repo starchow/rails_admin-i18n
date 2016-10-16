@@ -140,7 +140,7 @@ lt:
         header_for_root_methods: "%{name}" # 'model' is available
         header_for_association_methods: "%{name} [%{association}]"
         encoding_to: "Užkoduoti kaip"
-        encoding_to_help: "Pasirinkite koduotuotę. Jei nenorite keisti, palike tusčią (%{name})."
+        encoding_to_help: "Pasirinkite koduotę. Jei nenorite keisti, palike tusčią (%{name})."
         skip_header: "Be antrasčių"
         skip_header_help: "Neišvesti antrasčių (be laukelių aprašymų)"
         default_col_sep: ","
