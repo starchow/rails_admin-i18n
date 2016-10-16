@@ -43,7 +43,7 @@ lt:
       log_out: "Atsijungti"
       ago: "prieš"
     flash:
-      successful: "%{name} įvykdė  %{action}"
+      successful: "%{name} %{action}"
       error: "%{name} nepavyko %{action}"
       noaction: "Nebuvo imtasi jokių veiksmų"
       model_not_found: "Modelis '%{model}' nerastas"
@@ -122,9 +122,9 @@ lt:
       save_and_add_another: "Išsaugoti ir pridėti kitą"
       save_and_edit: "Išsaugoti ir redaguoti"
       all_of_the_following_related_items_will_be_deleted: "Sekantys objektai bus ištrinti:"
-      are_you_sure_you_want_to_delete_the_object: "Ar jūs esate tikras, kad norite ištrinti %{model_name}"
-      confirmation: "Taip, aš tikras"
-      bulk_delete: "Sekantys objektai bus ištrinti. Tai gali sugriauti ryšius su kitais objektais:"
+      are_you_sure_you_want_to_delete_the_object: "Ar norite ištrinti %{model_name}"
+      confirmation: "Taip"
+      bulk_delete: " Sekantys objektai bus ištrinti. Tai gali sugriauti ryšius su kitais objektais:"
       new_model: "%{name} (new)"
     export:
       confirmation: "Eksportuoti kaip %{name}"
