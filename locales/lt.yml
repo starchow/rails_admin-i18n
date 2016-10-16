@@ -100,7 +100,7 @@ lt:
         menu: "Eksportuoti"
         breadcrumb: "Eksportuoti"
         link: "Eksportuotas rastas %{model_label_plural}"
-        bulk_link: "Eksportuotas pažymėta %{model_label_plural}"
+        bulk_link: "Eksportuoti pažymėtus %{model_label_plural}"
         done: "eksportuota"
       history_index:
         title: "Istorija %{model_label_plural}"
