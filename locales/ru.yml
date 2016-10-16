@@ -61,7 +61,7 @@ ru:
       dashboard:
         title: "Управление сайтом"
         menu: "Панель управления"
-        breadcrumb: "панель управления"
+        breadcrumb: "Панель управления"
       index:
         title: "Список %{model_label_plural}"
         menu: "Список"
@@ -92,8 +92,8 @@ ru:
         done: "удалено"
       bulk_delete:
         title: "Удалить много %{model_label_plural}"
-        menu: "Мульти-удаление"
-        breadcrumb: "мульти-удаление"
+        menu: "Множественное удаление"
+        breadcrumb: "Множественное удаление"
         bulk_link: "Удалить выбранные %{model_label_plural}"
       export:
         title: "Экспорт %{model_label}"
@@ -105,11 +105,11 @@ ru:
       history_index:
         title: "История для %{model_label_plural}"
         menu: "История"
-        breadcrumb: "история"
+        breadcrumb: "История"
       history_show:
         title: "История для %{model_label} '%{object_label}'"
         menu: "История"
-        breadcrumb: "история"
+        breadcrumb: "История"
     form:
       cancel: "Отмена"
       basic_info: "Основное"
@@ -135,14 +135,14 @@ ru:
       display: "Показать %{name}: %{type}"
       options_for: "Настройки для %{name}"
       empty_value_for_associated_objects: "<пусто>"
-      click_to_reverse_selection: 'Обратить выделение'
+      click_to_reverse_selection: 'Отменить выделение'
       csv:
         header_for_root_methods: "%{name}" # 'model' is available
         header_for_association_methods: "%{name} [%{association}]"
         encoding_to: "Декодировать как"
-        encoding_to_help: "Выберите результирующую кодировку. Оставьте пустой, чтобы оставить исходную кодировку нетронутой: (%{name})"
+        encoding_to_help: "Выберите результирующую кодировку. Оставьте пустой, чтобы сохранить текущую кодировку: (%{name})"
         skip_header: "Без заголовка"
         skip_header_help: "Не выводить заголовок (без описаний полей)"
         default_col_sep: ","
         col_sep: "Разделитель столбцов"
-        col_sep_help: "Оставьте пустым, чтобы было по умолчанию ('%{value}')" # value is default_col_sep
+        col_sep_help: "Оставьте пустым, чтобы было по-умолчанию ('%{value}')" # value is default_col_sep
