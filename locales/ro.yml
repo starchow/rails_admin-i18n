@@ -1,0 +1,148 @@
+ro:
+  admin:
+    js:
+      true: Adevărat
+      false: Fals
+      is_present: Este prezent
+      is_blank: Este gol
+      date: Data ...
+      between_and_: Între ... și ...
+      today: Astăzi
+      yesterday: Ieri
+      this_week: Săptămâna aceasta
+      last_week: Săptămâna trecută
+      number: Număr ...
+      contains: Conține
+      is_exactly: Este exact
+      starts_with: Începe cu
+      ends_with: Se termină în
+    loading: "Se încarcă..."
+    home:
+      name: "Acasă"
+    pagination:
+      previous: "&laquo; Precedentă"
+      next: "Următoarea &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Caută"
+      filter: "Filtrează"
+      refresh: "Reîmprospătează"
+      show_all: "Afișează toate"
+      add_filter: "Adaugă filtru"
+      bulk_menu_title: "Elemente selectate"
+      remove: "Șterge"
+      add_new: "Adaugă"
+      chosen: "Ales %{name}"
+      chose_all: "Alege tot"
+      clear_all: "Șterge tot"
+      up: "Sus"
+      down: "Jos"
+      navigation: "Navigare"
+      navigation_static_label: "Linkuri"
+      log_out: "Ieșire"
+      ago: "în urmă"
+    flash:
+      successful: "%{name} : %{action} cu succes"
+      error: "%{name} nu a reușit %{action}"
+      noaction: "Nicio acțiune reușită"
+      model_not_found: "Modelul '%{model}' nu a fost găsit"
+      object_not_found: "%{model} cu identificatorul '%{id}' nu a fost găsit"
+    table_headers:
+      model_name: "Numele modelului"
+      last_used: "Ultima folosire"
+      records: "Înregistrări"
+      username: "Utilizator"
+      changes: "Schimbări"
+      created_at: "Dată/Ora"
+      item: "Element"
+      message: "Mesaj"
+    actions:
+      dashboard:
+        title: "Administrare site"
+        menu: "Panou de control"
+        breadcrumb: "Panou de control"
+      index:
+        title: "Listă de %{model_label_plural}"
+        menu: "Listă"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detalii pentru %{model_label} '%{object_label}'"
+        menu: "Arată"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Arată în aplicație"
+      new:
+        title: "Nou %{model_label}"
+        menu: "Adaugă"
+        breadcrumb: "Nou"
+        link: "Adaugă un nou %{model_label}"
+        done: "creat"
+      edit:
+        title: "Modifică %{model_label} '%{object_label}'"
+        menu: "Modifică"
+        breadcrumb: "Modifică"
+        link: "Modifică acest %{model_label}"
+        done: "modificat"
+      delete:
+        title: "Șterge %{model_label} '%{object_label}'"
+        menu: "Șterge"
+        breadcrumb: "Șterge"
+        link: "Șterge '%{object_label}'"
+        done: "șters"
+      bulk_delete:
+        title: "Șterge %{model_label_plural}"
+        menu: "Sterge mai multe"
+        breadcrumb: "Sterge mai multe"
+        bulk_link: "Sterge selecție %{model_label_plural}"
+      export:
+        title: "Exportă %{model_label_plural}"
+        menu: "Exportă"
+        breadcrumb: "Exportă"
+        link: "Exportă %{model_label_plural}"
+        bulk_link: "Exportă selecție %{model_label_plural}"
+        done: "exportat"
+      history_index:
+        title: "Istoric pentru %{model_label_plural}"
+        menu: "Istoric"
+        breadcrumb: "Istoric"
+      history_show:
+        title: "Istoric pentru %{model_label} '%{object_label}'"
+        menu: "Istoric"
+        breadcrumb: "Istoric"
+    form:
+      cancel: "Anulează"
+      basic_info: "Informații de bază"
+      required: "Obligatoriu"
+      optional: "Opțional"
+      one_char: "caracter"
+      char_length_up_to: "lungime până la"
+      char_length_of: "lungime de"
+      save: "Salvează"
+      save_and_add_another: "Salvează și adaugă unul nou"
+      save_and_edit: "Salvează și editează"
+      all_of_the_following_related_items_will_be_deleted: "? Următoarele elemente pot fi șterse:"
+      are_you_sure_you_want_to_delete_the_object: "Sunteți sigur că vreți să ștergeți %{model_name}"
+      confirmation: "Da, sunt sigur"
+      bulk_delete: "Următoarele obiecte vor fi șterse, ceea ce poate cauza ca unele dependețe să se șteargă sau să nu mai funcționeze:"
+      new_model: "%{name} (nou)"
+    export:
+      confirmation: "Exportă la %{name}"
+      select: "Selectează elementele pentru export"
+      select_all_fields: "Selectează toate elementele"
+      fields_from: "Câmpuri de %{name}"
+      fields_from_associated: "Câmpuri asociate cu %{name}"
+      display: "Afișează %{name}: %{type}"
+      options_for: "Opțiuni pentru %{name}"
+      empty_value_for_associated_objects: "<gol>"
+      click_to_reverse_selection: 'Click pentru a inversa selecția'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Codifică"
+        encoding_to_help: "Selectează codificarea. Lasă liber pentru ca următoarea codificare să rămână neatinsă: (%{name})"
+        skip_header: "Fără antet"
+        skip_header_help: "Nu afișează antent (niciun câmp descris)"
+        default_col_sep: ","
+        col_sep: "Separator de coloană"
+        col_sep_help: "Lasă gol pentru valoarea implicită ('%{value}')" # value is default_col_sep
