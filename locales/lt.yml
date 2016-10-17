@@ -1,0 +1,148 @@
+lt:
+  admin:
+    js:
+      true: Tiesa
+      false: Melas
+      is_present: Yra
+      is_blank: Nėra
+      date: Data ...
+      between_and_: Tarp ... ir ...
+      today: Šiandien
+      yesterday: Vakar
+      this_week: Ši savaitė
+      last_week: Praėjusi savaitė
+      number: Skaičius ...
+      contains: Turi
+      is_exactly: Yra lygiai
+      starts_with: Prasideda
+      ends_with: Baigiasi
+    loading: "Įkeliame..."
+    home:
+      name: "Namai"
+    pagination:
+      previous: "&laquo; Atgal"
+      next: "Kitas &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "yyyy-mm-dd" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Paieška"
+      filter: "Filtras"
+      refresh: "Atnaujinti"
+      show_all: "Rodyti viską"
+      add_filter: "Pridėti filtrą"
+      bulk_menu_title: "Pažymėtos bylos"
+      remove: "Pašalinti"
+      add_new: "Pridėti naują"
+      chosen: "Pasirinktas %{name}"
+      chose_all: "Pasirinkti viską"
+      clear_all: "Išvalyti viską"
+      up: "Į viršų"
+      down: "Žemyn"
+      navigation: "Navigacija"
+      navigation_static_label: "Nuorodos"
+      log_out: "Atsijungti"
+      ago: "prieš"
+    flash:
+      successful: "%{name} %{action}"
+      error: "%{name} nepavyko %{action}"
+      noaction: "Nebuvo imtasi jokių veiksmų"
+      model_not_found: "Modelis '%{model}' nerastas"
+      object_not_found: "%{model} su id '%{id}' nerastas"
+    table_headers:
+      model_name: "Modelio pavadinimas"
+      last_used: "Paskutinį kartą naudotas"
+      records: "Įrašai"
+      username: "Vartotojas"
+      changes: "Pakeitimai"
+      created_at: "Data/Laikas"
+      item: "Įrašas"
+      message: "Žinutė"
+    actions:
+      dashboard:
+        title: "Svetainės administravimas"
+        menu: "Skydelis"
+        breadcrumb: "Skydelis"
+      index:
+        title: "Sąrašas %{model_label_plural}"
+        menu: "Sąrašas"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detailės %{model_label} '%{object_label}'"
+        menu: "Rodyti"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Rodyti aplikacijoje"
+      new:
+        title: "Naujas %{model_label}"
+        menu: "Pridėti naują"
+        breadcrumb: "Naujas"
+        link: "Pridėti naują %{model_label}"
+        done: "sukurtas"
+      edit:
+        title: "Redaguoti %{model_label} '%{object_label}'"
+        menu: "Redaguoti"
+        breadcrumb: "Redaguoti"
+        link: "Redaguoti šį %{model_label}"
+        done: "atnaujintas"
+      delete:
+        title: "Trinti %{model_label} '%{object_label}'"
+        menu: "Ištrinti"
+        breadcrumb: "Trinti"
+        link: "Trinti '%{object_label}'"
+        done: "ištrintas"
+      bulk_delete:
+        title: "Trinti %{model_label_plural}"
+        menu: "Daugybinis naikinimas"
+        breadcrumb: "Daugybinis naikinimas"
+        bulk_link: "Naikinti pažymėtus %{model_label_plural}"
+      export:
+        title: "Eksportuoti %{model_label_plural}"
+        menu: "Eksportuoti"
+        breadcrumb: "Eksportuoti"
+        link: "Eksportuotas rastas %{model_label_plural}"
+        bulk_link: "Eksportuoti pažymėtus %{model_label_plural}"
+        done: "eksportuota"
+      history_index:
+        title: "Istorija %{model_label_plural}"
+        menu: "Istorija"
+        breadcrumb: "Istorija"
+      history_show:
+        title: "Istorija %{model_label} '%{object_label}'"
+        menu: "Istorija"
+        breadcrumb: "Istorija"
+    form:
+      cancel: "Atšaukti"
+      basic_info: "Pagrindinė informacija"
+      required: "Privaloma"
+      optional: "Pasirinktinai"
+      one_char: "raidė"
+      char_length_up_to: "ilgis iki"
+      char_length_of: "ilgis"
+      save: "Išsaugoti"
+      save_and_add_another: "Išsaugoti ir pridėti kitą"
+      save_and_edit: "Išsaugoti ir redaguoti"
+      all_of_the_following_related_items_will_be_deleted: "Sekantys objektai bus ištrinti:"
+      are_you_sure_you_want_to_delete_the_object: "Ar norite ištrinti %{model_name}"
+      confirmation: "Taip"
+      bulk_delete: " Sekantys objektai bus ištrinti. Tai gali sugriauti ryšius su kitais objektais:"
+      new_model: "%{name} (new)"
+    export:
+      confirmation: "Eksportuoti kaip %{name}"
+      select: "Pažymėkite eksportuojamus laukelius"
+      select_all_fields: "Pažymėti visus"
+      fields_from: "Laukeliai iš %{name}"
+      fields_from_associated: "Laukeliai iš asociacijų %{name}"
+      display: "Rodyti %{name}: %{type}"
+      options_for: "Nustatymai %{name}"
+      empty_value_for_associated_objects: "<tusčia>"
+      click_to_reverse_selection: 'Spragtelėkite, kad apversti pažymėjimą'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Užkoduoti kaip"
+        encoding_to_help: "Pasirinkite koduotę. Jei nenorite keisti, palike tusčią (%{name})."
+        skip_header: "Be antrasčių"
+        skip_header_help: "Neišvesti antrasčių (be laukelių aprašymų)"
+        default_col_sep: ","
+        col_sep: "Skilčių skirtukas"
+        col_sep_help: "Palikti tusčia numatytam parinkčiai ('%{value}')" # value is default_col_sep
