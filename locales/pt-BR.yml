@@ -82,7 +82,7 @@ pt-BR:
       all_of_the_following_related_items_will_be_deleted: Todos os arquivos selecionados serão excluídos
       are_you_sure_you_want_to_delete_the_object: Você tem certeza que deseja excluir
       basic_info: Informações básicas
-      bulk_delete:
+      bulk_delete: "Os seguintes objetos serão excluídos podendo também excluir objetos relacionados ou deixar relacionamentos órfãos"
       cancel: Cancelar
       char_length_of: Comprimento
       char_length_up_to: Comprimento até
