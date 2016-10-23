@@ -121,6 +121,7 @@ pt-BR:
       model_name: Nome do modelo
       records: Entradas
       username: Usuário
+      last_created: Última entrada
     home:
       name: Página inicial
     pagination:
