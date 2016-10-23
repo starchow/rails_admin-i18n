@@ -26,7 +26,7 @@ pt-BR:
         breadcrumb: Exportar
         bulk_link: Exportar %{model_label_plural} selecionados
         done: Exportado
-        link: Exportação encontrada %{model_label_plural}
+        link: Exportar %{model_label_plural}
         menu: Exportar
         title: Exportar %{model_label_plural}
       history_index:
