@@ -50,6 +50,7 @@ en:
       object_not_found: "%{model} with id '%{id}' could not be found"
     table_headers:
       model_name: "Model name"
+      last_created: "Last created"
       last_used: "Last used"
       records: "Records"
       username: "User"
