@@ -1,0 +1,153 @@
+be:
+  admin:
+    js:
+      true: Праўдзіва
+      false: Ілжыва
+      is_present: Прадстаўлена
+      is_blank: Пуста
+      date: Дата ...
+      between_and_: Паміж ... і ...
+      today: Сёння
+      yesterday: Учора
+      this_week: На гэтым тыдні
+      last_week: На мінулым тыдні
+      number: Лік ...
+      contains: Ўключае
+      is_exactly: Дакладна
+      starts_with: Пачынаецца з
+      ends_with: Заканчваецца на
+      too_many_objects: "Занадта шмат аб'ектаў, выкарыстоўвайце акно пошуку вышэй"
+      no_objects: "Аб'екты не знойдзены"
+    loading: "Загрузка..."
+    toggle_navigation: Пераключэнне навігацыі
+    home:
+      name: "Галоўная"
+    pagination:
+      previous: "&laquo; Назад"
+      next: "Наперад &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Пошук"
+      filter: "Фільтраванне"
+      refresh: "Абнавіць"
+      show_all: "Паказаць усе"
+      add_filter: "Дадаць фільтр..."
+      bulk_menu_title: "Выбраныя элементы..."
+      remove: "Выдаліць"
+      add_new: "Дадаць"
+      chosen: "Абраны %{name}"
+      chose_all: "Выбраць усе"
+      clear_all: "Ачысціць ўсе"
+      up: "Ўверх"
+      down: "Ўніз"
+      navigation: "Рух"
+      navigation_static_label: "Спасылкі"
+      log_out: "Выйсці"
+      ago: "назад"
+      more: "Плюс яшчэ %{count} %{models_name}"
+    flash:
+      successful: "%{name} паспяхова %{action}"
+      error: "%{name} не ўдалося %{action}"
+      noaction: "Ніякіх зменаў не выканана"
+      model_not_found: "Мадэль '%{model}' не знойдзена"
+      object_not_found: "Аб'ект %{model} с id '%{id}' не знойдзены"
+    table_headers:
+      model_name: "Назва мадэлі"
+      last_created: "Апошні раз стваралася"
+      last_used: "Апошні раз выкарыстоўвалася"
+      records: "Запісы"
+      username: "Карыстальнік"
+      changes: "Змены"
+      created_at: "Дата/Час"
+      item: "Элемент"
+      message: "Паведамленне"
+    actions:
+      dashboard:
+        title: "Кіраванне сайтам"
+        menu: "Панэль кіравання"
+        breadcrumb: "Панэль кіравання"
+      index:
+        title: "Спіс %{model_label_plural}"
+        menu: "Спіс"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Дэталі %{model_label} '%{object_label}'"
+        menu: "Прагляд"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Паказаць у дадатку"
+      new:
+        title: "Новы %{model_label}"
+        menu: "Стварэнне"
+        breadcrumb: "новы"
+        link: "Дадаць %{model_label}"
+        done: "створана"
+      edit:
+        title: "Рэдагаванне %{model_label} '%{object_label}'"
+        menu: "Рэдагаванне"
+        breadcrumb: "рэдагаванне"
+        link: "Рэдагаваць %{model_label}"
+        done: "захавана"
+      delete:
+        title: "Выдаленне %{model_label} '%{object_label}'"
+        menu: "Выдаленне"
+        breadcrumb: "выдаленне"
+        link: "Выдаліць '%{object_label}'"
+        done: "выдалена"
+      bulk_delete:
+        title: "Выдаліць шмат %{model_label_plural}"
+        menu: "Множнае выдаленне"
+        breadcrumb: "Множнае выдаленне"
+        bulk_link: "Выдаліць абраныя %{model_label_plural}"
+      export:
+        title: "Экспарт %{model_label}"
+        menu: "Экспарт"
+        breadcrumb: "экспарт"
+        link: "Экспарт знойдзеных %{model_label_plural}"
+        bulk_link: "Экспарт выбраных %{model_label_plural}"
+        done: "экспартавана"
+      history_index:
+        title: "Гісторыя для %{model_label_plural}"
+        menu: "Гісторыя"
+        breadcrumb: "Гісторыя"
+      history_show:
+        title: "Гісторыя для %{model_label} '%{object_label}'"
+        menu: "Гісторыя"
+        breadcrumb: "Гісторыя"
+    form:
+      cancel: "Адмен"
+      basic_info: "Асноўнае"
+      required: "Патрабаванае"
+      optional: "Неабавязковае"
+      one_char: "сімвал"
+      char_length_up_to: "даўжыня не больш"
+      char_length_of: "даўжыня"
+      save: "Захаваць"
+      save_and_add_another: "Захаваць і дадаць новы"
+      save_and_edit: "Захаваць і працягнуць рэдагаванне"
+      all_of_the_following_related_items_will_be_deleted: "Наступныя аб'екты будуць выдалены:"
+      are_you_sure_you_want_to_delete_the_object: "Вы ўпэўненыя, што хочаце выдаліць %{model_name}"
+      confirmation: "Так, упэўнены"
+      bulk_delete: "Наступныя аб'екты будуць выдаленыя. Гэта можа зламаць сувязі з іншымі аб'ектамі:"
+      new_model: "%{name} (новы)"
+    export:
+      confirmation: "Экспартаваць як %{name}"
+      select: "Абярыце поля для экспарту"
+      select_all_fields: "Выбраць усе палі"
+      fields_from: "Поля з %{name}"
+      fields_from_associated: "Поля з асацыяванай %{name}"
+      display: "Паказаць %{name}: %{type}"
+      options_for: "Настройкі для %{name}"
+      empty_value_for_associated_objects: "<пуста>"
+      click_to_reverse_selection: 'Адмяніць вылучэнне'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Дэкадаваць як"
+        encoding_to_help: "Выберыце выніковую кадыроўку. Пакіньце пустой, каб захаваць бягучую кадыроўку: (%{name})"
+        skip_header: "Без загалоўка"
+        skip_header_help: "Не выводзіць загаловак (без апісанняў палёў)"
+        default_col_sep: ","
+        col_sep: "Падзельнік слупкоў"
+        col_sep_help: "Пакіньце пустым, каб было па-змаўчанні ('%{value}')" # value is default_col_sep
