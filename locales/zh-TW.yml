@@ -65,7 +65,7 @@ zh-TW:
       display: "顯示%{name}: %{type}"
       empty_value_for_associated_objects: "<空>"
       fields_from: "%{name} 中的字段"
-      fields_from_associated: "关联的 %{name} 中的字段"
+      fields_from_associated: "關聯的 %{name} 中的字段"
       options_for: "%{name} 格式選項"
       select: "選擇要匯出的字段"
     flash:
@@ -88,7 +88,7 @@ zh-TW:
       optional: "可選"
       required: "必填"
       save: "儲存"
-      save_and_add_another: "儲存并新增另一個"
+      save_and_add_another: "儲存並新增另一個"
       save_and_edit: "儲存並繼續編輯"
     misc:
       add_filter: "增加過濾條件"
