@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Nam Pham Trung"]
-  s.date = "2016-08-26"
+  s.date = "2016-11-03"
   s.description = "Translations for the rails_admin gem"
   s.email = ["puma.puma07@gmail.com"]
   s.extra_rdoc_files = [
@@ -31,20 +31,24 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/rails_admin-i18n.rb",
+    "locales/be.yml",
     "locales/cs.yml",
     "locales/de.yml",
     "locales/en-US.yml",
     "locales/en.yml",
     "locales/es-MX.yml",
     "locales/es.yml",
+    "locales/fi-FI.yml",
     "locales/fr.yml",
     "locales/he.yml",
     "locales/it.yml",
     "locales/ja.yml",
     "locales/ko-KR.yml",
+    "locales/lt.yml",
     "locales/nl.yml",
     "locales/pl.yml",
     "locales/pt-BR.yml",
+    "locales/ro.yml",
     "locales/ru.yml",
     "locales/sk.yml",
     "locales/sv.yml",
@@ -52,13 +56,14 @@ Gem::Specification.new do |s|
     "locales/uk.yml",
     "locales/vi.yml",
     "locales/zh-CN.yml",
+    "locales/zh-TW.yml",
     "rails_admin-i18n.gemspec",
     "spec/rails_admin-i18n_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = "http://github.com/starchow/rails_admin-i18n"
   s.licenses = ["MIT"]
-  s.rubygems_version = "2.4.6"
+  s.rubygems_version = "2.5.1"
   s.summary = "Translations for the rails_admin gem"
 
   if s.respond_to? :specification_version then
@@ -67,20 +72,23 @@ Gem::Specification.new do |s|
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 2.4.0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.5"])
-      s.add_development_dependency(%q<jeweler>, ["> 1.6.4"])
+      s.add_development_dependency(%q<jeweler>, [">= 0"])
+      s.add_development_dependency(%q<fuubar>, [">= 0"])
       s.add_development_dependency(%q<i18n-spec>, [">= 0"])
       s.add_development_dependency(%q<localeapp>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 2.4.0"])
       s.add_dependency(%q<bundler>, ["~> 1.5"])
-      s.add_dependency(%q<jeweler>, ["> 1.6.4"])
+      s.add_dependency(%q<jeweler>, [">= 0"])
+      s.add_dependency(%q<fuubar>, [">= 0"])
       s.add_dependency(%q<i18n-spec>, [">= 0"])
       s.add_dependency(%q<localeapp>, [">= 0"])
     end
   else
     s.add_dependency(%q<rspec>, [">= 2.4.0"])
     s.add_dependency(%q<bundler>, ["~> 1.5"])
-    s.add_dependency(%q<jeweler>, ["> 1.6.4"])
+    s.add_dependency(%q<jeweler>, [">= 0"])
+    s.add_dependency(%q<fuubar>, [">= 0"])
     s.add_dependency(%q<i18n-spec>, [">= 0"])
     s.add_dependency(%q<localeapp>, [">= 0"])
   end
