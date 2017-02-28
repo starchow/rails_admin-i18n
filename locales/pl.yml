@@ -9,7 +9,7 @@ pl:
       dashboard:
         breadcrumb: Dashboard
         menu: Dashboard
-        title: Strona administracji
+        title: Panel administracyjny
       delete:
         breadcrumb: Usuń
         done: usunięte
@@ -119,8 +119,9 @@ pl:
       last_used: Ostatnio użyty
       message: Wiadomość
       model_name: Nazwa modelu
-      records: Rekordów
+      records: Liczba rekordów
       username: Użytkownik
+      last_created: Ostatni rekord utworozono
     home:
       name: Strona główna
     pagination:
