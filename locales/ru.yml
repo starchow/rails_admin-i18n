@@ -50,6 +50,7 @@ ru:
       object_not_found: "Объект %{model} с id '%{id}' не найден"
     table_headers:
       model_name: "Название модели"
+      last_created: "Последнее создание"
       last_used: "Последний раз использовалось"
       records: "Записи"
       username: "Пользователь"
