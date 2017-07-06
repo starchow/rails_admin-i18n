@@ -12,20 +12,20 @@ pl:
         title: Panel administracyjny
       delete:
         breadcrumb: Usuń
-        done: usunięte
+        done: Usunięcie
         link: Usuń '%{object_label}'
         menu: Usuń
         title: Usuń %{model_label} '%{object_label}'
       edit:
         breadcrumb: Edytuj
-        done: zaktualizowany
+        done: Aktualizajca
         link: Edytuj ten %{model_label}
         menu: Edytuj
         title: Edytuj %{model_label} '%{object_label}'
       export:
         breadcrumb: Eksportuj
         bulk_link: Eksportuj zaznaczone %{model_label_plural}
-        done: wyeksportowane
+        done: Eksport
         link: Eksportuj znalezione %{model_label_plural}
         menu: Eksportuj
         title: Eksportuj %{model_label_plural}
@@ -43,7 +43,7 @@ pl:
         title: Lista %{model_label_plural}
       new:
         breadcrumb: Nowy
-        done: stworzony
+        done: Utworzenie
         link: Dodaj nowy %{model_label}
         menu: Dodaj nowy
         title: Nowy %{model_label}
@@ -54,13 +54,14 @@ pl:
       show_in_app:
         menu: Pokaż w aplikacji
     export:
+      select_all_fields: Zaznacz wszystkie pola
       click_to_reverse_selection: Kliknij aby odwrócić zaznaczenie
-      confirmation: Eksportuj do%{name}
+      confirmation: Eksportuj do %{name}
       csv:
         col_sep: Separator kolumny
         col_sep_help: Pozostaw puste dla domyślnej wartości ('%{value}')
         default_col_sep: ","
-        encoding_to: Koduj do
+        encoding_to: Kodowanie
         encoding_to_help: 'Wybierze wyjściowe kodowanie. Pozostaw puste jeżeli chcesz zachować aktualne kodowanie: (%{name}) '
         header_for_association_methods: "%{name} [%{association}]"
         header_for_root_methods: "%{name}"
@@ -73,11 +74,11 @@ pl:
       options_for: Opcje dla %{name}
       select: Wybierz pola do eksportu
     flash:
-      error: "%{name} nie powiodło się %{action}"
+      error: "%{action} modelu %{name} nie powiodło się"
       model_not_found: Model '%{model}' nie został znaleziony
-      noaction: NIc nie zostało zrobione
+      noaction: Nic nie zostało zrobione
       object_not_found: "%{model} z id '%{id}' nie został odnaleziony"
-      successful: "%{name} powiodło się %{action}"
+      successful: "%{action} modelu %{name} powiodło się"
     form:
       all_of_the_following_related_items_will_be_deleted: "? Poniższe podobne elementy mogą zostać usunięte:"
       are_you_sure_you_want_to_delete_the_object: Czy jesteś pewny że chcesz usunąć %{model_name}
