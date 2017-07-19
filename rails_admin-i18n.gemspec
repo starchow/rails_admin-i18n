@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
-  s.authors = ["Nam Pham Trung".freeze]
+  s.authors = ["Nam Pham Trung, Luiz Picolo".freeze]
   s.date = "2017-07-19"
   s.description = "Translations for the rails_admin gem".freeze
-  s.email = ["puma.puma07@gmail.com".freeze]
+  s.email = ["puma.puma07@gmail.com, luizpicolo@gmail.com".freeze]
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
