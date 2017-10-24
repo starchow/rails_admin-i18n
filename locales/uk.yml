@@ -14,7 +14,7 @@ uk:
       show_all: "Показати всі"
       add_filter: "Додати фільтр"
       bulk_menu_title: "Вибрані елементи"
-      remove: "Remove"
+      remove: "Видалити"
       add_new: "Створити"
       chosen: "Обраний %{name}"
       chose_all: "Вибрати всі"
@@ -33,6 +33,7 @@ uk:
       object_not_found: "%{model} з id '%{id}' не знайдено"
     table_headers:
       model_name: "Назва моделі"
+      last_created: "Востаннє створено"
       last_used: "Останній раз використовувався"
       records: "Записи"
       username: "Користувач"
@@ -54,7 +55,7 @@ uk:
         menu: "Показати"
         breadcrumb: "%{object_label}"
       show_in_app:
-        menu: "Show in app"
+        menu: "Показати у додатку"
       new:
         title: "Новий %{model_label}"
         menu: "Створити"
@@ -116,8 +117,8 @@ uk:
       fields_from_associated: "Поля з пов'язаного %{name}"
       display: "Показати %{name}: %{type}"
       options_for: "Опції для %{name}"
-      empty_value_for_associated_objects: "<empty>"
-      click_to_reverse_selection: 'Click to reverse selection'
+      empty_value_for_associated_objects: "<пусто>"
+      click_to_reverse_selection: "Клік для відміни вибору"
       csv:
         header_for_root_methods: "%{name}" # 'model' is available
         header_for_association_methods: "%{name} [%{association}]"
@@ -127,4 +128,4 @@ uk:
         skip_header_help: "Не виводити заголовок (без опису полів)"
         default_col_sep: ","
         col_sep: "Роздільник стовпців"
-        col_sep_help: "Залишити пустим по замовчуванню  ('%{value}')" # value is default_col_sep
+        col_sep_help: "Залишити пустим по замовчуванню ('%{value}')" # value is default_col_sep
