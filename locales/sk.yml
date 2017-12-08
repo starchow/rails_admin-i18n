@@ -1,3 +1,4 @@
+---
 sk:
   admin:
     actions:
@@ -72,6 +73,7 @@ sk:
       fields_from_associated: Polia zo zviazaného %{name}
       options_for: Voľby pre %{name}
       select: Vyber polia na exportovanie
+      select_all_fields: Vyber všetky polia
     flash:
       error: Pri %{name} zlyhalo vykonanie akcie %{action}
       model_not_found: Model '%{model}' nemohol byť nájdený
@@ -86,7 +88,7 @@ sk:
       cancel: Zrušiť
       char_length_of: dĺžka
       char_length_up_to: dĺžka do
-      confirmation: "Áno, som si istý"
+      confirmation: Áno, som si istý
       new_model: "%{name} (nový)"
       one_char: znak
       optional: Nepovinné
@@ -94,6 +96,27 @@ sk:
       save: Uložiť
       save_and_add_another: Uložiť a pridať ďalší
       save_and_edit: Uložiť a upraviť
+    home:
+      name: Domov
+    js:
+      between_and_: Medzi ... a ...
+      contains: Obsahuje
+      date: Dátum ...
+      ends_with: Ends with
+      'false': 'nie'
+      is_blank: Je prázdny
+      is_exactly: Je presne
+      is_present: Je prítomný
+      last_week: Posledný týždeň
+      no_objects: Nenašli sa žiadne objekty
+      number: Číslo ...
+      starts_with: Začína na
+      this_week: Tento týždeň
+      today: Dnes
+      too_many_objects: Priveľa objektov, použite vyhľadávanie
+      'true': 'áno'
+      yesterday: Včera
+    loading: Loading...
     misc:
       add_filter: Pridaj filter
       add_new: Pridaj nový
@@ -106,24 +129,26 @@ sk:
       filter: Filter
       filter_date_format: dd.mm.yy
       log_out: Odhlásiť sa
+      more: Plus %{count} viac %{models_name}
       navigation: Navigácia
+      navigation_static_label: Odkazy
       refresh: Obnov
       remove: Odstráň
       search: Hľadať
       show_all: Ukáž všetky
       up: Hore
+    pagination:
+      next: Ďalej &raquo;
+      previous: "&laquo; Späť"
+      truncate: "…"
     table_headers:
       changes: Zmeny
       created_at: Dátum/čas
       item: Položka
+      last_created: Naposledy vytvorené
       last_used: Naposledy použité
       message: Správa
       model_name: Názov modelu
       records: Záznamy
       username: Užívateľ
-    home:
-      name: Domov
-    pagination:
-      next: "Ďalej &raquo;"
-      previous: "&laquo; Späť"
-      truncate: "…"
+    toggle_navigation: Zobraziť navigáciu
