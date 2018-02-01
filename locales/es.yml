@@ -44,8 +44,8 @@ es:
       new:
         breadcrumb: Nuevo
         done: creado
-        link: Adicionar un nuevo  %{model_label}
-        menu: Adicionar Nuevo
+        link: Añadir un nuevo %{model_label}
+        menu: Añadir Nuevo
         title: Nuevo  %{model_label}
       show:
         breadcrumb: "%{object_label}"
