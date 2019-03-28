@@ -49,6 +49,7 @@ ja:
       object_not_found: "ID '%{id}' の%{model}が見つかりません"
     table_headers:
       model_name: モデル名
+      last_created: 最終作成
       last_used: 最終更新
       records: レコード
       username: ユーザ
