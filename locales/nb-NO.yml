@@ -1,0 +1,153 @@
+nb-NO:
+  admin:
+    js:
+      true: "Sant"
+      false: "Usant"
+      is_present: Er tilstede
+      is_blank: Er blank
+      date: Dato ...
+      between_and_: Mellom ... og ...
+      today: I dag
+      yesterday: I går
+      this_week: Denne uken
+      last_week: Forrige uke
+      number: Nummer ...
+      contains: Inneholder
+      is_exactly: Er nøyaktig
+      starts_with: Starter med
+      ends_with: Ender med
+      too_many_objects: "For mange objekter, bruk søkefeltet over"
+      no_objects: "Ingen objekter funnet"
+    loading: "Laster..."
+    toggle_navigation: Veksle navigasjon
+    home:
+      name: "Hjem"
+    pagination:
+      previous: "&laquo; Forrige"
+      next: "Neste &raquo;"
+      truncate: "..."
+    misc:
+      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Søk"
+      filter: "Filter"
+      refresh: "Oppdater"
+      show_all: "Vis alle"
+      add_filter: "Filtrer"
+      bulk_menu_title: "Merkede objekter"
+      remove: "Fjern"
+      add_new: "Legg til ny"
+      chosen: "Valgt %{name}"
+      chose_all: "Velg alle"
+      clear_all: "Avmerk alle"
+      up: "Opp"
+      down: "Ned"
+      navigation: "Navigasjon"
+      navigation_static_label: "Lenker"
+      log_out: "Logg ut"
+      ago: "siden"
+      more: "%{count} flere %{models_name}"
+    flash:
+      successful: "%{name} %{action} vellykket"
+      error: "%{name} feilet å %{action}"
+      noaction: "Ingen endringer ble utført"
+      model_not_found: "Fant ikke modellen '%{model}''"
+      object_not_found: "Fant ikke %{model} med ID '%{id}'"
+    table_headers:
+      model_name: "Modell navn"
+      last_created: "Sist opprettet"
+      last_used: "Sist brukt"
+      records: "Oppføringer"
+      username: "Brukernavn"
+      changes: "Endringer"
+      created_at: "Dato/Tid"
+      item: "Objekt"
+      message: "Beskjed"
+    actions:
+      dashboard:
+        breadcrumb: "Oversikt"
+        menu: "Oversikt"
+        title: Administrer siden
+      index:
+        title: "Liste over %{model_label_plural}"
+        menu: "Liste"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detailjer for %{model_label} '%{object_label}'"
+        menu: "Vis"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Vis i applikasjon"
+      new:
+        breadcrumb: Ny
+        done: opprettet
+        link: Opprett %{model_label}
+        menu: Opprett ny
+        title: Opprett %{model_label}
+      edit:
+        breadcrumb: Rediger
+        done: oppdatert
+        link: Rediger %{model_label}
+        menu: Rediger
+        title: Rediger %{model_label} '%{object_label}'
+      delete:
+        breadcrumb: Slett
+        done: Slettet
+        link: Slett '%{object_label}'
+        menu: Slett
+        title: Slett %{model_label} '%{object_label}'
+      bulk_delete:
+        breadcrumb: Slett alle
+        bulk_link: Slett merkede %{model_label_plural}
+        menu: Slett alle
+        title: Slett %{model_label_plural}
+      export:
+        breadcrumb: Eksporter
+        bulk_link: Eksporter merkede %{model_label_plural}
+        done: eksportert
+        link: Eksporter valgte %{model_label_plural}
+        menu: Eksporter
+        title: Eksporter %{model_label_plural}
+      history_index:
+        breadcrumb: Historie
+        menu: Historie
+        title: Historie for %{model_label_plural}
+      history_show:
+        breadcrumb: Historie
+        menu: Historie
+        title: Historie for %{model_label} '%{object_label}'
+    form:
+      all_of_the_following_related_items_will_be_deleted: "? Følgende relaterte objekter kan bli slettet eller foreldreløse:"
+      are_you_sure_you_want_to_delete_the_object: "Er du sikker på du vil slette %{model_name}"
+      basic_info: Generell informasjon
+      bulk_delete: "Følgende objekter vil bli slettet, som kan føre til at relaterte objekter blir slettet eller foreldreløse:"
+      cancel: Avbryt
+      char_length_of: lengden av
+      char_length_up_to: "opp til"
+      confirmation: Ja, jeg er sikker
+      one_char: tegn
+      optional: Valgfri
+      required: Kreves
+      save: Lagre
+      save_and_add_another: Lagre og opprett fler
+      save_and_edit: Lagre og fortsett redigering
+      new_model: "Ny %{name}"
+    export:
+      confirmation: "Eksporter til %{name}"
+      select: "Velg felt for eksport"
+      select_all_fields: "Merk alle felt"
+      fields_from: "Felt fra %{name}"
+      fields_from_associated: "Felt fra assosiasjon %{name}"
+      display: "Vis %{name}: %{type}"
+      options_for: "Egenskaper for %{name}"
+      empty_value_for_associated_objects: "<tom>"
+      click_to_reverse_selection: 'Klikk for å reversere valgene'
+      csv:
+        col_sep: Kolonne separator
+        col_sep_help: La stå blank for standard ('%{value}') # value is default_col_sep
+        default_col_sep: ","
+        encoding_to: Formater til
+        encoding_to_help:
+        header_for_association_methods: "%{name} [%{association}]"
+        header_for_root_methods: "%{name}" # 'model' is available
+        skip_header: "Ingen overskrift"
+        skip_header_help: "Ikke vis overskrift (ingen beskrivelse av felt)"
