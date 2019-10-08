@@ -1,0 +1,153 @@
+el:
+  admin:
+    js:
+      true: True
+      false: False
+      is_present: Υπάρχει
+      is_blank: Δεν υπάρχει
+      date: Ημερομηνία ...
+      between_and_: Μεταξύ ... και ...
+      today: Σήμερα
+      yesterday: Εχθές
+      this_week: Αυτή την εβδομάδα
+      last_week: Προηγούμενη εβδομάδα
+      number: Νούμερο ...
+      contains: Περιέχει
+      is_exactly: Είναι ακριβώς
+      starts_with: Ξεκινάει με
+      ends_with: Τελειώνει με
+      too_many_objects: "Πάρα πολλά αντικείμενα, χρησιμοποιήστε το πεδίο αναζήτησης παραπάνω"
+      no_objects: "Δεν βρέθηκαν αντικείμενα"
+    loading: "Φόρτωση..."
+    toggle_navigation: Εναλλαγή πλοήγησης
+    home:
+      name: "Αρχική"
+    pagination:
+      previous: "&laquo; Προηγούμενη"
+      next: "Επόμενη &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "ΜΜ/μμ/εε" # συνδυασμός 'μμ'(μέρα), 'ΜΜ'(μήνας) and 'εε'(έτος) με οποιονδήποτε οριοθέτη. Δεν θα γίνει άλλη παρεμβολή (interpolation)!
+      search: "Αναζήτηση"
+      filter: "Φίλτρο"
+      refresh: "Ανανέωση"
+      show_all: "Προβολή όλων"
+      add_filter: "Προσθήκη φίλτρου"
+      bulk_menu_title: "Επιλεγμένα στοιχεία"
+      remove: "Αφαίρεση"
+      add_new: "Προσθήκη νέου"
+      chosen: "Επιλεγμένο %{name}"
+      chose_all: "Επιλογή όλων"
+      clear_all: "Καθαρισμός όλων"
+      up: "Πάνω"
+      down: "Κάτω"
+      navigation: "Πλοήγηση"
+      navigation_static_label: "Συνδέσεις"
+      log_out: "Αποσύνδεση"
+      ago: "πριν"
+      more: "Συν %{count} περισσότερα %{models_name}"
+    flash:
+      successful: "%{name} επιτυχώς %{action}"
+      error: "%{name} απέτυχε να %{action}"
+      noaction: "Δεν πραγματοποιήθηκε καμία ενέργεια"
+      model_not_found: "Model '%{model}' δεν βρέθηκε"
+      object_not_found: "%{model} με id '%{id}' δεν βρέθηκε"
+    table_headers:
+      model_name: "Όνομα μοντέλου"
+      last_created: "Δημιουργήθηκε τελευταία"
+      last_used: "Χρησιμοποιήθηκε τελευταία"
+      records: "Αρχεία"
+      username: "Χρήστης"
+      changes: "Αλλαγές"
+      created_at: "Ημερομηνία/Ώρα"
+      item: "Στοιχείο"
+      message: "Μήνυμα"
+    actions:
+      dashboard:
+        title: "Διαχείριση Site"
+        menu: "Πίνακας ελέγχου"
+        breadcrumb: "Πίνακας ελέγχου"
+      index:
+        title: "Λίστα %{model_label_plural}"
+        menu: "Λίστα"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Λεπτομέρειες για %{model_label} '%{object_label}'"
+        menu: "Προβολή"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Προβολή στην εφαρμογή"
+      new:
+        title: "Νέο %{model_label}"
+        menu: "Προσθήκη νέου"
+        breadcrumb: "Νέο"
+        link: "Προσθήκη νέου %{model_label}"
+        done: "δημιουργήθηκε"
+      edit:
+        title: "Επεξεργασία %{model_label} '%{object_label}'"
+        menu: "Επεξεργασία"
+        breadcrumb: "Επεξεργασία"
+        link: "Επεξεργασία %{model_label}"
+        done: "επεξεργάστηκε"
+      delete:
+        title: "Διαγραφή %{model_label} '%{object_label}'"
+        menu: "Διαγραφή"
+        breadcrumb: "Διαγραφή"
+        link: "Διαγραφή '%{object_label}'"
+        done: "διαγράφηκε"
+      bulk_delete:
+        title: "Διαγραφή %{model_label_plural}"
+        menu: "Πολλαπλή διαγραφή"
+        breadcrumb: "Πολλαπλή διαγραφή"
+        bulk_link: "Διαγραφή επιλεγμένων %{model_label_plural}"
+      export:
+        title: "Εξαγωγή %{model_label_plural}"
+        menu: "Εξαγωγή"
+        breadcrumb: "Εξαγωγή"
+        link: "Εξαγωγή βρέθηκε %{model_label_plural}"
+        bulk_link: "Εξαγωγή επιλεγμένων %{model_label_plural}"
+        done: "εξάχθηκε"
+      history_index:
+        title: "Ιστορικό για %{model_label_plural}"
+        menu: "Ιστορικό"
+        breadcrumb: "Ιστορικό"
+      history_show:
+        title: "Ιστορικό για %{model_label} '%{object_label}'"
+        menu: "Ιστορικό"
+        breadcrumb: "Ιστορικό"
+    form:
+      cancel: "Ακύρωση"
+      basic_info: "Βασικές πληροφορίες"
+      required: "Απαιτείται"
+      optional: "Προαιρετικό"
+      one_char: "χαρακτήρας"
+      char_length_up_to: "μέγεθος μέχρι"
+      char_length_of: "μέγεθος του"
+      save: "Αποθήκευση"
+      save_and_add_another: "Αποθήκευση και προσθήκη νέου"
+      save_and_edit: "Αποθήκευση και επεξεργασία"
+      all_of_the_following_related_items_will_be_deleted: "? Τα παρακάτω συσχετισμένα στοιχεία ενδέχεται να διαγραφούν ή να μείνουν 'ορφανά':"
+      are_you_sure_you_want_to_delete_the_object: "Είστε σιγουρος/η οτι θέλετε να διαγράψετε το %{model_name}"
+      confirmation: "Ναί, είμαι σίγουρος/η"
+      bulk_delete: "Τα παρακάτω στοιχεία θα διαγραφούν, τα οποία ενδέχεται να διαγράψουν ή να αφήσουν 'ορφανά' κάποια από τα συσχετισμένα τους αρχεία:"
+      new_model: "%{name} (new)"
+    export:
+      confirmation: "Εξαγωγή σε %{name}"
+      select: "Επιλογή πεδίων για εξαγωγή"
+      select_all_fields: "Επιλογή όλων των πεδίων"
+      fields_from: "Πεδία από %{name}"
+      fields_from_associated: "Πεδία από συσχετισμένα %{name}"
+      display: "Απεικόνιση %{name}: %{type}"
+      options_for: "Επιλογές για %{name}"
+      empty_value_for_associated_objects: "<κενό>"
+      click_to_reverse_selection: 'Κλίκ για αντιστροφή επιλογής'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' είναι διαθέσιμο
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Κωδικοποιήστε σε"
+        encoding_to_help: "Επιλέξτε κωδικοποίηση εξόδου. Αφήστε κενό για να αφήσετε την τρέχουσα κωδικοποίηση εισόδου ανέπαφη: (%{name})"
+        skip_header: "Χωρίς κεφαλίδα"
+        skip_header_help: "Μην εξάγετε κεφαλίδα (χωρίς λεπτομέρειες πεδίων)"
+        default_col_sep: ","
+        col_sep: "Διαχωριστικό στήλης"
+        col_sep_help: "Αφήστε κενό για προκαθορισμένη ('%{value}')" # η τιμή είναι default_col_sep
