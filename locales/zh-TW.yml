@@ -46,7 +46,7 @@ zh-TW:
       show:
         breadcrumb: "%{object_label}"
         menu: "詳情"
-        title: "%{model_label} '%{object_label}'詳情"
+        title: "%{model_label} '%{object_label}' 的詳情"
       show_in_app:
         menu: "在應用程式中顯示"
       dashboard:
@@ -57,7 +57,7 @@ zh-TW:
       click_to_reverse_selection: "單擊以反向選擇"
       confirmation: "以 %{name} 格式匯出"
       csv:
-        col_sep: "欄分隔符號"
+        col_sep: "欄位分隔符號"
         col_sep_help: "留空則使用預設值('%{value}')"
         default_col_sep: ","
         encoding_to: "編碼"
@@ -145,7 +145,7 @@ zh-TW:
       number: "數值 ..."
       contains: "包含"
       is_exactly: "完全包含"
-      starts_with: "開始於"
+      starts_with: "開始為"
       ends_with: "結束於"
       too_many_objects: "太多資料，請使用搜尋"
       no_objects: "沒有資料找到"
