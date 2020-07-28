@@ -50,7 +50,7 @@ GEM
       iso
     iso (0.2.2)
       i18n
-    json (2.2.0)
+    json (2.3.1)
     jwt (2.2.1)
     localeapp (3.1.2)
       gli
