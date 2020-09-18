@@ -121,6 +121,7 @@ de:
       model_name: Modellname
       records: Datensätze
       username: Anwender
+      last_created: Zuletzt erstellt
     home:
       name: Start
     pagination:
