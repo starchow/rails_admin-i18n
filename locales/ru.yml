@@ -44,7 +44,7 @@ ru:
       ago: "назад"
     flash:
       successful: "%{name} успешно %{action}"
-      error: "%{name} не удалось %{action}"
+      error: "%{name} не %{action} из-за ошибок"
       noaction: "Никаких изменений не выполнено"
       model_not_found: "Модель '%{model}' не найдена"
       object_not_found: "Объект %{model} с id '%{id}' не найден"
