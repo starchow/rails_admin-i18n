@@ -1,0 +1,153 @@
+id:
+  admin:
+    js:
+      true: Benar
+      false: Salah
+      is_present: Apakah ada
+      is_blank: Apakah kosong
+      date: Tanggal ...
+      between_and_: Di antara ... dan ...
+      today: Hari ini
+      yesterday: Kemarin
+      this_week: Minggu ini
+      last_week: Minggu lalu
+      number: Angka ...
+      contains: Mengandung
+      is_exactly: Sama persis
+      starts_with: Dimulai dengan
+      ends_with: Diakhiri dengan
+      too_many_objects: "Terlalu banyak objek, gunakan kotak pencarian di atas"
+      no_objects: "Tidak ada objek yang ditemukan"
+    loading: "Sedang memuat..."
+    toggle_navigation: Navigasi Toggle
+    home:
+      name: "Home"
+    pagination:
+      previous: "&laquo; Sebelumnya"
+      next: "Selanjutnya &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Cari"
+      filter: "Filter"
+      refresh: "Refresh"
+      show_all: "Tampilkan semua"
+      add_filter: "Tambah filter"
+      bulk_menu_title: "Item-item terpilih"
+      remove: "Hapus"
+      add_new: "Tambah baru"
+      chosen: "Terpilih %{name}"
+      chose_all: "Pilih semua"
+      clear_all: "Bersihkan semua"
+      up: "Ke atas"
+      down: "Ke bawah"
+      navigation: "Navigasi"
+      navigation_static_label: "Links"
+      log_out: "Keluar"
+      ago: "yang lalu"
+      more: "Tambah lagi %{count} %{models_name}"
+    flash:
+      successful: "%{name} berhasil %{action}"
+      error: "%{name} gagal untuk %{action}"
+      noaction: "Tidak ada tindakan yang dilakukan"
+      model_not_found: "Model '%{model}' tidak dapat ditemukan"
+      object_not_found: "%{model} dengan id '%{id}' tidak dapat ditemukan"
+    table_headers:
+      model_name: "Nama model"
+      last_created: "Terakhir dibuat"
+      last_used: "Terakhir digunakan"
+      records: "Records"
+      username: "Pengguna"
+      changes: "Perubahan"
+      created_at: "Tanggal/Waktu"
+      item: "Item"
+      message: "Pesan"
+    actions:
+      dashboard:
+        title: "Administrasi Situs"
+        menu: "Dasbor"
+        breadcrumb: "Dasbor"
+      index:
+        title: "Daftar %{model_label_plural}"
+        menu: "Daftar"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detail untuk %{model_label} '%{object_label}'"
+        menu: "Tampilkan"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Tampilkan di aplikasi"
+      new:
+        title: "%{model_label} baru"
+        menu: "Tambah baru"
+        breadcrumb: "Baru"
+        link: "Tambah %{model_label} baru"
+        done: "sudah dibuat"
+      edit:
+        title: "Ubah %{model_label} '%{object_label}'"
+        menu: "Ubah"
+        breadcrumb: "Ubah"
+        link: "Ubah %{model_label} ini"
+        done: "sudah diperbarui"
+      delete:
+        title: "Hapus %{model_label} '%{object_label}'"
+        menu: "Hapus"
+        breadcrumb: "Hapus"
+        link: "Hapus '%{object_label}'"
+        done: "sudah dihapus"
+      bulk_delete:
+        title: "Hapus %{model_label_plural}"
+        menu: "Hapus banyak"
+        breadcrumb: "Hapus banyak"
+        bulk_link: "Hapus %{model_label_plural} terpilih"
+      export:
+        title: "Export %{model_label_plural}"
+        menu: "Export"
+        breadcrumb: "Export"
+        link: "Export ditemukan %{model_label_plural}"
+        bulk_link: "Export dipilih %{model_label_plural}"
+        done: "sudah diexport"
+      history_index:
+        title: "Riwayat untuk %{model_label_plural}"
+        menu: "Riwayat"
+        breadcrumb: "Riwayat"
+      history_show:
+        title: "Riwayat untuk %{model_label} '%{object_label}'"
+        menu: "Riwayat"
+        breadcrumb: "Riwayat"
+    form:
+      cancel: "Batalkan"
+      basic_info: "Info dasar"
+      required: "Wajib"
+      optional: "Opsional"
+      one_char: "Karakter"
+      char_length_up_to: "panjangnya hingga"
+      char_length_of: "panjang dari"
+      save: "Simpan"
+      save_and_add_another: "Simpan dan tambah lainnya"
+      save_and_edit: "Simpan dan ubah"
+      all_of_the_following_related_items_will_be_deleted: "? Item-item berikut ini akan dihapus:"
+      are_you_sure_you_want_to_delete_the_object: "Apa kamu yakin ingin menghapus ini %{model_name}"
+      confirmation: "Ya, saya yakin"
+      bulk_delete: "Objek berikut ini akan dihapus dan mungkin menghapus atau menghilangkan beberapa dependensi terkait:"
+      new_model: "%{name} (new)"
+    export:
+      confirmation: "Export ke %{name}"
+      select: "Pilih field untuk di-export"
+      select_all_fields: "Pilih Semua Field"
+      fields_from: "Field dari %{name}"
+      fields_from_associated: "Field yang terkait dengan %{name}"
+      display: "Tampilkan %{name}: %{type}"
+      options_for: "Pilihan untuk %{name}"
+      empty_value_for_associated_objects: "<empty>"
+      click_to_reverse_selection: 'Klik untuk membalikkan pilihan'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Encode ke"
+        encoding_to_help: "Pilih encoding output. Biarkan kosong untuk tidak mengubah encoding input saat ini: (%{name})"
+        skip_header: "Tanpa header"
+        skip_header_help: "Jangan tampilkan header (tidak ada deskripsi field)"
+        default_col_sep: ","
+        col_sep: "Pemisah kolom"
+        col_sep_help: "Biarkan kosong untuk nilai default ('%{value}')" # value is default_col_sep
