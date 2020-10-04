@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Nam Pham Trung, Luiz Picolo".freeze]
-  s.date = "2020-09-19"
+  s.date = "2020-10-04"
   s.description = "Translations for the rails_admin gem".freeze
   s.email = ["puma.puma07@gmail.com, luizpicolo@gmail.com".freeze]
   s.extra_rdoc_files = [
@@ -42,6 +42,7 @@ Gem::Specification.new do |s|
     "locales/fi-FI.yml",
     "locales/fr.yml",
     "locales/he.yml",
+    "locales/id.yml",
     "locales/it.yml",
     "locales/ja.yml",
     "locales/ko-KR.yml",
