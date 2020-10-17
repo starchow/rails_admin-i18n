@@ -1,0 +1,153 @@
+tl:
+  admin:
+    js:
+      true: Tunay
+      false: Mali
+      is_present: Ay ngayon
+      is_blank: Ay blanko
+      date: Pecha ...
+      between_and_: Mula ... at ...
+      today: Ngayong araw
+      yesterday: Kahapon
+      this_week: Ngayong linggo
+      last_week: Nakaraang linggo
+      number: Numero ...
+      contains: Naglalaman ng
+      is_exactly: Ay eksaktong
+      starts_with: Nagsisimula sa
+      ends_with: Nagtatapos sa
+      too_many_objects: "Mashadong maraming objekt, gamitin ang search box sa itaas"
+      no_objects: "Walang nahanap na objekt"
+    loading: "Nag-loload..."
+    toggle_navigation: I-Togel ang nabigasyon
+    home:
+      name: "Home"
+    pagination:
+      previous: "&laquo; Nakaraan"
+      next: "Susunod &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Mag-hanap"
+      filter: "Mag-filter"
+      refresh: "I-refresh"
+      show_all: "Ipakita lahat"
+      add_filter: "Magdagdag ng filter"
+      bulk_menu_title: "Mga napiling aytem"
+      remove: "Tanggalin"
+      add_new: "Magdagdag ng bago"
+      chosen: "Napiling %{name}"
+      chose_all: "Piliin lahat"
+      clear_all: "I-klir lahat"
+      up: "Taas"
+      down: "Baba"
+      navigation: "Nabigashon"
+      navigation_static_label: "Mga link"
+      log_out: "Mag-log awt"
+      ago: "Nakaraang"
+      more: "Magdagdag %{count} mas %{models_name}"
+    flash:
+      successful: "%{name} matangumpay %{action}"
+      error: "%{name} nag-fail %{action}"
+      noaction: "Walang akshon na nagawa"
+      model_not_found: "Model '%{model}' ay hindi mahanap"
+      object_not_found: "%{model} ng id '%{id}' ay hindi mahanap"
+    table_headers:
+      model_name: "Pangalan ng Model"
+      last_created: "Huling na-kreeyt"
+      last_used: "Huling ginamit"
+      records: "Mga rekord"
+      username: "Pangalan ng user"
+      changes: "Mga pagbabago"
+      created_at: "Pecha/Oras"
+      item: "Aytem"
+      message: "Mensahe"
+    actions:
+      dashboard:
+        title: "Administrasyon ng Sayt"
+        menu: "Dashbord"
+        breadcrumb: "Dashbord"
+      index:
+        title: "Listahan ng %{model_label_plural}"
+        menu: "Listahan"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Detalye ng %{model_label} '%{object_label}'"
+        menu: "Ipakita"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Ipakita sa app"
+      new:
+        title: "Bago %{model_label}"
+        menu: "Magdagdag ng bago"
+        breadcrumb: "Bago"
+        link: "Magdagdag ng bagong %{model_label}"
+        done: "Na-kreeyt"
+      edit:
+        title: "I-edit %{model_label} '%{object_label}'"
+        menu: "I-edit"
+        breadcrumb: "I-edit"
+        link: "I-edit ito %{model_label}"
+        done: "na-updeyt"
+      delete:
+        title: "Burahin %{model_label} '%{object_label}'"
+        menu: "Burahin"
+        breadcrumb: "Burahin"
+        link: "Burahin '%{object_label}'"
+        done: "Nabura na"
+      bulk_delete:
+        title: "Burahin %{model_label_plural}"
+        menu: "Maramihang pagbubura"
+        breadcrumb: "Maramihang pagbubura"
+        bulk_link: "Burahin ang selekted %{model_label_plural}"
+      export:
+        title: "I-eksport %{model_label_plural}"
+        menu: "I-eksport"
+        breadcrumb: "I-eksport"
+        link: "Nahanap ang eksport %{model_label_plural}"
+        bulk_link: "I-eksport ang selekted %{model_label_plural}"
+        done: "Na-eksport"
+      history_index:
+        title: "Kasaysayan ng %{model_label_plural}"
+        menu: "Kasaysayan"
+        breadcrumb: "Kasaysayan"
+      history_show:
+        title: "Kasaysayan para %{model_label} '%{object_label}'"
+        menu: "Kasaysayan"
+        breadcrumb: "Kasaysayan"
+    form:
+      cancel: "I-kansel"
+      basic_info: "Pangunahing impormasyon"
+      required: "Kailangan"
+      optional: "Opsyonal"
+      one_char: "karakter"
+      char_length_up_to: "Haba hanggang"
+      char_length_of: "haba ng"
+      save: "I-save"
+      save_and_add_another: "I-save at magdagdag pa"
+      save_and_edit: "I-save at i-edit"
+      all_of_the_following_related_items_will_be_deleted: "? Ang mga sumusunod na releyted aytems ay maaaring mabura o ma-orfand:"
+      are_you_sure_you_want_to_delete_the_object: "Sigurado kabang nais mo itong burahin %{model_name}"
+      confirmation: "Oo, sigurado ako"
+      bulk_delete: "Ang mga sumusunod na objects ay mabubura, maaaring mabura o ma-orfan ang ibang mga releyted dependensis:"
+      new_model: "%{name} (bago)"
+    export:
+      confirmation: "I-eksport sa %{name}"
+      select: "Pumili ng fields na i-eeksport"
+      select_all_fields: "Piliin Lahat ng Fields"
+      fields_from: "Fields mula %{name}"
+      fields_from_associated: "Fields mula sa asosiyated %{name}"
+      display: "I-display %{name}: %{type}"
+      options_for: "Mga opsyons para %{name}"
+      empty_value_for_associated_objects: "<empty>"
+      click_to_reverse_selection: 'I-click para ma-rebers ang seleksyon'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "I-encode sa"
+        encoding_to_help: "Piliin ang awtput enkoding. Panatilihing blanko para hindi mabago ang kasalukuyang input enkoding: (%{name})"
+        skip_header: "Walang heder"
+        skip_header_help: "Huwag mag awtput ng heder (walang fields deskrisyon)"
+        default_col_sep: ","
+        col_sep: "Tiga-hiwalay ng kolum"
+        col_sep_help: "Panatilihing blanko para sa defolt ('%{value}')" # value is default_col_sep
