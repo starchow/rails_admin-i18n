@@ -1,0 +1,153 @@
+mk:
+  admin:
+    js:
+      true: Вистина
+      false: Невистина
+      is_present: Е присутно
+      is_blank: Е празно
+      date: Датум ...
+      between_and_: Помеѓу ... и ...
+      today: Денес
+      yesterday: Вчера
+      this_week: Оваа недела
+      last_week: Претходната недела
+      number: Број ...
+      contains: Содржи
+      is_exactly: Е точно
+      starts_with: Почнува со
+      ends_with: Завршува со
+      too_many_objects: "Премногу објекти, користете го пребарувачот"
+      no_objects: "Објектите не се најдени"
+    loading: "Вчитување..."
+    toggle_navigation: Преврти навигација
+    home:
+      name: "Дома"
+    pagination:
+      previous: "&laquo; Претходно"
+      next: "Следно &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Пребарување"
+      filter: "Филтер"
+      refresh: "Освежи"
+      show_all: "Покажи сите"
+      add_filter: "Додади филтер"
+      bulk_menu_title: "Избрани предмети"
+      remove: "Отстрани"
+      add_new: "Додај нови"
+      chosen: "Избран %{name}"
+      chose_all: "Избери сите"
+      clear_all: "Исчисти"
+      up: "Горе"
+      down: "Доле"
+      navigation: "Навигација"
+      navigation_static_label: "Линкови"
+      log_out: "Одлогирај се"
+      ago: "пред"
+      more: "И %{count} повеќе %{models_name}"
+    flash:
+      successful: "%{name} успешно %{action}"
+      error: "%{name} неможеше %{action}"
+      noaction: "Не беа преземени акции"
+      model_not_found: "Моделот '%{model}' неможеше да се најде"
+      object_not_found: "%{model} со ИД '%{id}' неможеше да се најде"
+    table_headers:
+      model_name: "Име на модел"
+      last_created: "Последно создаден"
+      last_used: "Последно користен"
+      records: "рекорди"
+      username: "Корисник"
+      changes: "Промени"
+      created_at: "Датум/Време"
+      item: "Предмет"
+      message: "Порака"
+    actions:
+      dashboard:
+        title: "Администрација на сајт"
+        menu: "Табла"
+        breadcrumb: "Табла"
+      index:
+        title: "Листа на %{model_label_plural}"
+        menu: "Листа"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Детали за %{model_label} '%{object_label}'"
+        menu: "Покажи"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Покажи во апликација"
+      new:
+        title: "Нов %{model_label}"
+        menu: "Додади нов"
+        breadcrumb: "Нов"
+        link: "Додади нов %{model_label}"
+        done: "создаден"
+      edit:
+        title: "Уреди %{model_label} '%{object_label}'"
+        menu: "Уреди"
+        breadcrumb: "Уреди"
+        link: "Уреди %{model_label}"
+        done: "ажуриран"
+      delete:
+        title: "Избриши %{model_label} '%{object_label}'"
+        menu: "Избриши"
+        breadcrumb: "Избриши"
+        link: "Избриши '%{object_label}'"
+        done: "избришан"
+      bulk_delete:
+        title: "Избриши %{model_label_plural}"
+        menu: "Повеќекратно избришување"
+        breadcrumb: "Повеќекратно избришување"
+        bulk_link: "Избриши одбрани %{model_label_plural}"
+      export:
+        title: "Извези %{model_label_plural}"
+        menu: "Извези"
+        breadcrumb: "Извези"
+        link: "Извод најден %{model_label_plural}"
+        bulk_link: "Извези одбрани %{model_label_plural}"
+        done: "извезен"
+      history_index:
+        title: "Историја за %{model_label_plural}"
+        menu: "Историја"
+        breadcrumb: "Историја"
+      history_show:
+        title: "Историја за %{model_label} '%{object_label}'"
+        menu: "Историја"
+        breadcrumb: "Историја"
+    form:
+      cancel: "Откажи"
+      basic_info: "Основни информации"
+      required: "Задолжитено"
+      optional: "Незадолжително"
+      one_char: "карактер"
+      char_length_up_to: "должина до"
+      char_length_of: "должина од"
+      save: "Сними"
+      save_and_add_another: "Сними и додај уште еден"
+      save_and_edit: "Сними и уреди"
+      all_of_the_following_related_items_will_be_deleted: "? Следните поврзани предмети можат да бидат избришани или осиротени:"
+      are_you_sure_you_want_to_delete_the_object: "Дали сте сигурни дека сакате да избришете %{model_name}"
+      confirmation: "Да, сигурено"
+      bulk_delete: "Следните предмети ќе бидат избришани, што може да избрише или осироти следните поврзани зависности:"
+      new_model: "%{name} (нов)"
+    export:
+      confirmation: "Извези во %{name}"
+      select: "Избери полиња за извоз"
+      select_all_fields: "Избери сите полиња"
+      fields_from: "Полиња од %{name}"
+      fields_from_associated: "Полиња од поврзан %{name}"
+      display: "Покажи %{name}: %{type}"
+      options_for: "Опции за %{name}"
+      empty_value_for_associated_objects: "<празно>"
+      click_to_reverse_selection: 'Кликни да обратите изборите'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Енкодирај во"
+        encoding_to_help: "Одберете излезно енкодирање. Остави празно да го оставите изборот недопрен: (%{name})"
+        skip_header: "Без заглавие"
+        skip_header_help: "Не извезувај со заглавие (Без опис на полињата)"
+        default_col_sep: ","
+        col_sep: "Колумна за сепарација"
+        col_sep_help: "Остави празно за стандардно ('%{value}')" # value is default_col_sep
