@@ -95,6 +95,7 @@ zh-CN:
       save_and_add_another: "保存并新建另一个"
       save_and_edit: "保存并继续编辑"
     misc:
+      reset_filters: "重设过滤条件"
       add_filter: "增加过滤条件"
       add_new: "新建"
       ago: "之前"
@@ -113,6 +114,7 @@ zh-CN:
       show_all: "显示全部"
       up: "上"
     table_headers:
+      last_created: "最后新增"
       changes: "改动"
       created_at: "日期/时间"
       item: "条目"
