@@ -122,7 +122,7 @@ pl:
       model_name: Nazwa modelu
       records: Liczba rekordów
       username: Użytkownik
-      last_created: Ostatni rekord utworozono
+      last_created: Ostatni rekord utworzono
     home:
       name: Strona główna
     pagination:
