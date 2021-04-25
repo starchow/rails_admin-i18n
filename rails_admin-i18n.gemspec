@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Nam Pham Trung, Luiz Picolo".freeze]
-  s.date = "2020-10-18"
+  s.date = "2021-04-25"
   s.description = "Translations for the rails_admin gem".freeze
   s.email = ["puma.puma07@gmail.com, luizpicolo@gmail.com".freeze]
   s.extra_rdoc_files = [
@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
   ]
   s.homepage = "http://github.com/starchow/rails_admin-i18n".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.1.2".freeze
+  s.rubygems_version = "3.2.3".freeze
   s.summary = "Translations for the rails_admin gem".freeze
 
   if s.respond_to? :specification_version then
