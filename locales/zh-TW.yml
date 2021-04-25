@@ -95,6 +95,7 @@ zh-TW:
       save_and_add_another: "儲存並新增另一個"
       save_and_edit: "儲存並繼續編輯"
     misc:
+      reset_filters: "重設過濾條件"
       add_filter: "增加過濾條件"
       add_new: "新增"
       ago: "之前"
@@ -115,6 +116,7 @@ zh-TW:
       navigation_static_label: "連結"
       more: "新增 %{count} 個 %{models_name}"
     table_headers:
+      last_created: "最後新增"
       changes: "更改"
       created_at: "日期/時間"
       item: "項目"
