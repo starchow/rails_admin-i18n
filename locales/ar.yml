@@ -1,0 +1,153 @@
+ar:
+  admin:
+    js:
+      true: True
+      false: False
+      is_present: Is present
+      is_blank: Is blank
+      date: Date ...
+      between_and_: Between ... and ...
+      today: اليوم
+      yesterday: الأمس
+      this_week: هذا اﻷاسبوع
+      last_week: الأسبوع الماضي
+      number: Number ...
+      contains: Contains
+      is_exactly: Is exactly
+      starts_with: Starts with
+      ends_with: Ends with
+      too_many_objects: "Too many objects, use search box above"
+      no_objects: "No objects found"
+    loading: "تحميل..."
+    toggle_navigation: Toggle navigation
+    home:
+      name: "الصفحة الرئيسية"
+    pagination:
+      previous: "&laquo; Prev"
+      next: "Next &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "بحث"
+      filter: "فلترة"
+      refresh: "تحديث"
+      show_all: "مشاهدة الكل"
+      add_filter: "إضافة فلترة"
+      bulk_menu_title: "Selected items"
+      remove: "حذف"
+      add_new: "إضافة جديد"
+      chosen: "Chosen %{name}"
+      chose_all: "أختيار الكل"
+      clear_all: "ألغاء الكل"
+      up: "أعلى"
+      down: "أسفل"
+      navigation: "Navigation"
+      navigation_static_label: "روابط"
+      log_out: "تسجيل خروج"
+      ago: "منذ"
+      more: "Plus %{count} more %{models_name}"
+    flash:
+      successful: "%{name} بنجاح %{action}"
+      error: "%{name} فشل %{action}"
+      noaction: "لم يتم تحديث أي شي"
+      model_not_found: "Model '%{model}' لا يمكن إيجاده"
+      object_not_found: "%{model} with id '%{id}' لا يمكن إيجاده"
+    table_headers:
+      model_name: "أسم المودل"
+      last_created: "أخر إنشاء"
+      last_used: "أخر إستخدام"
+      records: "سجلات"
+      username: "المستخدم"
+      changes: "التغيرات"
+      created_at: "التاريخ/الوقت"
+      item: "المادة"
+      message: "الرسالة"
+    actions:
+      dashboard:
+        title: "إدارة الموقع"
+        menu: "لوحة التحكم"
+        breadcrumb: "لوحة التحكم"
+      index:
+        title: "قائمة %{model_label_plural}"
+        menu: "قائمة"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "معلومات من أجل %{model_label} '%{object_label}'"
+        menu: "عرض"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "مشاهدة على الموقع"
+      new:
+        title: "جديد %{model_label}"
+        menu: "إضافة جديد"
+        breadcrumb: "جديد"
+        link: "إضافة جديد %{model_label}"
+        done: "تم الإنشاء"
+      edit:
+        title: "تعديل %{model_label} '%{object_label}'"
+        menu: "تعديل"
+        breadcrumb: "تعديل"
+        link: "تعديل من أجل %{model_label}"
+        done: "تم التحديث"
+      delete:
+        title: "حذف %{model_label} '%{object_label}'"
+        menu: "حذف"
+        breadcrumb: "حذف"
+        link: "حذف '%{object_label}'"
+        done: "تم الحذف"
+      bulk_delete:
+        title: "حذف %{model_label_plural}"
+        menu: "حذف متعدد"
+        breadcrumb: "حذف متعدد"
+        bulk_link: "حذف المحدد %{model_label_plural}"
+      export:
+        title: "تصدير %{model_label_plural}"
+        menu: "تصدير"
+        breadcrumb: "تصدير"
+        link: "تصدير الموجود في %{model_label_plural}"
+        bulk_link: "تصدير المحدد %{model_label_plural}"
+        done: "تم التصدير"
+      history_index:
+        title: "History for %{model_label_plural}"
+        menu: "History"
+        breadcrumb: "History"
+      history_show:
+        title: "History for %{model_label} '%{object_label}'"
+        menu: "History"
+        breadcrumb: "History"
+    form:
+      cancel: "ألغاء"
+      basic_info: "معلومات أساسية"
+      required: "مطلوب"
+      optional: "خياري"
+      one_char: "محرف واحد"
+      char_length_up_to: "length up to"
+      char_length_of: "length of"
+      save: "حفظ"
+      save_and_add_another: "حفظ وإضافة جديد"
+      save_and_edit: "حفظ وتعديل"
+      all_of_the_following_related_items_will_be_deleted: "? The following related items may be deleted or orphaned:"
+      are_you_sure_you_want_to_delete_the_object: "هل أنت متأكد من حذف  %{model_name}"
+      confirmation: "نعم،  متأكد"
+      bulk_delete: "The following objects will be deleted, which may delete or orphan some of their related dependencies:"
+      new_model: "%{name} (new)"
+    export:
+      confirmation: "Export to %{name}"
+      select: "Select fields to export"
+      select_all_fields: "Select All Fields"
+      fields_from: "Fields from %{name}"
+      fields_from_associated: "Fields from associated %{name}"
+      display: "Display %{name}: %{type}"
+      options_for: "Options for %{name}"
+      empty_value_for_associated_objects: "<empty>"
+      click_to_reverse_selection: 'Click to reverse selection'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Encode to"
+        encoding_to_help: "Choose output encoding. Leave empty to let current input encoding untouched: (%{name})"
+        skip_header: "No header"
+        skip_header_help: "Do not output a header (no fields description)"
+        default_col_sep: ","
+        col_sep: "Column separator"
+        col_sep_help: "Leave blank for default ('%{value}')" # value is default_col_sep
