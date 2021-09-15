@@ -78,6 +78,7 @@ en:
         breadcrumb: "%{object_label}"
       show_in_app:
         menu: "Show in app"
+        title: "Show %{model_label} in app"
       new:
         title: "New %{model_label}"
         menu: "Add new"
