@@ -53,6 +53,7 @@ de:
         title: Details für %{model_label} "%{object_label}"
       show_in_app:
         menu: In Applikation anzeigen
+        title: "%{model_label} in Applikation anzeigen"
     export:
       click_to_reverse_selection: Klicken um die Markierung aufzuheben
       confirmation: Exportieren nach %{name}
@@ -72,6 +73,7 @@ de:
       fields_from_associated: Zugehörige Spalten von %{name}
       options_for: Optionen für %{name}
       select: Spalten zum Exportieren auswählen
+      select_all_fields: Alle Spalten auswählen
     flash:
       error: Fehler beim %{action} von %{name}
       model_not_found: Modell "%{model}" konnte nicht gefunden werden
@@ -96,6 +98,7 @@ de:
       save_and_edit: Speichern und bearbeiten
     misc:
       add_filter: Filter hinzufügen
+      reset_filters: Filter zurücksetzen
       add_new: Neu hinzufügen
       ago: vor
       bulk_menu_title: Markierte Elemente
@@ -112,6 +115,7 @@ de:
       search: Suchen
       show_all: Alles anzeigen
       up: Hoch
+      navigation_static_label: Links
     table_headers:
       changes: "Änderungen"
       created_at: Datum/Zeit
@@ -128,3 +132,23 @@ de:
       next: Vor &raquo;
       previous: "&laquo; Zurück"
       truncate: "..."
+    js:
+      true: Wahr
+      false: Falsch
+      is_present: Existiert
+      is_blank: Ist leer
+      date: Datum ...
+      between_and_: Von ... bis ...
+      today: Heute
+      yesterday: Gestern
+      this_week: Diese Woche
+      last_week: Letzte Woche
+      number: Nummer ...
+      contains: Enthält
+      is_exactly: Ist genau
+      starts_with: Beginnt mit
+      ends_with: Endet mit
+      too_many_objects: "Zu viele Objekte, bitte Suchfeld verwenden"
+      no_objects: "Keine Objekte gefunden"
+    loading: Laden...
+    toggle_navigation: Navigation umschalten
