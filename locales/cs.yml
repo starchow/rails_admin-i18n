@@ -52,7 +52,8 @@ cs:
         menu: Zobrazit
         title: Podrobnosti o %{model_label} '%{object_label}'
       show_in_app:
-        menu: Zobrazit v app
+        menu: Zobrazit v appce
+        title: Zobrazit %{model_label} v appce
     export:
       click_to_reverse_selection: Klikněte pro převrácení výběru
       confirmation: Exportovat do %{name}
@@ -72,6 +73,7 @@ cs:
       fields_from_associated: Související pole %{name}
       options_for: Nastavení pro %{name}
       select: Vyber pole pro export
+      select_all_fields: Vyber všechny pole
     flash:
       error: "%{name} se nezdařilo %{action}"
       model_not_found: Model '%{model}' nenalezen
@@ -94,6 +96,25 @@ cs:
       save: Uložit
       save_and_add_another: Uložit a přidat další
       save_and_edit: Uložit a upravit
+    js:
+      true: Pravda
+      false: Lež
+      is_present: Je přítomen
+      is_blank: Je prázdný
+      date: Datum ...
+      between_and_: Mezi ... a ...
+      today: Dnes
+      yesterday: Včera
+      this_week: Tento Týden
+      last_week: Minulý Týden
+      number: Číslo ...
+      contains: Obsahuje
+      is_exactly: Je přesně
+      starts_with: Začíná
+      ends_with: Končí
+      too_many_objects: "Příliž mnoho objektů, použijte vyhledávací pole výše"
+      no_objects: "Žádné objekty nenalezny"
+    loading: "Načítá se..."
     misc:
       add_filter: Přidat filtr
       add_new: Přidat nový
@@ -106,9 +127,12 @@ cs:
       filter: Filtr
       filter_date_format: mm/dd/rr
       log_out: Odhlásit
+      more: Plus %{count} %{models_name}
       navigation: Navigace
+      navigation_static_label: Odkazy
       refresh: Obnovit
       remove: Odstranit
+      reset_filters: Resetnout filtry
       search: Vyhledat
       show_all: Zobraz vše
       up: Nahoru
@@ -116,6 +140,7 @@ cs:
       changes: Změny
       created_at: Datum/čas
       item: Položka
+      last_created: Naposledy vytvořeno
       last_used: Naposledy použito
       message: Zpráva
       model_name: Název modelu
@@ -127,3 +152,4 @@ cs:
       next: Následující &raquo;
       previous: "&laquo; Předcházející"
       truncate: "..."
+    toggle_navigation: Přepnout vyhledávání
