@@ -53,6 +53,7 @@ uk-UA:
         title: "Детально про %{model_label} «%{object_label}»"
       show_in_app:
         menu: "Показати у додатку"
+        title: "Показати %{model_label} у додатку"
     export:
       click_to_reverse_selection: "Клік для відміни вибору"
       confirmation: "Експортувати в %{name}"
@@ -61,7 +62,8 @@ uk-UA:
       fields_from: "Поля з %{name}"
       fields_from_associated: "Поля з пов'язаного %{name}"
       options_for: "Опції для %{name}"
-      select: "Веберіть поля для експорту"
+      select: "Виберіть поля для експорту"
+      select_all_fields: "Обрати всі поля"
       csv:
         col_sep: "Роздільник стовпців"
         col_sep_help: "Залишити пустим по замовчуванню ('%{value}')" # value is default_col_sep
@@ -94,6 +96,27 @@ uk-UA:
       save: "Зберегти"
       save_and_add_another: "Зберегти і додати новий елемент"
       save_and_edit: "Зберегти і редагувати"
+    home:
+      name: "Домашня"
+    js:
+      true: Істинно
+      false: Хибно
+      is_present: Наявне
+      is_blank: Порожнє
+      date: Дата ...
+      between_and_: Між ... та ...
+      today: Сьогодні
+      yesterday: Учора
+      this_week: Цього тижня
+      last_week: Попереднього тижня
+      number: Номер ...
+      contains: Містить
+      is_exactly: Саме
+      starts_with: Починається з
+      ends_with: Закінчується на
+      too_many_objects: "Забагато об'єктів, використовуйте вікно пошуку вище"
+      no_objects: "Об'єктів не знайдено"
+    loading: "Завантаження..."
     misc:
       add_filter: "Додати фільтр"
       add_new: "Створити"
@@ -106,14 +129,19 @@ uk-UA:
       filter: "Фільтр"
       filter_date_format: "dd.mm.yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
       log_out: "Розлогінитись"
+      more: "Додатково ще %{count} %{models_name}"
       navigation: "Навігація"
+      navigation_static_label: "Посилання"
       refresh: "Оновити"
       remove: "Видалити"
+      reset_filters: "Скинути фільтри"
       search: "Пошук"
       show_all: "Показати всі"
       up: "Вверх"
-      navigation_static_label: "Посилання"
-      more: "Додатково ще %{count} %{models_name}"
+    pagination:
+      next: "Вперед &raquo;"
+      previous: "&laquo; Назад"
+      truncate: "…"
     table_headers:
       changes: "Зміни"
       created_at: "Дата/Час"
@@ -124,9 +152,4 @@ uk-UA:
       model_name: "Назва моделі"
       records: "Записи"
       username: "Користувач"
-    home:
-      name: "Домашня"
-    pagination:
-      next: "Вперед &raquo;"
-      previous: "&laquo; Назад"
-      truncate: "…"
+    toggle_navigation: "Переключити навігацію"
