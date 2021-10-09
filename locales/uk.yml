@@ -7,24 +7,26 @@ uk:
       next: "Вперед &raquo;"
       truncate: "…"
     misc:
-      filter_date_format: "dd.mm.yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
-      search: "Пошук"
-      filter: "Фільтр"
-      refresh: "Оновити"
-      show_all: "Показати всі"
       add_filter: "Додати фільтр"
-      bulk_menu_title: "Вибрані елементи"
-      remove: "Видалити"
       add_new: "Створити"
-      chosen: "Обраний %{name}"
+      ago: "тому"
+      bulk_menu_title: "Вибрані елементи"
       chose_all: "Вибрати всі"
+      chosen: "Обраний %{name}"
       clear_all: "Видалити всі"
-      up: "Вверх"
       down: "Вниз"
+      filter: "Фільтр"
+      filter_date_format: "dd.mm.yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      log_out: "Розлогінитись"
+      more: "Більше"
       navigation: "Навігація"
       navigation_static_label: "Посилання"
-      log_out: "Розлогінитись"
-      ago: "тому"
+      refresh: "Оновити"
+      remove: "Видалити"
+      reset_filters: "Скинути фільтри"
+      search: "Пошук"
+      show_all: "Показати всі"
+      up: "Вверх"
     flash:
       successful: "%{name} успішно %{action}"
       error: "%{name} не %{action} через помилки"
@@ -55,6 +57,7 @@ uk:
         menu: "Показати"
         breadcrumb: "%{object_label}"
       show_in_app:
+        title: "Показати %{model_label} у додатку"
         menu: "Показати у додатку"
       new:
         title: "Новий %{model_label}"
@@ -112,7 +115,8 @@ uk:
       new_model: "%{name} (new)"
     export:
       confirmation: "Експортувати в %{name}"
-      select: "Веберіть поля для експорту"
+      select: "Виберіть поля для експорту"
+      select_all_fields: "Обрати всі поля"
       fields_from: "Поля з %{name}"
       fields_from_associated: "Поля з пов'язаного %{name}"
       display: "Показати %{name}: %{type}"
@@ -129,3 +133,23 @@ uk:
         default_col_sep: ","
         col_sep: "Роздільник стовпців"
         col_sep_help: "Залишити пустим по замовчуванню ('%{value}')" # value is default_col_sep
+    js:
+      true: Істинно
+      false: Хибно
+      is_present: Наявне
+      is_blank: Порожнє
+      date: Дата ...
+      between_and_: Між ... та ...
+      today: Сьогодні
+      yesterday: Учора
+      this_week: Цього тижня
+      last_week: Попереднього тижня
+      number: Номер ...
+      contains: Містить
+      is_exactly: Саме
+      starts_with: Починається з
+      ends_with: Закінчується на
+      too_many_objects: "Забагато об'єктів, використовуйте вікно пошуку вище"
+      no_objects: "Об'єктів не знайдено"
+    loading: "Завантаження..."
+    toggle_navigation: "Переключити навігацію"
