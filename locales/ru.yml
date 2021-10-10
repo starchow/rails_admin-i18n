@@ -3,19 +3,21 @@ ru:
     js:
       true: Истинно
       false: Ложно
-      is_present: Представлено
-      is_blank: Пусто
-      date: Дата ...
       between_and_: Между ... и ...
-      today: Сегодня
-      yesterday: Вчера
-      this_week: На этой неделе
-      last_week: На прошлой неделе
-      number: Число ...
       contains: Включает
-      is_exactly: Точно
-      starts_with: Начинается с
+      date: Дата ...
       ends_with: Заканчивается на
+      is_blank: Пусто
+      is_exactly: Точно
+      is_present: Представлено
+      last_week: На прошлой неделе
+      no_objects: Нет объектов
+      number: Число ...
+      starts_with: Начинается с
+      this_week: На этой неделе
+      today: Сегодня
+      too_many_objects: Слишком много объектов
+      yesterday: Вчера
     loading: "Загрузка..."
     home:
       name: "Главная"
@@ -24,24 +26,26 @@ ru:
       next: "Вперед &raquo;"
       truncate: "…"
     misc:
-      filter_date_format: "dd/mm/yy"
-      search: "Поиск"
-      filter: "Фильтрация"
-      refresh: "Обновить"
-      show_all: "Показать все"
       add_filter: "Добавить фильтр..."
-      bulk_menu_title: "Выбранные элементы..."
-      remove: "Удалить"
       add_new: "Добавить"
-      chosen: "Выбран %{name}"
+      ago: "назад"
+      bulk_menu_title: "Выбранные элементы..."
       chose_all: "Выбрать все"
+      chosen: "Выбран %{name}"
       clear_all: "Очистить все"
-      up: "Вверх"
       down: "Вниз"
+      filter: "Фильтрация"
+      filter_date_format: "dd/mm/yy"
+      log_out: "Выйти"
+      more: "Больше"
       navigation: "Навигация"
       navigation_static_label: "Ссылки"
-      log_out: "Выйти"
-      ago: "назад"
+      refresh: "Обновить"
+      remove: "Удалить"
+      reset_filters: "Сбросить фильтры"
+      search: "Поиск"
+      show_all: "Показать все"
+      up: "Вверх"
     flash:
       successful: "%{name} успешно %{action}"
       error: "%{name} не %{action} из-за ошибок"
@@ -58,6 +62,7 @@ ru:
       created_at: "Дата/Время"
       item: "Элемент"
       message: "Сообщение"
+    toggle_navigation: Переключить навигацию
     actions:
       dashboard:
         title: "Управление сайтом"
@@ -72,6 +77,7 @@ ru:
         menu: "Просмотр"
         breadcrumb: "%{object_label}"
       show_in_app:
+        title: "Показать %{model_label} в приложении"
         menu: "Показать в приложении"
       new:
         title: "Новый %{model_label}"
