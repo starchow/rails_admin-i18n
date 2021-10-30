@@ -116,6 +116,7 @@ de:
       show_all: Alles anzeigen
       up: Hoch
       navigation_static_label: Links
+      more: "Sowie %{count} weitere %{models_name}"
     table_headers:
       changes: "Änderungen"
       created_at: Datum/Zeit
