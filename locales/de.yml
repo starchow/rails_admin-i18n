@@ -82,9 +82,9 @@ de:
       successful: "%{name} erfolgreich %{action}"
     form:
       all_of_the_following_related_items_will_be_deleted: "? Folgende zugehörige Ojekte werden gelöscht:"
-      are_you_sure_you_want_to_delete_the_object: "%{model_name} sicher löschen"
+      are_you_sure_you_want_to_delete_the_object: "%{model_name} sicher löschen?"
       basic_info: Grundlegende Informationen
-      bulk_delete: 'Die folgenden Objekte werden gelösche, zugehörige Objekte werden gelöscht oder können übrig bleiben:'
+      bulk_delete: 'Die folgenden Objekte werden gelöscht, zugehörige Objekte werden gelöscht oder können verwaisen:'
       cancel: Abbrechen
       char_length_of: Länge
       char_length_up_to: Länge bis zu
