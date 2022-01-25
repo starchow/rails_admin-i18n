@@ -41,6 +41,7 @@ de:
         breadcrumb: "%{model_label_plural}"
         menu: Liste
         title: Liste von %{model_label_plural}
+        no_records: "Keine Einträge"
       new:
         breadcrumb: Neu
         done: erstellt
