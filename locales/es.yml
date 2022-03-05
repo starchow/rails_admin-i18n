@@ -41,6 +41,7 @@ es:
         breadcrumb: "%{model_label_plural}"
         menu: Lista
         title: Lista de %{model_label_plural}
+        no_records: No se han encontrado registros
       new:
         breadcrumb: Nuevo
         done: creado
@@ -61,12 +62,12 @@ es:
         col_sep_help: Deje en blanco para el de defecto ('%{value}')
         default_col_sep: ","
         encoding_to: Codificar a
-        encoding_to_help: 'Elija la codificación de salida. Deje en blanco para no cambiar la codificación actual: (%{name})'
+        encoding_to_help: "Elija la codificación de salida. Deje en blanco para no cambiar la codificación actual: (%{name})"
         header_for_association_methods: "%{name} [%{association}]"
         header_for_root_methods: "%{name}"
         skip_header: Sin cabecera
         skip_header_help: No incluir un encabezado (sin descripción de los campos)
-      display: 'Mostrar %{name}: %{type}'
+      display: "Mostrar %{name}: %{type}"
       empty_value_for_associated_objects: "<vacío>"
       fields_from: Campos de %{name}
       fields_from_associated: Campos del %{name} asociado
@@ -82,7 +83,7 @@ es:
       all_of_the_following_related_items_will_be_deleted: "? Los siguientes elementos relacionados pueden ser eliminados o quedar huérfanos:"
       are_you_sure_you_want_to_delete_the_object: "¿Está seguro de que quiere eliminar este %{model_name}"
       basic_info: Información Básica
-      bulk_delete: 'Los siguientes objetos serán eliminados, lo cual puede eliminar o dejar huérfanas algunas de sus dependencias relacionadas:'
+      bulk_delete: "Los siguientes objetos serán eliminados, lo cual puede eliminar o dejar huérfanas algunas de sus dependencias relacionadas:"
       cancel: Cancelar
       char_length_of: longitud de
       char_length_up_to: longitud de hasta
@@ -96,6 +97,7 @@ es:
       save_and_edit: Guardar y editar
     misc:
       add_filter: Añadir filtro
+      reset_filters: "Limpiar filtros"
       add_new: Agregar nuevo
       ago: atrás
       bulk_menu_title: Elementos seleccionados
