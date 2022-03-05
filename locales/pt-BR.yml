@@ -35,6 +35,7 @@ pt-BR:
       add_filter: Adicionar filtro
       bulk_menu_title: Itens selecionados
       remove: Remover
+      reset_filters: Limpar filtros
       add_new: Adicionar novo
       chosen: "%{name} escolhido"
       chose_all: Escolher todos
