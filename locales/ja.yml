@@ -29,6 +29,7 @@ ja:
       refresh: 更新
       show_all: 全て表示
       add_filter: フィルタを追加
+      reset_filters: フィルタを解除
       bulk_menu_title: 選択したアイテム
       remove: 削除
       add_new: 新規作成
@@ -66,6 +67,7 @@ ja:
         title: "%{model_label_plural}の一覧"
         menu: 一覧
         breadcrumb: "%{model_label_plural}"
+        no_records: レコードが見つかりません
       show:
         title: "%{model_label} '%{object_label}' の詳細"
         menu: 表示
