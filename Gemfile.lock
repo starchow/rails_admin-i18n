@@ -30,7 +30,7 @@ GEM
     fuubar (2.5.0)
       rspec-core (~> 3.0)
       ruby-progressbar (~> 1.4)
-    git (1.7.0)
+    git (1.11.0)
       rchardet (~> 1.8)
     github_api (0.16.0)
       addressable (~> 2.4.0)
