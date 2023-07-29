@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
     "lib/rails_admin-i18n.rb",
     "locales/ar.yml",
     "locales/be.yml",
+    "locales/ca.yml",
     "locales/cs.yml",
     "locales/de.yml",
     "locales/el.yml",

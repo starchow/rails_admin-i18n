@@ -1,0 +1,155 @@
+ca:
+  admin:
+    js:
+      true: Cert
+      false: Fals
+      is_present: És present
+      is_blank: Està buit
+      date: Data ...
+      between_and_: Entre ... i ...
+      today: Avui
+      yesterday: Ahir
+      this_week: Aquesta setmana
+      last_week: La setmana passada
+      number: Número ...
+      contains: Conté
+      is_exactly: És exactament
+      starts_with: Comença per
+      ends_with: Acaba amb
+      too_many_objects: "Hi ha massa objectes, utilitza la cerca de sobre"
+      no_objects: "No s'ha trobat cap objecte"
+    loading: "Carregant..."
+    toggle_navigation: "Mostrar/amagar navegació"
+    home:
+      name: "Inici"
+    pagination:
+      previous: "&laquo; Anterior"
+      next: "Següent &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "dd/mm/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "Cerca"
+      filter: "Filtra"
+      refresh: "Recarrega"
+      show_all: "Mostra tot"
+      add_filter: "Afegeix filtre"
+      reset_filters: "Reinicia filtres"
+      bulk_menu_title: "Ítems seleccionats"
+      remove: "Elimina"
+      add_new: "Afegeix nou"
+      chosen: "Has seleccionat %{name}"
+      chose_all: "Selecciona tots"
+      clear_all: "Esborra selecció"
+      up: "Amunt"
+      down: "Avall"
+      navigation: "Navegació"
+      navigation_static_label: "Enllaços"
+      log_out: "Sortir"
+      ago: "enrere"
+      more: "I %{count} %{models_name} més"
+    flash:
+      successful: "%{name} %{action} correctament"
+      error: "No s'ha pogut %{action} l'objecte %{name}"
+      noaction: "No s'ha ejecutat cap acció"
+      model_not_found: "El model '%{model}' no s'ha trobat"
+      object_not_found: "%{model} amb id '%{id}' inexistent"
+    table_headers:
+      model_name: "Nom del model"
+      last_created: "Últim creat"
+      last_used: "Últim utilitzat"
+      records: "Registres"
+      username: "Usuari"
+      changes: "Canvis"
+      created_at: "Creat el"
+      item: "Ítem"
+      message: "Missatge"
+    actions:
+      dashboard:
+        title: "Administració del lloc"
+        menu: "Tauler de control"
+        breadcrumb: "Tauler de control"
+      index:
+        title: "Llistat de %{model_label_plural}"
+        menu: "Llistat"
+        breadcrumb: "%{model_label_plural}"
+      show:
+        title: "Dades de %{model_label} '%{object_label}'"
+        menu: "Veure"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "Mostrar a la applicació"
+        title: "Mostrar %{model_label} a la applicació"
+      new:
+        title: "Nou %{model_label}"
+        menu: "Afegir nou"
+        breadcrumb: "Nou"
+        link: "Afegir nou %{model_label}"
+        done: "creat"
+      edit:
+        title: "Editar %{model_label} '%{object_label}'"
+        menu: "Editar"
+        breadcrumb: "Editar"
+        link: "Editar aquest %{model_label}"
+        done: "editat"
+      delete:
+        title: "Eliminar %{model_label} '%{object_label}'"
+        menu: "Eliminar"
+        breadcrumb: "Eliminar"
+        link: "Eliminar '%{object_label}'"
+        done: "eliminat"
+      bulk_delete:
+        title: "Eliminar %{model_label_plural}"
+        menu: "Eliminar massivament"
+        breadcrumb: "Eliminar massivament"
+        bulk_link: "Eliminats %{model_label_plural} seleccionats"
+      export:
+        title: "Exportar %{model_label_plural}"
+        menu: "Exportar"
+        breadcrumb: "Exportar"
+        link: "Exportar %{model_label_plural} trobats"
+        bulk_link: "Exportar %{model_label_plural} seleccionats"
+        done: "exportat"
+      history_index:
+        title: "Historial de %{model_label_plural}"
+        menu: "Historial"
+        breadcrumb: "Historial"
+      history_show:
+        title: "Historial de %{model_label} '%{object_label}'"
+        menu: "Historial"
+        breadcrumb: "Historial"
+    form:
+      cancel: "Cancel·lar"
+      basic_info: "Informació bàsica"
+      required: "Obligatori"
+      optional: "Opcional"
+      one_char: "caràcter"
+      char_length_up_to: "mida fins a"
+      char_length_of: "mida de"
+      save: "Guardar"
+      save_and_add_another: "Guardar i afegir un altre"
+      save_and_edit: "Guardar i editar"
+      all_of_the_following_related_items_will_be_deleted: "? Els següents ítems relacionats poden ser esborrats o quedar orfes:"
+      are_you_sure_you_want_to_delete_the_object: "Vols eliminar l'entitat %{model_name}"
+      confirmation: "Sí, estic segur/a"
+      bulk_delete: "Els següents objectes seran eliminats, que podria eliminar o deixar orfes algunes de les seves dependències relacionades:"
+      new_model: "%{name} (nou)"
+    export:
+      confirmation: "Exportar a %{name}"
+      select: "Selecciona els camps per exportar"
+      select_all_fields: "Selecciona tots els camps"
+      fields_from: "Camps de %{name}"
+      fields_from_associated: "Camps de %{name} associat"
+      display: "Mostrar %{name}: %{type}"
+      options_for: "Opcions de %{name}"
+      empty_value_for_associated_objects: "<buit>"
+      click_to_reverse_selection: 'Clica per invertir la selecció'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "Codifica a"
+        encoding_to_help: "Selecciona la codificació de sortida. Deixa buit per a no modificar la codificació d'entrada: (%{name})"
+        skip_header: "Sense capçaleres"
+        skip_header_help: "No mostrar capçaleres (descripció dels camps)"
+        default_col_sep: ","
+        col_sep: "Separador de columnes"
+        col_sep_help: "Deixar buit per utlitzar el valor per defecte ('%{value}')" # value is default_col_sep
