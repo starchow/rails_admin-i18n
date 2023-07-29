@@ -41,6 +41,7 @@ sk:
       index:
         breadcrumb: "%{model_label_plural}"
         menu: Zobraz zoznam
+        no_records: Nenájdené žiadne záznamy
         title: Zoznam %{model_label_plural}
       new:
         breadcrumb: Nový
@@ -54,6 +55,7 @@ sk:
         title: Detaily pre %{model_label} '%{object_label}'
       show_in_app:
         menu: Zobraziť v aplikácii
+        title: "Zobraziť %{model_label} v aplikácii"
     export:
       click_to_reverse_selection: Klikni na obrátenie výberu
       confirmation: Exportovať do %{name}
@@ -89,6 +91,7 @@ sk:
       char_length_of: dĺžka
       char_length_up_to: dĺžka do
       confirmation: Áno, som si istý
+      delete_file: "Vymazať '%{field_label}' #%{number}"
       new_model: "%{name} (nový)"
       one_char: znak
       optional: Nepovinné
@@ -100,8 +103,10 @@ sk:
       name: Domov
     js:
       between_and_: Medzi ... a ...
+      clear: Zmazať
       contains: Obsahuje
       date: Dátum ...
+      does_not_contain: Neobsahuje
       ends_with: Ends with
       'false': 'nie'
       is_blank: Je prázdny
@@ -112,6 +117,7 @@ sk:
       number: Číslo ...
       starts_with: Začína na
       this_week: Tento týždeň
+      time: Čas ...
       today: Dnes
       too_many_objects: Priveľa objektov, použite vyhľadávanie
       'true': 'áno'
@@ -134,8 +140,11 @@ sk:
       navigation_static_label: Odkazy
       refresh: Obnov
       remove: Odstráň
+      reset_filters: Vymazať filtre
+      root_navigation: Akcie
       search: Hľadať
       show_all: Ukáž všetky
+      time_ago: "Pred %{time}"
       up: Hore
     pagination:
       next: Ďalej &raquo;
