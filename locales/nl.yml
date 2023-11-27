@@ -1,5 +1,28 @@
 nl:
   admin:
+    js:
+      true: "Ja"
+      false: "Nee"
+      is_present: Is aanwezig
+      is_blank: Is leeg
+      date: Datum ...
+      between_and_: Tussen ... en ...
+      today: Vandaag
+      yesterday: Gisteren
+      this_week: Deze week
+      last_week: Vorige week
+      time: Tijd ...
+      number: Getal ...
+      contains: Bevat
+      does_not_contain: Bevat niet
+      is_exactly: Is precies
+      starts_with: Begint met
+      ends_with: Eindigt met
+      too_many_objects: "Te veel objecten, gebruik de zoekfunctie hierboven"
+      no_objects: "Geen objecten gevonden"
+      clear: Leegmaken
+    loading: "Laden..."
+    toggle_navigation: Navigatie wisselen
     home:
       name: "Home"
     pagination:
@@ -9,10 +32,11 @@ nl:
     misc:
       filter_date_format: "dd-mm-yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
       search: "Zoeken"
-      filter: "Filter"
+      filter: "Filteren"
       refresh: "Vernieuwen"
       show_all: "Toon alles"
       add_filter: "Voeg filter toe"
+      reset_filters: "Filters weghalen"
       bulk_menu_title: "Geselecteerde items"
       remove: "Verwijder"
       add_new: "Nieuwe toevoegen"
@@ -22,8 +46,12 @@ nl:
       up: "Omhoog"
       down: "Omlaag"
       navigation: "Navigatie"
+      root_navigation: "Acties"
+      navigation_static_label: "Links"
       log_out: "Log uit"
+      time_ago: "%{time} geleden"
       ago: "geleden"
+      more: "Plus %{count} meer %{models_name}"
     flash:
       successful: "%{name} successvol %{action}"
       error: "%{name} mislukt om %{action} te doen"
@@ -31,7 +59,8 @@ nl:
       model_not_found: "Model '%{model}' kon niet gevonden worden"
       object_not_found: "%{model} met id '%{id}' kon niet gevonden worden"
     table_headers:
-      model_name: "Model naam"
+      model_name: "Modelnaam"
+      last_created: "Laatst toegevoegd"
       last_used: "Laatst gebruikt"
       records: "Records"
       username: "Gebruikersnaam"
@@ -48,12 +77,14 @@ nl:
         title: "Lijst van %{model_label_plural}"
         menu: "Lijst"
         breadcrumb: "%{model_label_plural}"
+        no_records: "Geen records gevonden"
       show:
         title: "Details voor %{model_label} '%{object_label}'"
         menu: "Toon"
         breadcrumb: "%{object_label}"
       show_in_app:
         menu: "Toon in applicatie"
+        title: "Toon %{model_name} in applicatie"
       new:
         title: "Nieuw %{model_label}"
         menu: "Nieuwe toevoegen"
@@ -103,6 +134,7 @@ nl:
       save: "Opslaan"
       save_and_add_another: "Opslaan en nog één toevoegen"
       save_and_edit: "Opslaan en bewerken"
+      delete_file: "Verwijder '%{field_label}' #%{number}"
       all_of_the_following_related_items_will_be_deleted: "? De volgende geasocieerde items kunnen verweesd of verwijderd worden:"
       are_you_sure_you_want_to_delete_the_object: "Weet je zeker dat je %{model_name} wilt verwijderen"
       confirmation: "Ja, ik weet het zeker"
@@ -111,6 +143,7 @@ nl:
     export:
       confirmation: "Exporteer naar %{name}"
       select: "Selecteer velden om te exporteren"
+      select_all_fields: "Selecteer alle velden"
       fields_from: "Velden van %{name}"
       fields_from_associated: "Velden van geassocieerde %{name}"
       display: "Toon %{name}: %{type}"
@@ -127,4 +160,3 @@ nl:
         default_col_sep: ","
         col_sep: "Kolom afscheidingsteken"
         col_sep_help: "Laat leeg voor standaard waarde ('%{value}')" # value is default_col_sep
-
