@@ -123,10 +123,10 @@ ja:
       save: 保存
       save_and_add_another: 保存してもう一つ作成
       save_and_edit: 保存して編集画面へ
-      all_of_the_following_related_items_will_be_deleted: ")を削除してよろしいですか？ 以下の関連するアイテムが削除されるかみなしご化されます:"
+      all_of_the_following_related_items_will_be_deleted: ")を削除してよろしいですか？ 以下の関連するアイテムが削除されるか、親がない状態になります:"
       are_you_sure_you_want_to_delete_the_object: "本当に%{model_name} ("
       confirmation: はい。間違いありません！
-      bulk_delete: "以下のオブジェクトが削除され、関連する依存オブジェクトも削除またはみなしご化されます:"
+      bulk_delete: "以下のオブジェクトが削除され、関連する依存オブジェクトも削除、または親がない状態になります:"
       new_model: "%{name} (新規)"
     export:
       confirmation: "%{name}としてエクスポート"
