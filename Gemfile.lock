@@ -63,7 +63,7 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.3.0)
     netrc (0.11.0)
-    nokogiri (1.15.3-x86_64-darwin)
+    nokogiri (1.16.5-x86_64-darwin)
       racc (~> 1.4)
     oauth2 (1.4.8)
       faraday (>= 0.8, < 3.0)
