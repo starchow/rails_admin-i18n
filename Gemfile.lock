@@ -65,7 +65,7 @@ GEM
     netrc (0.11.0)
     nokogiri (1.16.5-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.15.3-x86_64-linux)
+    nokogiri (1.16.5-x86_64-linux)
       racc (~> 1.4)
     oauth2 (1.4.8)
       faraday (>= 0.8, < 3.0)
@@ -75,7 +75,7 @@ GEM
       rack (>= 1.2, < 3)
     psych (5.1.2)
       stringio
-    racc (1.7.1)
+    racc (1.8.0)
     rack (2.2.7)
     rake (13.0.6)
     rchardet (1.8.0)
