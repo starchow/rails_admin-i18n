@@ -17,6 +17,7 @@ ja:
       starts_with: 文字列の先頭指定
       ends_with: 文字列の末尾指定
     loading: 読み込み中...
+    toggle_navigation: ナビゲーション切り替え
     home:
       name: ホーム
     pagination:
