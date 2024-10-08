@@ -97,4 +97,66 @@ bn:
         breadcrumb: "এডিট"
         link: "%{model_label} এডিট করুন"
         done: "আপডেট করা হয়েছে"
-      
+      delete:
+        title: "ডিলিট %{model_label} '%{object_label}'"
+        menu: "ডিলিট"
+        breadcrumb: "ডিলিট"
+        link: "ডিলিট '%{object_label}'"
+        done: "ডিলিট করা হয়েছে"
+      bulk_delete:
+        title: "ডিলিট %{model_label_plural}"
+        menu: "একাধিক ডিলিট"
+        breadcrumb: "একাধিক ডিলিট"
+        bulk_link: "%{model_label_plural} সিলেক্টগুলো ডিলিট করুন"
+      export:
+        title: "এক্সপোর্ট %{model_label_plural}"
+        menu: "এক্সপোর্ট"
+        breadcrumb: "এক্সপোর্ট"
+        link: "%{model_label_plural} এক্সপোর্ট পাওয়া গেছে"
+        bulk_link: "%{model_label_plural} সিলেক্টগুলো এক্সপোর্ট করুন"
+        done: "এক্সপোর্ট করা হয়েছে"
+      history_index:
+        title: "%{model_label_plural} এর ইতিহাস"
+        menu: "ইতিহাস"
+        breadcrumb: "ইতিহাস"
+      history_show:
+        title: "%{model_label} '%{object_label}' এর ইতিহাস"
+        menu: "ইতিহাস"
+        breadcrumb: "ইতিহাস"
+    form:
+      cancel: "বাতিল করুন"
+      basic_info: "মৌলিক তথ্য"
+      required: "অত্যাবশ্যকীয়"
+      optional: "অপশনাল"
+      one_char: "অক্ষর"
+      char_length_up_to: "পর্যন্ত দৈর্ঘ্য"
+      char_length_of: "এর দৈর্ঘ্য"
+      save: "সংরক্ষণ করুন"
+      save_and_add_another: "সংরক্ষণ এবং আরেকটি যোগ করুন"
+      save_and_edit: "সংরক্ষণ এডিট করুন"
+      delete_file: "'%{field_label}' #%{number} ডিলিট করুন"
+      all_of_the_following_related_items_will_be_deleted: "? নিম্নলিখিত সম্পর্কিত আইটেম ডিলিট বা অনাথ হতে পারে:"
+      are_you_sure_you_want_to_delete_the_object: "আপনি কি এই %{model_name} ডিলিট করতে নিশ্চিত?"
+      confirmation: "হ্যাঁ, আমি নিশ্চিত"
+      bulk_delete: "নিম্নলিখিত বস্তুগুলি ডিলিট করা হবে, যা তাদের কিছু সম্পর্কিত ডিপেন্ডেন্সিস ডিলিট করতে বা অনাথ করতে পারে:"
+      new_model: "%{name} (new)"
+    export:
+      confirmation: "%{name}-এ এক্সপোর্ট করুন"
+      select: "এক্সপোর্ট করার জন্য ফিল্ড সিলেক্ট করুন"
+      select_all_fields: "সব ফিল্ড সিলেক্ট করুন"
+      fields_from: "%{name} থেকে ফিল্ড"
+      fields_from_associated: "সংশ্লিষ্ট %{name} থেকে ফিল্ড"
+      display: "ডিসপ্লে %{name}: %{type}"
+      options_for: "%{name} এর জন্য অপশন"
+      empty_value_for_associated_objects: "<ফাঁকা>"
+      click_to_reverse_selection: 'সিলেকশন রিভার্স করতে ক্লিক করুন'
+      csv:
+        header_for_root_methods: "%{name}" # 'model' is available
+        header_for_association_methods: "%{name} [%{association}]"
+        encoding_to: "এনকোড করুন"
+        encoding_to_help: "আউটপুট এনকোডিং নির্বাচন করুন। বর্তমান ইনপুট এনকোডিংকে স্পর্শ না করার জন্য খালি ছেড়ে দিন: (%{name})"
+        skip_header: "হেডার নেই"
+        skip_header_help: "হেডার আউটপুট করবেন না (কোন ফিল্ড ডেসক্রিপশন নেই)"
+        default_col_sep: ","
+        col_sep: "কলাম বিভাজক"
+        col_sep_help: "ডিফল্টের জন্য ফাঁকা রাখুন ('%{value}')" # value is default_col_sep
