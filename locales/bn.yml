@@ -1,0 +1,100 @@
+bn:
+  admin:
+    js:
+      true: "True"
+      false: "False"
+      is_present: উপস্থিত আছে
+      is_blank: ফাঁকা আছে
+      date: তারিখ ...
+      between_and_: ... এবং ... এর মধ্যে
+      today: আজ
+      yesterday: গতকাল
+      this_week: এই সপ্তাহ
+      last_week: গত সপ্তাহ
+      time: সময় ...
+      number: নাম্বার ...
+      contains: ধারণ করে
+      does_not_contain: ধারণ করে না
+      is_exactly: ঠিক আছে
+      starts_with: দিয়ে শুরু হয়
+      ends_with: দিয়ে শেষ হয়
+      too_many_objects: "অনেকগুলি অব্জেক্ট, উপরে সার্চ বাক্স ব্যবহার করুন"
+      no_objects: "কোন অব্জেক্ট পাওয়া যায়নি"
+      clear: ক্লিয়ার
+    loading: "লোডিং..."
+    toggle_navigation: নেভিগেশন টগল করুন
+    home:
+      name: "হোম"
+    pagination:
+      previous: "&laquo; পূর্বে"
+      next: "পরে &raquo;"
+      truncate: "…"
+    misc:
+      filter_date_format: "mm/dd/yy" # a combination of 'dd', 'mm' and 'yy' with any delimiter. No other interpolation will be done!
+      search: "সার্চ"
+      filter: "ফিল্টার"
+      refresh: "রিফ্রেশ"
+      show_all: "সব দেখান"
+      add_filter: "ফিল্টার যোগ করুন"
+      reset_filters: "ফিল্টার রিসেট করুন"
+      bulk_menu_title: "সিলেক্টেড আইটেম"
+      remove: "রিমুভ"
+      add_new: "নতুন যোগ করুন"
+      chosen: "%{name} বেছে নেওয়া হয়েছে"
+      chose_all: "সব বেছে নেওয়া হয়েছে"
+      clear_all: "সব ক্লিয়ার করুন"
+      up: "উপরে"
+      down: "নিচে"
+      navigation: "নেভিগেশন"
+      root_navigation: "অ্যাকশন"
+      navigation_static_label: "লিংক"
+      log_out: "লগ আউট"
+      time_ago: "%{time} পূর্বে"
+      ago: "পূর্বে"
+      more: "প্লাস %{count} আরো %{models_name}"
+    flash:
+      successful: "%{name} সফলভাবে %{action} করেছে"
+      error: "%{name} ব্যর্থ হয়েছে %{action} করতে"
+      noaction: "কোনো অ্যাকশন নেওয়া হয়নি"
+      model_not_found: "মডেল '%{model}' পাওয়া যায়নি"
+      object_not_found: "'%{id}' আইডি সহ %{model} খুঁজে পাওয়া যায়নি"
+    table_headers:
+      model_name: "মডেলের নাম"
+      last_created: "সর্বশেষ তৈরি হয়েছে"
+      last_used: "সর্বশেষ ব্যবহার করা হয়েছে"
+      records: "রেকর্ড"
+      username: "ইউজার"
+      changes: "পরিবর্তন"
+      created_at: "তারিখ/সময়"
+      item: "আইটেম"
+      message: "মেসেজ"
+    actions:
+      dashboard:
+        title: "সাইট অ্যাডমিনিস্ট্রেশন"
+        menu: "ড্যাশবোর্ড"
+        breadcrumb: "ড্যাশবোর্ড"
+      index:
+        title: "%{model_label_plural}-এর তালিকা"
+        menu: "তালিকা"
+        breadcrumb: "%{model_label_plural}"
+        no_records: "কোন রেকর্ড পাওয়া যায়নি"
+      show:
+        title: "%{model_label} '%{object_label}' এর ডিটেইল"
+        menu: "দেখান"
+        breadcrumb: "%{object_label}"
+      show_in_app:
+        menu: "অ্যাপে দেখান"
+        title: "অ্যাপে %{model_label} দেখান"
+      new:
+        title: "নতুন %{model_label}"
+        menu: "নতুন যোগ করুন"
+        breadcrumb: "নতুন"
+        link: "একটি নতুন %{model_label} যোগ করুন"
+        done: "তৈরি হয়েছে"
+      edit:
+        title: "এডিট %{model_label} '%{object_label}'"
+        menu: "এডিট"
+        breadcrumb: "এডিট"
+        link: "%{model_label} এডিট করুন"
+        done: "আপডেট করা হয়েছে"
+      
