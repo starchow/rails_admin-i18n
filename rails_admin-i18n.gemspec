@@ -6,12 +6,12 @@
 
 Gem::Specification.new do |s|
   s.name = "rails_admin-i18n".freeze
-  s.version = "1.20.2".freeze
+  s.version = "1.20.1".freeze
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0".freeze) if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib".freeze]
   s.authors = ["Nam Pham Trung, Luiz Picolo".freeze]
-  s.date = "2024-06-02"
+  s.date = "2025-07-01"
   s.description = "Translations for the rails_admin gem".freeze
   s.email = ["puma.puma07@gmail.com, luizpicolo@gmail.com".freeze]
   s.extra_rdoc_files = [
@@ -33,6 +33,7 @@ Gem::Specification.new do |s|
     "lib/rails_admin-i18n.rb",
     "locales/ar.yml",
     "locales/be.yml",
+    "locales/bn.yml",
     "locales/ca.yml",
     "locales/cs.yml",
     "locales/de.yml",
